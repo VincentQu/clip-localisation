@@ -3,7 +3,7 @@
 IMG_URL="http://vision.stanford.edu/yukezhu/visual7w_images.zip"
 VALSE_URL="https://raw.githubusercontent.com/Heidelberg-NLP/VALSE/main/data/existence.json"
 
-IMG_FOLDER_PATH="../../data/raw/img/visual7w"
+IMG_FOLDER_PATH="../../data/raw/visual7w"
 VALSE_FOLDER_PATH="../../data/raw/valse"
 VALSE_DESTINATION_DIRECTORY="$VALSE_FOLDER_PATH/valse_existence.json"
 

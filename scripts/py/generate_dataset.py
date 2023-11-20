@@ -13,8 +13,6 @@ model, processor = load_model()
 
 dataset = dict()
 
-print(os.getcwd())
-
 for key, data in tqdm(valse_existence.items()):
     if data['mturk']['caption'] >= 2:
         inputs = generate_clip_input(data, processor)

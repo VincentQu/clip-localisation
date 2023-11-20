@@ -31,5 +31,5 @@ for key, data in tqdm(valse_existence.items()):
         }
         dataset[key] = entry
 
-with open('../../data/datasets/valse/existence.json', 'w') as f:
+with open('../../data/datasets/valse/existence_standard.json', 'w') as f:
     json.dump(dataset, f, indent=4, sort_keys=True)

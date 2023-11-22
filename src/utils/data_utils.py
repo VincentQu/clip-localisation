@@ -29,7 +29,7 @@ def load_dataset(type='rephrased', min_score=-1000, min_logit_caption=-1000, min
         valse_existence = json.load(f)
 
     # Filter based on categories (e.g., negation)
-    dataset_filtered = {k: v for k, v in valse_existence.items() if all(v.get(key) == val for key, val in category_filters.items() if val is not None)}
+    dataset_filtered = {k: v for k, v in valse_existence.items() if all(v.get(key) == val for key, val in category_filters.items() if val is not None and key in v.keys())}
     # Filter based on min values
     dataset_filtered = {k: v for k, v in dataset_filtered.items() if v.get('score') > min_score and v.get('logit_caption') > min_logit_caption and v.get('logit_foil') > min_logit_foil}
     # Return filtered dataset as dict

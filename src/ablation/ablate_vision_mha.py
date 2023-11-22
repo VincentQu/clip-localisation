@@ -13,7 +13,7 @@ CONFIG = {
     'component': 'mha',     # mha/mlp
     'dataset': 'rephrased', # standard/rephrased
     'correct': True,        # True/False
-    'negation': 'foil'      # foil/caption
+    'negation': 'caption'      # foil/caption
 }
 
 # Load dataset and model
@@ -39,6 +39,7 @@ for layer_idx, layer in enumerate(model.vision_model.encoder.layers):
     all_hooks.append(storage_hook)
 
 print('Recording activations in dataset')
+
 for data in tqdm(dataset.values()):
     inputs = generate_clip_input(data, processor)
     model(**inputs)

@@ -5,6 +5,8 @@ import os
 from src.utils.model_utils import load_model
 from src.utils.data_utils import generate_clip_input
 
+segment_thresholds = [-1, 1]
+
 # Open raw valse json
 with open('../../data/raw/valse/valse_existence.json', 'rb') as f:
     valse_existence = json.load(f)
@@ -55,6 +57,7 @@ for key, data in tqdm(valse_existence_rephrased.items()):
         inputs = generate_clip_input(data, processor)
         outputs = model(**inputs, return_dict=True)
         logit_caption, logit_foil = outputs.logits_per_text.squeeze().tolist()
+        score = logit_caption - logit_foil
         entry = {
             'dataset_idx': data['dataset_idx'],
             'caption': data['caption'],
@@ -63,8 +66,9 @@ for key, data in tqdm(valse_existence_rephrased.items()):
             'negation': 'caption' if data['provenance_of_foils'] == 'zero_to_something' else 'foil',
             'logit_caption': logit_caption,
             'logit_foil': logit_foil,
-            'score': logit_caption - logit_foil,
-            'correct': logit_caption > logit_foil
+            'score': score,
+            'correct': score > 0,
+            'segment': 'incorrect' if score < segment_thresholds[0] else 'ambiguous' if score < segment_thresholds[1] else 'correct'
         }
         dataset[key] = entry
 

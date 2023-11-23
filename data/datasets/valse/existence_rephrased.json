@@ -8,7 +8,8 @@
         "logit_caption": 20.78766441345215,
         "logit_foil": 23.82511329650879,
         "negation": "foil",
-        "score": -3.0374488830566406
+        "score": -3.0374488830566406,
+        "segment": "incorrect"
     },
     "existence_visual7w_107964": {
         "caption": "There are some men of four holding tennis rackets.",
@@ -19,7 +20,8 @@
         "logit_caption": 31.920381546020508,
         "logit_foil": 32.03670120239258,
         "negation": "foil",
-        "score": -0.11631965637207031
+        "score": -0.11631965637207031,
+        "segment": "ambiguous"
     },
     "existence_visual7w_1159384": {
         "caption": "There are some men who seated talking to each other.",
@@ -30,7 +32,8 @@
         "logit_caption": 20.28131866455078,
         "logit_foil": 19.74724769592285,
         "negation": "foil",
-        "score": 0.5340709686279297
+        "score": 0.5340709686279297,
+        "segment": "ambiguous"
     },
     "existence_visual7w_1159443": {
         "caption": "There are some old men.",
@@ -41,7 +44,8 @@
         "logit_caption": 24.180227279663086,
         "logit_foil": 22.770912170410156,
         "negation": "foil",
-        "score": 1.4093151092529297
+        "score": 1.4093151092529297,
+        "segment": "correct"
     },
     "existence_visual7w_1159467": {
         "caption": "There are no cars visible in the street.",
@@ -52,7 +56,8 @@
         "logit_caption": 27.146696090698242,
         "logit_foil": 26.159543991088867,
         "negation": "caption",
-        "score": 0.987152099609375
+        "score": 0.987152099609375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_1159469": {
         "caption": "There are some beers on tap.",
@@ -63,7 +68,8 @@
         "logit_caption": 26.00724220275879,
         "logit_foil": 26.26393699645996,
         "negation": "foil",
-        "score": -0.2566947937011719
+        "score": -0.2566947937011719,
+        "segment": "ambiguous"
     },
     "existence_visual7w_150258": {
         "caption": "There are no buildings in the photo.",
@@ -74,7 +80,8 @@
         "logit_caption": 16.04887580871582,
         "logit_foil": 16.743959426879883,
         "negation": "caption",
-        "score": -0.6950836181640625
+        "score": -0.6950836181640625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_150392": {
         "caption": "There are no clouds in sight.",
@@ -85,7 +92,8 @@
         "logit_caption": 23.193477630615234,
         "logit_foil": 22.21286964416504,
         "negation": "caption",
-        "score": 0.9806079864501953
+        "score": 0.9806079864501953,
+        "segment": "ambiguous"
     },
     "existence_visual7w_1591818": {
         "caption": "There are some bicycles.",
@@ -96,7 +104,8 @@
         "logit_caption": 23.772958755493164,
         "logit_foil": 24.183443069458008,
         "negation": "foil",
-        "score": -0.41048431396484375
+        "score": -0.41048431396484375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_1592049": {
         "caption": "There are no people in the picture.",
@@ -107,7 +116,8 @@
         "logit_caption": 19.48250961303711,
         "logit_foil": 19.06033706665039,
         "negation": "caption",
-        "score": 0.42217254638671875
+        "score": 0.42217254638671875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_1592315": {
         "caption": "There are some green bunches of bananas.",
@@ -118,7 +128,8 @@
         "logit_caption": 23.243431091308594,
         "logit_foil": 24.239166259765625,
         "negation": "foil",
-        "score": -0.9957351684570312
+        "score": -0.9957351684570312,
+        "segment": "ambiguous"
     },
     "existence_visual7w_1592500": {
         "caption": "There are no people here.",
@@ -129,7 +140,8 @@
         "logit_caption": 20.370269775390625,
         "logit_foil": 18.55464744567871,
         "negation": "caption",
-        "score": 1.815622329711914
+        "score": 1.815622329711914,
+        "segment": "correct"
     },
     "existence_visual7w_1592557": {
         "caption": "There are some cones.",
@@ -140,7 +152,8 @@
         "logit_caption": 18.921581268310547,
         "logit_foil": 20.46627426147461,
         "negation": "foil",
-        "score": -1.5446929931640625
+        "score": -1.5446929931640625,
+        "segment": "incorrect"
     },
     "existence_visual7w_1592568": {
         "caption": "There are no clouds.",
@@ -151,7 +164,8 @@
         "logit_caption": 20.47645378112793,
         "logit_foil": 19.059328079223633,
         "negation": "caption",
-        "score": 1.4171257019042969
+        "score": 1.4171257019042969,
+        "segment": "correct"
     },
     "existence_visual7w_1592732": {
         "caption": "There are no people in the bleachers.",
@@ -162,7 +176,8 @@
         "logit_caption": 19.71539306640625,
         "logit_foil": 19.336301803588867,
         "negation": "caption",
-        "score": 0.3790912628173828
+        "score": 0.3790912628173828,
+        "segment": "ambiguous"
     },
     "existence_visual7w_1592835": {
         "caption": "There are some chairs.",
@@ -173,7 +188,8 @@
         "logit_caption": 23.59654426574707,
         "logit_foil": 23.483867645263672,
         "negation": "foil",
-        "score": 0.11267662048339844
+        "score": 0.11267662048339844,
+        "segment": "ambiguous"
     },
     "existence_visual7w_1592844": {
         "caption": "There are no towels.",
@@ -184,7 +200,8 @@
         "logit_caption": 26.237024307250977,
         "logit_foil": 24.035568237304688,
         "negation": "caption",
-        "score": 2.201456069946289
+        "score": 2.201456069946289,
+        "segment": "correct"
     },
     "existence_visual7w_1593022": {
         "caption": "There are no people.",
@@ -195,7 +212,8 @@
         "logit_caption": 20.338642120361328,
         "logit_foil": 18.5899715423584,
         "negation": "caption",
-        "score": 1.7486705780029297
+        "score": 1.7486705780029297,
+        "segment": "correct"
     },
     "existence_visual7w_2315587": {
         "caption": "There are some planes.",
@@ -206,7 +224,8 @@
         "logit_caption": 23.212318420410156,
         "logit_foil": 21.53388786315918,
         "negation": "foil",
-        "score": 1.6784305572509766
+        "score": 1.6784305572509766,
+        "segment": "correct"
     },
     "existence_visual7w_2315604": {
         "caption": "There are some sheep in the main pen.",
@@ -217,7 +236,8 @@
         "logit_caption": 28.83878517150879,
         "logit_foil": 27.52507209777832,
         "negation": "foil",
-        "score": 1.3137130737304688
+        "score": 1.3137130737304688,
+        "segment": "correct"
     },
     "existence_visual7w_2316044": {
         "caption": "There are no people riding on elephants.",
@@ -228,7 +248,8 @@
         "logit_caption": 20.87679672241211,
         "logit_foil": 20.084192276000977,
         "negation": "caption",
-        "score": 0.7926044464111328
+        "score": 0.7926044464111328,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2316045": {
         "caption": "There are no elephants pictured.",
@@ -239,7 +260,8 @@
         "logit_caption": 18.431318283081055,
         "logit_foil": 17.799907684326172,
         "negation": "caption",
-        "score": 0.6314105987548828
+        "score": 0.6314105987548828,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2316052": {
         "caption": "There are no children in the photo.",
@@ -250,7 +272,8 @@
         "logit_caption": 17.035003662109375,
         "logit_foil": 17.860279083251953,
         "negation": "caption",
-        "score": -0.8252754211425781
+        "score": -0.8252754211425781,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2316070": {
         "caption": "There are some loaves.",
@@ -261,7 +284,8 @@
         "logit_caption": 29.57612419128418,
         "logit_foil": 28.15971565246582,
         "negation": "foil",
-        "score": 1.4164085388183594
+        "score": 1.4164085388183594,
+        "segment": "correct"
     },
     "existence_visual7w_2316127": {
         "caption": "There are no people.",
@@ -272,7 +296,8 @@
         "logit_caption": 18.18340301513672,
         "logit_foil": 19.968286514282227,
         "negation": "caption",
-        "score": -1.7848834991455078
+        "score": -1.7848834991455078,
+        "segment": "incorrect"
     },
     "existence_visual7w_2316226": {
         "caption": "There are some planes.",
@@ -283,7 +308,8 @@
         "logit_caption": 24.743032455444336,
         "logit_foil": 21.55849838256836,
         "negation": "foil",
-        "score": 3.1845340728759766
+        "score": 3.1845340728759766,
+        "segment": "correct"
     },
     "existence_visual7w_2316446": {
         "caption": "There are no people in the photo.",
@@ -294,7 +320,8 @@
         "logit_caption": 22.16910743713379,
         "logit_foil": 21.94083023071289,
         "negation": "caption",
-        "score": 0.22827720642089844
+        "score": 0.22827720642089844,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2316568": {
         "caption": "There are no people pictured.",
@@ -305,7 +332,8 @@
         "logit_caption": 23.2888126373291,
         "logit_foil": 20.859573364257812,
         "negation": "caption",
-        "score": 2.429239273071289
+        "score": 2.429239273071289,
+        "segment": "correct"
     },
     "existence_visual7w_2316793": {
         "caption": "There are no people pictured here.",
@@ -316,7 +344,8 @@
         "logit_caption": 21.947566986083984,
         "logit_foil": 20.783681869506836,
         "negation": "caption",
-        "score": 1.1638851165771484
+        "score": 1.1638851165771484,
+        "segment": "correct"
     },
     "existence_visual7w_2317071": {
         "caption": "There are some airplanes visible in the picture.",
@@ -327,7 +356,8 @@
         "logit_caption": 27.745323181152344,
         "logit_foil": 25.865121841430664,
         "negation": "foil",
-        "score": 1.8802013397216797
+        "score": 1.8802013397216797,
+        "segment": "correct"
     },
     "existence_visual7w_2317102": {
         "caption": "There are no dogs.",
@@ -338,7 +368,8 @@
         "logit_caption": 16.633384704589844,
         "logit_foil": 16.026025772094727,
         "negation": "caption",
-        "score": 0.6073589324951172
+        "score": 0.6073589324951172,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2317862": {
         "caption": "There are no people riding on elephants.",
@@ -349,7 +380,8 @@
         "logit_caption": 19.9818172454834,
         "logit_foil": 18.247907638549805,
         "negation": "caption",
-        "score": 1.7339096069335938
+        "score": 1.7339096069335938,
+        "segment": "correct"
     },
     "existence_visual7w_2318073": {
         "caption": "There are some lights.",
@@ -360,7 +392,8 @@
         "logit_caption": 22.331493377685547,
         "logit_foil": 21.4285888671875,
         "negation": "foil",
-        "score": 0.9029045104980469
+        "score": 0.9029045104980469,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2318181": {
         "caption": "There are no people in the picture.",
@@ -371,7 +404,8 @@
         "logit_caption": 20.470191955566406,
         "logit_foil": 18.96424102783203,
         "negation": "caption",
-        "score": 1.505950927734375
+        "score": 1.505950927734375,
+        "segment": "correct"
     },
     "existence_visual7w_2318842": {
         "caption": "There are some knobs visible.",
@@ -382,7 +416,8 @@
         "logit_caption": 23.736133575439453,
         "logit_foil": 24.183752059936523,
         "negation": "foil",
-        "score": -0.4476184844970703
+        "score": -0.4476184844970703,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2318981": {
         "caption": "There are no giraffes.",
@@ -393,7 +428,8 @@
         "logit_caption": 18.09629249572754,
         "logit_foil": 18.28119659423828,
         "negation": "caption",
-        "score": -0.1849040985107422
+        "score": -0.1849040985107422,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2319138": {
         "caption": "There are no people.",
@@ -404,7 +440,8 @@
         "logit_caption": 19.44051170349121,
         "logit_foil": 18.435972213745117,
         "negation": "caption",
-        "score": 1.0045394897460938
+        "score": 1.0045394897460938,
+        "segment": "correct"
     },
     "existence_visual7w_2319653": {
         "caption": "There are no people riding on elephants.",
@@ -415,7 +452,8 @@
         "logit_caption": 20.55291175842285,
         "logit_foil": 19.237619400024414,
         "negation": "caption",
-        "score": 1.3152923583984375
+        "score": 1.3152923583984375,
+        "segment": "correct"
     },
     "existence_visual7w_2319711": {
         "caption": "There are some tracks.",
@@ -426,7 +464,8 @@
         "logit_caption": 20.81067657470703,
         "logit_foil": 20.043813705444336,
         "negation": "foil",
-        "score": 0.7668628692626953
+        "score": 0.7668628692626953,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2319795": {
         "caption": "There are no people riding on elephants.",
@@ -437,7 +476,8 @@
         "logit_caption": 20.452768325805664,
         "logit_foil": 21.51561164855957,
         "negation": "caption",
-        "score": -1.0628433227539062
+        "score": -1.0628433227539062,
+        "segment": "incorrect"
     },
     "existence_visual7w_2320007": {
         "caption": "There are some train tracks.",
@@ -448,7 +488,8 @@
         "logit_caption": 25.81739044189453,
         "logit_foil": 25.467674255371094,
         "negation": "foil",
-        "score": 0.3497161865234375
+        "score": 0.3497161865234375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2320264": {
         "caption": "There are some different fruits and veggies.",
@@ -459,7 +500,8 @@
         "logit_caption": 29.15001106262207,
         "logit_foil": 27.95844268798828,
         "negation": "foil",
-        "score": 1.191568374633789
+        "score": 1.191568374633789,
+        "segment": "correct"
     },
     "existence_visual7w_2320525": {
         "caption": "There are no pets shown.",
@@ -470,7 +512,8 @@
         "logit_caption": 18.390525817871094,
         "logit_foil": 18.78366470336914,
         "negation": "caption",
-        "score": -0.3931388854980469
+        "score": -0.3931388854980469,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2321705": {
         "caption": "There are no dinosaurs in this picture.",
@@ -481,7 +524,8 @@
         "logit_caption": 23.008892059326172,
         "logit_foil": 21.654678344726562,
         "negation": "caption",
-        "score": 1.3542137145996094
+        "score": 1.3542137145996094,
+        "segment": "correct"
     },
     "existence_visual7w_2322440": {
         "caption": "There are no animals seen.",
@@ -492,7 +536,8 @@
         "logit_caption": 17.792295455932617,
         "logit_foil": 18.50360107421875,
         "negation": "caption",
-        "score": -0.7113056182861328
+        "score": -0.7113056182861328,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2322780": {
         "caption": "There are no people in the photo.",
@@ -503,7 +548,8 @@
         "logit_caption": 20.68387794494629,
         "logit_foil": 20.319839477539062,
         "negation": "caption",
-        "score": 0.36403846740722656
+        "score": 0.36403846740722656,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2323270": {
         "caption": "There are some players wearing long pants.",
@@ -514,7 +560,8 @@
         "logit_caption": 24.551441192626953,
         "logit_foil": 24.033348083496094,
         "negation": "foil",
-        "score": 0.5180931091308594
+        "score": 0.5180931091308594,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2323364": {
         "caption": "There are no cats.",
@@ -525,7 +572,8 @@
         "logit_caption": 14.561338424682617,
         "logit_foil": 14.625617027282715,
         "negation": "caption",
-        "score": -0.06427860260009766
+        "score": -0.06427860260009766,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2323408": {
         "caption": "There are no people.",
@@ -536,7 +584,8 @@
         "logit_caption": 18.865285873413086,
         "logit_foil": 17.03515625,
         "negation": "caption",
-        "score": 1.830129623413086
+        "score": 1.830129623413086,
+        "segment": "correct"
     },
     "existence_visual7w_2323684": {
         "caption": "There are no rolls of toilet paper.",
@@ -547,7 +596,8 @@
         "logit_caption": 24.800128936767578,
         "logit_foil": 21.821063995361328,
         "negation": "caption",
-        "score": 2.97906494140625
+        "score": 2.97906494140625,
+        "segment": "correct"
     },
     "existence_visual7w_2323857": {
         "caption": "There are some kinds of fruit.",
@@ -558,7 +608,8 @@
         "logit_caption": 24.756654739379883,
         "logit_foil": 24.772640228271484,
         "negation": "foil",
-        "score": -0.015985488891601562
+        "score": -0.015985488891601562,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2323944": {
         "caption": "There are no people in the photo.",
@@ -569,7 +620,8 @@
         "logit_caption": 19.840349197387695,
         "logit_foil": 18.354158401489258,
         "negation": "caption",
-        "score": 1.4861907958984375
+        "score": 1.4861907958984375,
+        "segment": "correct"
     },
     "existence_visual7w_2324297": {
         "caption": "There are some children.",
@@ -580,7 +632,8 @@
         "logit_caption": 22.383840560913086,
         "logit_foil": 20.399354934692383,
         "negation": "foil",
-        "score": 1.9844856262207031
+        "score": 1.9844856262207031,
+        "segment": "correct"
     },
     "existence_visual7w_2325117": {
         "caption": "There are no humans touching the bird.",
@@ -591,7 +644,8 @@
         "logit_caption": 24.048917770385742,
         "logit_foil": 22.939796447753906,
         "negation": "caption",
-        "score": 1.109121322631836
+        "score": 1.109121322631836,
+        "segment": "correct"
     },
     "existence_visual7w_2325171": {
         "caption": "There are no people pictured here.",
@@ -602,7 +656,8 @@
         "logit_caption": 24.603975296020508,
         "logit_foil": 21.776935577392578,
         "negation": "caption",
-        "score": 2.8270397186279297
+        "score": 2.8270397186279297,
+        "segment": "correct"
     },
     "existence_visual7w_2325309": {
         "caption": "There are no animals pictured.",
@@ -613,7 +668,8 @@
         "logit_caption": 24.001291275024414,
         "logit_foil": 22.871097564697266,
         "negation": "caption",
-        "score": 1.1301937103271484
+        "score": 1.1301937103271484,
+        "segment": "correct"
     },
     "existence_visual7w_2325587": {
         "caption": "There are no people visible.",
@@ -624,7 +680,8 @@
         "logit_caption": 18.244140625,
         "logit_foil": 18.212528228759766,
         "negation": "caption",
-        "score": 0.031612396240234375
+        "score": 0.031612396240234375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2325643": {
         "caption": "There are some people surfing.",
@@ -635,7 +692,8 @@
         "logit_caption": 28.20127296447754,
         "logit_foil": 26.643239974975586,
         "negation": "foil",
-        "score": 1.5580329895019531
+        "score": 1.5580329895019531,
+        "segment": "correct"
     },
     "existence_visual7w_2325708": {
         "caption": "There are no dogs in the room.",
@@ -646,7 +704,8 @@
         "logit_caption": 20.547128677368164,
         "logit_foil": 20.601869583129883,
         "negation": "caption",
-        "score": -0.05474090576171875
+        "score": -0.05474090576171875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2326282": {
         "caption": "There are no people sitting on the sofa.",
@@ -657,7 +716,8 @@
         "logit_caption": 24.099010467529297,
         "logit_foil": 22.30174446105957,
         "negation": "caption",
-        "score": 1.7972660064697266
+        "score": 1.7972660064697266,
+        "segment": "correct"
     },
     "existence_visual7w_2326561": {
         "caption": "There are no deer on the tracks.",
@@ -668,7 +728,8 @@
         "logit_caption": 20.234874725341797,
         "logit_foil": 19.062204360961914,
         "negation": "caption",
-        "score": 1.1726703643798828
+        "score": 1.1726703643798828,
+        "segment": "correct"
     },
     "existence_visual7w_2327005": {
         "caption": "There are no people pictured.",
@@ -679,7 +740,8 @@
         "logit_caption": 17.826852798461914,
         "logit_foil": 17.012466430664062,
         "negation": "caption",
-        "score": 0.8143863677978516
+        "score": 0.8143863677978516,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2327010": {
         "caption": "There are no people in the scene.",
@@ -690,7 +752,8 @@
         "logit_caption": 18.577207565307617,
         "logit_foil": 19.443084716796875,
         "negation": "caption",
-        "score": -0.8658771514892578
+        "score": -0.8658771514892578,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2327499": {
         "caption": "There are no people.",
@@ -701,7 +764,8 @@
         "logit_caption": 17.212404251098633,
         "logit_foil": 19.22079849243164,
         "negation": "caption",
-        "score": -2.008394241333008
+        "score": -2.008394241333008,
+        "segment": "incorrect"
     },
     "existence_visual7w_2327531": {
         "caption": "There are no birds pictured.",
@@ -712,7 +776,8 @@
         "logit_caption": 21.778656005859375,
         "logit_foil": 22.199121475219727,
         "negation": "caption",
-        "score": -0.42046546936035156
+        "score": -0.42046546936035156,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2327568": {
         "caption": "There are no people.",
@@ -723,7 +788,8 @@
         "logit_caption": 18.26222038269043,
         "logit_foil": 20.805559158325195,
         "negation": "caption",
-        "score": -2.5433387756347656
+        "score": -2.5433387756347656,
+        "segment": "incorrect"
     },
     "existence_visual7w_2327763": {
         "caption": "There are no people visible.",
@@ -734,7 +800,8 @@
         "logit_caption": 20.15974235534668,
         "logit_foil": 19.543174743652344,
         "negation": "caption",
-        "score": 0.6165676116943359
+        "score": 0.6165676116943359,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2327986": {
         "caption": "There are no candles on the cake.",
@@ -745,7 +812,8 @@
         "logit_caption": 26.125600814819336,
         "logit_foil": 25.307735443115234,
         "negation": "caption",
-        "score": 0.8178653717041016
+        "score": 0.8178653717041016,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2328023": {
         "caption": "There are some cars parked.",
@@ -756,7 +824,8 @@
         "logit_caption": 24.207931518554688,
         "logit_foil": 24.10190773010254,
         "negation": "foil",
-        "score": 0.10602378845214844
+        "score": 0.10602378845214844,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2328265": {
         "caption": "There are no ducks.",
@@ -767,7 +836,8 @@
         "logit_caption": 19.227384567260742,
         "logit_foil": 20.297924041748047,
         "negation": "caption",
-        "score": -1.0705394744873047
+        "score": -1.0705394744873047,
+        "segment": "incorrect"
     },
     "existence_visual7w_2328270": {
         "caption": "There are no people in the image.",
@@ -778,7 +848,8 @@
         "logit_caption": 18.533557891845703,
         "logit_foil": 19.430524826049805,
         "negation": "caption",
-        "score": -0.8969669342041016
+        "score": -0.8969669342041016,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2328544": {
         "caption": "There are no birds in the sky.",
@@ -789,7 +860,8 @@
         "logit_caption": 24.702821731567383,
         "logit_foil": 24.914234161376953,
         "negation": "caption",
-        "score": -0.2114124298095703
+        "score": -0.2114124298095703,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2328588": {
         "caption": "There are some oranges.",
@@ -800,7 +872,8 @@
         "logit_caption": 24.064573287963867,
         "logit_foil": 24.05560302734375,
         "negation": "foil",
-        "score": 0.008970260620117188
+        "score": 0.008970260620117188,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2328887": {
         "caption": "There are no people.",
@@ -811,7 +884,8 @@
         "logit_caption": 19.120969772338867,
         "logit_foil": 18.213897705078125,
         "negation": "caption",
-        "score": 0.9070720672607422
+        "score": 0.9070720672607422,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2329511": {
         "caption": "There are no people in the picture.",
@@ -822,7 +896,8 @@
         "logit_caption": 21.489585876464844,
         "logit_foil": 21.40582275390625,
         "negation": "caption",
-        "score": 0.08376312255859375
+        "score": 0.08376312255859375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2329660": {
         "caption": "There are no animals in the photo.",
@@ -833,7 +908,8 @@
         "logit_caption": 19.309707641601562,
         "logit_foil": 18.53866195678711,
         "negation": "caption",
-        "score": 0.7710456848144531
+        "score": 0.7710456848144531,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2330023": {
         "caption": "There are no people pictured.",
@@ -844,7 +920,8 @@
         "logit_caption": 20.36882781982422,
         "logit_foil": 20.54890251159668,
         "negation": "caption",
-        "score": -0.18007469177246094
+        "score": -0.18007469177246094,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2330133": {
         "caption": "There are no dogs.",
@@ -855,7 +932,8 @@
         "logit_caption": 22.372825622558594,
         "logit_foil": 20.88231086730957,
         "negation": "caption",
-        "score": 1.4905147552490234
+        "score": 1.4905147552490234,
+        "segment": "correct"
     },
     "existence_visual7w_2330185": {
         "caption": "There are no people in the picture.",
@@ -866,7 +944,8 @@
         "logit_caption": 19.15317153930664,
         "logit_foil": 19.588760375976562,
         "negation": "caption",
-        "score": -0.4355888366699219
+        "score": -0.4355888366699219,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2330611": {
         "caption": "There are no dogs.",
@@ -877,7 +956,8 @@
         "logit_caption": 21.822816848754883,
         "logit_foil": 21.35956382751465,
         "negation": "caption",
-        "score": 0.4632530212402344
+        "score": 0.4632530212402344,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2331050": {
         "caption": "There are no people pictured here.",
@@ -888,7 +968,8 @@
         "logit_caption": 20.0201416015625,
         "logit_foil": 19.52423667907715,
         "negation": "caption",
-        "score": 0.49590492248535156
+        "score": 0.49590492248535156,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2331238": {
         "caption": "There are some sheep in the picture.",
@@ -899,7 +980,8 @@
         "logit_caption": 27.831851959228516,
         "logit_foil": 26.506593704223633,
         "negation": "foil",
-        "score": 1.3252582550048828
+        "score": 1.3252582550048828,
+        "segment": "correct"
     },
     "existence_visual7w_2331342": {
         "caption": "There are no people in this picture.",
@@ -910,7 +992,8 @@
         "logit_caption": 18.914669036865234,
         "logit_foil": 19.279312133789062,
         "negation": "caption",
-        "score": -0.3646430969238281
+        "score": -0.3646430969238281,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2331664": {
         "caption": "There are no people in this image.",
@@ -921,7 +1004,8 @@
         "logit_caption": 21.47174072265625,
         "logit_foil": 21.994964599609375,
         "negation": "caption",
-        "score": -0.523223876953125
+        "score": -0.523223876953125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2332306": {
         "caption": "There are some strings attached to the kite.",
@@ -932,7 +1016,8 @@
         "logit_caption": 29.56856346130371,
         "logit_foil": 30.704912185668945,
         "negation": "foil",
-        "score": -1.1363487243652344
+        "score": -1.1363487243652344,
+        "segment": "incorrect"
     },
     "existence_visual7w_2332478": {
         "caption": "There are some carrots in the photo.",
@@ -943,7 +1028,8 @@
         "logit_caption": 27.540552139282227,
         "logit_foil": 28.31307601928711,
         "negation": "foil",
-        "score": -0.7725238800048828
+        "score": -0.7725238800048828,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2333282": {
         "caption": "There are no people in the window.",
@@ -954,7 +1040,8 @@
         "logit_caption": 21.16929817199707,
         "logit_foil": 20.744550704956055,
         "negation": "caption",
-        "score": 0.4247474670410156
+        "score": 0.4247474670410156,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2333501": {
         "caption": "There are some cows shown.",
@@ -965,7 +1052,8 @@
         "logit_caption": 27.09284019470215,
         "logit_foil": 25.139970779418945,
         "negation": "foil",
-        "score": 1.9528694152832031
+        "score": 1.9528694152832031,
+        "segment": "correct"
     },
     "existence_visual7w_2333990": {
         "caption": "There are some servings on the plate.",
@@ -976,7 +1064,8 @@
         "logit_caption": 23.46952247619629,
         "logit_foil": 23.472043991088867,
         "negation": "foil",
-        "score": -0.002521514892578125
+        "score": -0.002521514892578125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2334324": {
         "caption": "There are no stars.",
@@ -987,7 +1076,8 @@
         "logit_caption": 20.212129592895508,
         "logit_foil": 18.60832977294922,
         "negation": "caption",
-        "score": 1.603799819946289
+        "score": 1.603799819946289,
+        "segment": "correct"
     },
     "existence_visual7w_2334470": {
         "caption": "There are some snowboards in the photo.",
@@ -998,7 +1088,8 @@
         "logit_caption": 26.448457717895508,
         "logit_foil": 24.17814826965332,
         "negation": "foil",
-        "score": 2.2703094482421875
+        "score": 2.2703094482421875,
+        "segment": "correct"
     },
     "existence_visual7w_2334562": {
         "caption": "There are no boats.",
@@ -1009,7 +1100,8 @@
         "logit_caption": 21.51532554626465,
         "logit_foil": 20.502466201782227,
         "negation": "caption",
-        "score": 1.0128593444824219
+        "score": 1.0128593444824219,
+        "segment": "correct"
     },
     "existence_visual7w_2334867": {
         "caption": "There are no dinosaurs in the picture.",
@@ -1020,7 +1112,8 @@
         "logit_caption": 19.283185958862305,
         "logit_foil": 19.191850662231445,
         "negation": "caption",
-        "score": 0.09133529663085938
+        "score": 0.09133529663085938,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2335370": {
         "caption": "There are no people in the picture.",
@@ -1031,7 +1124,8 @@
         "logit_caption": 21.057601928710938,
         "logit_foil": 20.900447845458984,
         "negation": "caption",
-        "score": 0.15715408325195312
+        "score": 0.15715408325195312,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2336008": {
         "caption": "There are no people.",
@@ -1042,7 +1136,8 @@
         "logit_caption": 20.22629737854004,
         "logit_foil": 19.042495727539062,
         "negation": "caption",
-        "score": 1.1838016510009766
+        "score": 1.1838016510009766,
+        "segment": "correct"
     },
     "existence_visual7w_2336172": {
         "caption": "There are no animals pictured.",
@@ -1053,7 +1148,8 @@
         "logit_caption": 18.853473663330078,
         "logit_foil": 20.074249267578125,
         "negation": "caption",
-        "score": -1.2207756042480469
+        "score": -1.2207756042480469,
+        "segment": "incorrect"
     },
     "existence_visual7w_2336798": {
         "caption": "There are no people.",
@@ -1064,7 +1160,8 @@
         "logit_caption": 20.030048370361328,
         "logit_foil": 18.81658935546875,
         "negation": "caption",
-        "score": 1.2134590148925781
+        "score": 1.2134590148925781,
+        "segment": "correct"
     },
     "existence_visual7w_2337387": {
         "caption": "There are no people pictured.",
@@ -1075,7 +1172,8 @@
         "logit_caption": 21.415687561035156,
         "logit_foil": 21.460159301757812,
         "negation": "caption",
-        "score": -0.04447174072265625
+        "score": -0.04447174072265625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2337483": {
         "caption": "There are no people on the platform.",
@@ -1086,7 +1184,8 @@
         "logit_caption": 25.68697166442871,
         "logit_foil": 24.655677795410156,
         "negation": "caption",
-        "score": 1.0312938690185547
+        "score": 1.0312938690185547,
+        "segment": "correct"
     },
     "existence_visual7w_2338045": {
         "caption": "There are no people.",
@@ -1097,7 +1196,8 @@
         "logit_caption": 19.812734603881836,
         "logit_foil": 19.459871292114258,
         "negation": "caption",
-        "score": 0.3528633117675781
+        "score": 0.3528633117675781,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2338061": {
         "caption": "There are no people shown.",
@@ -1108,7 +1208,8 @@
         "logit_caption": 17.790054321289062,
         "logit_foil": 18.189802169799805,
         "negation": "caption",
-        "score": -0.3997478485107422
+        "score": -0.3997478485107422,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2338295": {
         "caption": "There are some giraffes in this photo.",
@@ -1119,7 +1220,8 @@
         "logit_caption": 30.6079044342041,
         "logit_foil": 29.567461013793945,
         "negation": "foil",
-        "score": 1.0404434204101562
+        "score": 1.0404434204101562,
+        "segment": "correct"
     },
     "existence_visual7w_2338349": {
         "caption": "There are no animals.",
@@ -1130,7 +1232,8 @@
         "logit_caption": 17.272308349609375,
         "logit_foil": 17.446067810058594,
         "negation": "caption",
-        "score": -0.17375946044921875
+        "score": -0.17375946044921875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2338787": {
         "caption": "There are some people in the picture.",
@@ -1141,7 +1244,8 @@
         "logit_caption": 19.73021125793457,
         "logit_foil": 16.907835006713867,
         "negation": "foil",
-        "score": 2.822376251220703
+        "score": 2.822376251220703,
+        "segment": "correct"
     },
     "existence_visual7w_2339031": {
         "caption": "There are no people in the photo.",
@@ -1152,7 +1256,8 @@
         "logit_caption": 21.25351905822754,
         "logit_foil": 21.092370986938477,
         "negation": "caption",
-        "score": 0.1611480712890625
+        "score": 0.1611480712890625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2339363": {
         "caption": "There are some skis in the picture.",
@@ -1163,7 +1268,8 @@
         "logit_caption": 28.114377975463867,
         "logit_foil": 27.048654556274414,
         "negation": "foil",
-        "score": 1.0657234191894531
+        "score": 1.0657234191894531,
+        "segment": "correct"
     },
     "existence_visual7w_2339375": {
         "caption": "There are some tennis players shown in the image.",
@@ -1174,7 +1280,8 @@
         "logit_caption": 26.53386116027832,
         "logit_foil": 23.367565155029297,
         "negation": "foil",
-        "score": 3.1662960052490234
+        "score": 3.1662960052490234,
+        "segment": "correct"
     },
     "existence_visual7w_2339428": {
         "caption": "There are no elephants pictured.",
@@ -1185,7 +1292,8 @@
         "logit_caption": 21.218284606933594,
         "logit_foil": 20.222461700439453,
         "negation": "caption",
-        "score": 0.9958229064941406
+        "score": 0.9958229064941406,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2339542": {
         "caption": "There are some vehicles visible.",
@@ -1196,7 +1304,8 @@
         "logit_caption": 21.849889755249023,
         "logit_foil": 22.105329513549805,
         "negation": "foil",
-        "score": -0.25543975830078125
+        "score": -0.25543975830078125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2339624": {
         "caption": "There are no people.",
@@ -1207,7 +1316,8 @@
         "logit_caption": 23.459238052368164,
         "logit_foil": 23.85740852355957,
         "negation": "caption",
-        "score": -0.39817047119140625
+        "score": -0.39817047119140625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2339987": {
         "caption": "There are no animals in this picture.",
@@ -1218,7 +1328,8 @@
         "logit_caption": 21.12469482421875,
         "logit_foil": 19.4021053314209,
         "negation": "caption",
-        "score": 1.7225894927978516
+        "score": 1.7225894927978516,
+        "segment": "correct"
     },
     "existence_visual7w_2340065": {
         "caption": "There are some snow goggles in the picture.",
@@ -1229,7 +1340,8 @@
         "logit_caption": 24.52337074279785,
         "logit_foil": 24.253576278686523,
         "negation": "foil",
-        "score": 0.2697944641113281
+        "score": 0.2697944641113281,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2340140": {
         "caption": "There is a trash cans shown.",
@@ -1240,7 +1352,8 @@
         "logit_caption": 19.476354598999023,
         "logit_foil": 20.14742660522461,
         "negation": "foil",
-        "score": -0.6710720062255859
+        "score": -0.6710720062255859,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2340427": {
         "caption": "There are no people in the picture.",
@@ -1251,7 +1364,8 @@
         "logit_caption": 20.458974838256836,
         "logit_foil": 20.061046600341797,
         "negation": "caption",
-        "score": 0.39792823791503906
+        "score": 0.39792823791503906,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2340642": {
         "caption": "There are no women in the image.",
@@ -1262,7 +1376,8 @@
         "logit_caption": 18.47178840637207,
         "logit_foil": 18.44675636291504,
         "negation": "caption",
-        "score": 0.02503204345703125
+        "score": 0.02503204345703125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2340899": {
         "caption": "There are no people in the image.",
@@ -1273,7 +1388,8 @@
         "logit_caption": 20.781776428222656,
         "logit_foil": 21.350053787231445,
         "negation": "caption",
-        "score": -0.5682773590087891
+        "score": -0.5682773590087891,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2341114": {
         "caption": "There are no dogs in the photo.",
@@ -1284,7 +1400,8 @@
         "logit_caption": 22.629518508911133,
         "logit_foil": 22.451826095581055,
         "negation": "caption",
-        "score": 0.17769241333007812
+        "score": 0.17769241333007812,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2341644": {
         "caption": "There are no people pictured.",
@@ -1295,7 +1412,8 @@
         "logit_caption": 22.587848663330078,
         "logit_foil": 20.604215621948242,
         "negation": "caption",
-        "score": 1.983633041381836
+        "score": 1.983633041381836,
+        "segment": "correct"
     },
     "existence_visual7w_2341686": {
         "caption": "There are no people sitting on the couch.",
@@ -1306,7 +1424,8 @@
         "logit_caption": 27.201427459716797,
         "logit_foil": 24.83969497680664,
         "negation": "caption",
-        "score": 2.3617324829101562
+        "score": 2.3617324829101562,
+        "segment": "correct"
     },
     "existence_visual7w_2341809": {
         "caption": "There are no people in the picture.",
@@ -1317,7 +1436,8 @@
         "logit_caption": 23.392425537109375,
         "logit_foil": 22.261741638183594,
         "negation": "caption",
-        "score": 1.1306838989257812
+        "score": 1.1306838989257812,
+        "segment": "correct"
     },
     "existence_visual7w_2342025": {
         "caption": "There are no people in this photo.",
@@ -1328,7 +1448,8 @@
         "logit_caption": 19.228023529052734,
         "logit_foil": 17.342931747436523,
         "negation": "caption",
-        "score": 1.885091781616211
+        "score": 1.885091781616211,
+        "segment": "correct"
     },
     "existence_visual7w_2342550": {
         "caption": "There are no people.",
@@ -1339,7 +1460,8 @@
         "logit_caption": 22.01439094543457,
         "logit_foil": 21.90066146850586,
         "negation": "caption",
-        "score": 0.11372947692871094
+        "score": 0.11372947692871094,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2342832": {
         "caption": "There are some giraffes.",
@@ -1350,7 +1472,8 @@
         "logit_caption": 28.72682762145996,
         "logit_foil": 25.208951950073242,
         "negation": "foil",
-        "score": 3.5178756713867188
+        "score": 3.5178756713867188,
+        "segment": "correct"
     },
     "existence_visual7w_2342903": {
         "caption": "There are no clipboards sitting on the bed.",
@@ -1361,7 +1484,8 @@
         "logit_caption": 23.40605354309082,
         "logit_foil": 23.80154037475586,
         "negation": "caption",
-        "score": -0.39548683166503906
+        "score": -0.39548683166503906,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2343236": {
         "caption": "There are no people pictured.",
@@ -1372,7 +1496,8 @@
         "logit_caption": 19.930139541625977,
         "logit_foil": 18.9527587890625,
         "negation": "caption",
-        "score": 0.9773807525634766
+        "score": 0.9773807525634766,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2343499": {
         "caption": "There are some blue stripes.",
@@ -1383,7 +1508,8 @@
         "logit_caption": 23.789796829223633,
         "logit_foil": 23.773035049438477,
         "negation": "foil",
-        "score": 0.01676177978515625
+        "score": 0.01676177978515625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2343770": {
         "caption": "There are some cars.",
@@ -1394,7 +1520,8 @@
         "logit_caption": 20.792375564575195,
         "logit_foil": 19.72582244873047,
         "negation": "foil",
-        "score": 1.0665531158447266
+        "score": 1.0665531158447266,
+        "segment": "correct"
     },
     "existence_visual7w_2344761": {
         "caption": "There are no people in the photo.",
@@ -1405,7 +1532,8 @@
         "logit_caption": 19.877758026123047,
         "logit_foil": 20.2520809173584,
         "negation": "caption",
-        "score": -0.37432289123535156
+        "score": -0.37432289123535156,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2344828": {
         "caption": "There are some signs in the photo.",
@@ -1416,7 +1544,8 @@
         "logit_caption": 26.249357223510742,
         "logit_foil": 25.309797286987305,
         "negation": "foil",
-        "score": 0.9395599365234375
+        "score": 0.9395599365234375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2344871": {
         "caption": "There are some people shown.",
@@ -1427,7 +1556,8 @@
         "logit_caption": 21.125585556030273,
         "logit_foil": 18.255659103393555,
         "negation": "foil",
-        "score": 2.8699264526367188
+        "score": 2.8699264526367188,
+        "segment": "correct"
     },
     "existence_visual7w_2344996": {
         "caption": "There are some pillows.",
@@ -1438,7 +1568,8 @@
         "logit_caption": 24.086652755737305,
         "logit_foil": 24.105640411376953,
         "negation": "foil",
-        "score": -0.018987655639648438
+        "score": -0.018987655639648438,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2345066": {
         "caption": "There are no birds in the sky.",
@@ -1449,7 +1580,8 @@
         "logit_caption": 21.893781661987305,
         "logit_foil": 22.40013313293457,
         "negation": "caption",
-        "score": -0.5063514709472656
+        "score": -0.5063514709472656,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2345325": {
         "caption": "There are some surfers in the pic.",
@@ -1460,7 +1592,8 @@
         "logit_caption": 29.463191986083984,
         "logit_foil": 28.27674674987793,
         "negation": "foil",
-        "score": 1.1864452362060547
+        "score": 1.1864452362060547,
+        "segment": "correct"
     },
     "existence_visual7w_2345780": {
         "caption": "There are no people.",
@@ -1471,7 +1604,8 @@
         "logit_caption": 20.112714767456055,
         "logit_foil": 20.00096893310547,
         "negation": "caption",
-        "score": 0.11174583435058594
+        "score": 0.11174583435058594,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2345801": {
         "caption": "There are no animals.",
@@ -1482,7 +1616,8 @@
         "logit_caption": 19.466670989990234,
         "logit_foil": 19.394811630249023,
         "negation": "caption",
-        "score": 0.07185935974121094
+        "score": 0.07185935974121094,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2345980": {
         "caption": "There are some red buildings shown on this street.",
@@ -1493,7 +1628,8 @@
         "logit_caption": 24.244264602661133,
         "logit_foil": 24.014245986938477,
         "negation": "foil",
-        "score": 0.23001861572265625
+        "score": 0.23001861572265625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2346245": {
         "caption": "There are no people in the photo.",
@@ -1504,7 +1640,8 @@
         "logit_caption": 22.94618034362793,
         "logit_foil": 20.586095809936523,
         "negation": "caption",
-        "score": 2.3600845336914062
+        "score": 2.3600845336914062,
+        "segment": "correct"
     },
     "existence_visual7w_2346324": {
         "caption": "There are no people.",
@@ -1515,7 +1652,8 @@
         "logit_caption": 15.097060203552246,
         "logit_foil": 16.805997848510742,
         "negation": "caption",
-        "score": -1.708937644958496
+        "score": -1.708937644958496,
+        "segment": "incorrect"
     },
     "existence_visual7w_2346628": {
         "caption": "There are some players shown.",
@@ -1526,7 +1664,8 @@
         "logit_caption": 22.204896926879883,
         "logit_foil": 19.173603057861328,
         "negation": "foil",
-        "score": 3.0312938690185547
+        "score": 3.0312938690185547,
+        "segment": "correct"
     },
     "existence_visual7w_2346733": {
         "caption": "There are no people in the shot.",
@@ -1537,7 +1676,8 @@
         "logit_caption": 19.567182540893555,
         "logit_foil": 19.53950309753418,
         "negation": "caption",
-        "score": 0.027679443359375
+        "score": 0.027679443359375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2347803": {
         "caption": "There are some workers on the scene.",
@@ -1548,7 +1688,8 @@
         "logit_caption": 25.074453353881836,
         "logit_foil": 22.936267852783203,
         "negation": "foil",
-        "score": 2.138185501098633
+        "score": 2.138185501098633,
+        "segment": "correct"
     },
     "existence_visual7w_2348430": {
         "caption": "There are some people on the closest court.",
@@ -1559,7 +1700,8 @@
         "logit_caption": 26.120182037353516,
         "logit_foil": 25.388151168823242,
         "negation": "foil",
-        "score": 0.7320308685302734
+        "score": 0.7320308685302734,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2348569": {
         "caption": "There are no animals shown.",
@@ -1570,7 +1712,8 @@
         "logit_caption": 18.8828125,
         "logit_foil": 18.066347122192383,
         "negation": "caption",
-        "score": 0.8164653778076172
+        "score": 0.8164653778076172,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2348772": {
         "caption": "There are some people.",
@@ -1581,7 +1724,8 @@
         "logit_caption": 19.27802085876465,
         "logit_foil": 19.303409576416016,
         "negation": "foil",
-        "score": -0.025388717651367188
+        "score": -0.025388717651367188,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2349512": {
         "caption": "There are no people pictured.",
@@ -1592,7 +1736,8 @@
         "logit_caption": 19.41866683959961,
         "logit_foil": 18.972265243530273,
         "negation": "caption",
-        "score": 0.44640159606933594
+        "score": 0.44640159606933594,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2349587": {
         "caption": "There are no people.",
@@ -1603,7 +1748,8 @@
         "logit_caption": 16.677541732788086,
         "logit_foil": 17.126201629638672,
         "negation": "caption",
-        "score": -0.44865989685058594
+        "score": -0.44865989685058594,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2349860": {
         "caption": "There are no people in the photo.",
@@ -1614,7 +1760,8 @@
         "logit_caption": 21.24324607849121,
         "logit_foil": 19.929147720336914,
         "negation": "caption",
-        "score": 1.3140983581542969
+        "score": 1.3140983581542969,
+        "segment": "correct"
     },
     "existence_visual7w_2350818": {
         "caption": "There are some they.",
@@ -1625,7 +1772,8 @@
         "logit_caption": 20.21002197265625,
         "logit_foil": 17.61729621887207,
         "negation": "foil",
-        "score": 2.5927257537841797
+        "score": 2.5927257537841797,
+        "segment": "correct"
     },
     "existence_visual7w_2351326": {
         "caption": "There are no animals appear in this picture.",
@@ -1636,7 +1784,8 @@
         "logit_caption": 20.459985733032227,
         "logit_foil": 19.50314712524414,
         "negation": "caption",
-        "score": 0.9568386077880859
+        "score": 0.9568386077880859,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2351464": {
         "caption": "There are no pets.",
@@ -1647,7 +1796,8 @@
         "logit_caption": 18.425630569458008,
         "logit_foil": 18.931344985961914,
         "negation": "caption",
-        "score": -0.5057144165039062
+        "score": -0.5057144165039062,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2351728": {
         "caption": "There are some doors visible.",
@@ -1658,7 +1808,8 @@
         "logit_caption": 22.76968765258789,
         "logit_foil": 22.803625106811523,
         "negation": "foil",
-        "score": -0.03393745422363281
+        "score": -0.03393745422363281,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2351755": {
         "caption": "There are some beds in the room.",
@@ -1669,7 +1820,8 @@
         "logit_caption": 28.590532302856445,
         "logit_foil": 27.787506103515625,
         "negation": "foil",
-        "score": 0.8030261993408203
+        "score": 0.8030261993408203,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2352132": {
         "caption": "There are some cars seen.",
@@ -1680,7 +1832,8 @@
         "logit_caption": 23.034873962402344,
         "logit_foil": 21.397180557250977,
         "negation": "foil",
-        "score": 1.6376934051513672
+        "score": 1.6376934051513672,
+        "segment": "correct"
     },
     "existence_visual7w_2352174": {
         "caption": "There are some people visible.",
@@ -1691,7 +1844,8 @@
         "logit_caption": 20.100828170776367,
         "logit_foil": 18.284475326538086,
         "negation": "foil",
-        "score": 1.8163528442382812
+        "score": 1.8163528442382812,
+        "segment": "correct"
     },
     "existence_visual7w_2352298": {
         "caption": "There are no clouds in the sky.",
@@ -1702,7 +1856,8 @@
         "logit_caption": 19.92032241821289,
         "logit_foil": 18.99520492553711,
         "negation": "caption",
-        "score": 0.9251174926757812
+        "score": 0.9251174926757812,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2353180": {
         "caption": "There are some gummy bears on the remote.",
@@ -1713,7 +1868,8 @@
         "logit_caption": 26.228271484375,
         "logit_foil": 26.28256607055664,
         "negation": "foil",
-        "score": -0.054294586181640625
+        "score": -0.054294586181640625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2353629": {
         "caption": "There are no people pictured.",
@@ -1724,7 +1880,8 @@
         "logit_caption": 16.291980743408203,
         "logit_foil": 18.06743812561035,
         "negation": "caption",
-        "score": -1.7754573822021484
+        "score": -1.7754573822021484,
+        "segment": "incorrect"
     },
     "existence_visual7w_2353960": {
         "caption": "There are no people.",
@@ -1735,7 +1892,8 @@
         "logit_caption": 20.145263671875,
         "logit_foil": 20.322364807128906,
         "negation": "caption",
-        "score": -0.17710113525390625
+        "score": -0.17710113525390625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2354145": {
         "caption": "There are no closed suitcases.",
@@ -1746,7 +1904,8 @@
         "logit_caption": 26.398841857910156,
         "logit_foil": 26.908185958862305,
         "negation": "caption",
-        "score": -0.5093441009521484
+        "score": -0.5093441009521484,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2354159": {
         "caption": "There are no people riding the bikes.",
@@ -1757,7 +1916,8 @@
         "logit_caption": 21.651695251464844,
         "logit_foil": 21.886526107788086,
         "negation": "caption",
-        "score": -0.2348308563232422
+        "score": -0.2348308563232422,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2354789": {
         "caption": "There are no horses in the picture.",
@@ -1768,7 +1928,8 @@
         "logit_caption": 18.4406681060791,
         "logit_foil": 18.167104721069336,
         "negation": "caption",
-        "score": 0.2735633850097656
+        "score": 0.2735633850097656,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2355640": {
         "caption": "There are no people in the picture.",
@@ -1779,7 +1940,8 @@
         "logit_caption": 21.69808006286621,
         "logit_foil": 21.37224769592285,
         "negation": "caption",
-        "score": 0.3258323669433594
+        "score": 0.3258323669433594,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2355887": {
         "caption": "There are no people.",
@@ -1790,7 +1952,8 @@
         "logit_caption": 19.964426040649414,
         "logit_foil": 20.435741424560547,
         "negation": "caption",
-        "score": -0.4713153839111328
+        "score": -0.4713153839111328,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2356111": {
         "caption": "There are no animals.",
@@ -1801,7 +1964,8 @@
         "logit_caption": 19.071117401123047,
         "logit_foil": 21.286914825439453,
         "negation": "caption",
-        "score": -2.2157974243164062
+        "score": -2.2157974243164062,
+        "segment": "incorrect"
     },
     "existence_visual7w_2356523": {
         "caption": "There are no animals in the picture.",
@@ -1812,7 +1976,8 @@
         "logit_caption": 18.79684829711914,
         "logit_foil": 18.969615936279297,
         "negation": "caption",
-        "score": -0.17276763916015625
+        "score": -0.17276763916015625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2356753": {
         "caption": "There are no people.",
@@ -1823,7 +1988,8 @@
         "logit_caption": 20.23236656188965,
         "logit_foil": 17.659549713134766,
         "negation": "caption",
-        "score": 2.572816848754883
+        "score": 2.572816848754883,
+        "segment": "correct"
     },
     "existence_visual7w_2356908": {
         "caption": "There are no people feeding the cow.",
@@ -1834,7 +2000,8 @@
         "logit_caption": 28.04900550842285,
         "logit_foil": 27.106672286987305,
         "negation": "caption",
-        "score": 0.9423332214355469
+        "score": 0.9423332214355469,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2356992": {
         "caption": "There are some forks at each place setting.",
@@ -1845,7 +2012,8 @@
         "logit_caption": 27.829357147216797,
         "logit_foil": 28.103675842285156,
         "negation": "foil",
-        "score": -0.2743186950683594
+        "score": -0.2743186950683594,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2357020": {
         "caption": "There are some people shown.",
@@ -1856,7 +2024,8 @@
         "logit_caption": 20.14105224609375,
         "logit_foil": 19.264307022094727,
         "negation": "foil",
-        "score": 0.8767452239990234
+        "score": 0.8767452239990234,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2357109": {
         "caption": "There are no people pictured.",
@@ -1867,7 +2036,8 @@
         "logit_caption": 17.2225284576416,
         "logit_foil": 16.53805160522461,
         "negation": "caption",
-        "score": 0.6844768524169922
+        "score": 0.6844768524169922,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2357139": {
         "caption": "There are no people.",
@@ -1878,7 +2048,8 @@
         "logit_caption": 20.34786033630371,
         "logit_foil": 18.31753158569336,
         "negation": "caption",
-        "score": 2.0303287506103516
+        "score": 2.0303287506103516,
+        "segment": "correct"
     },
     "existence_visual7w_2357161": {
         "caption": "There are some animals.",
@@ -1889,7 +2060,8 @@
         "logit_caption": 22.08336067199707,
         "logit_foil": 22.746978759765625,
         "negation": "foil",
-        "score": -0.6636180877685547
+        "score": -0.6636180877685547,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2357944": {
         "caption": "There are no people pictured.",
@@ -1900,7 +2072,8 @@
         "logit_caption": 19.344738006591797,
         "logit_foil": 18.59316062927246,
         "negation": "caption",
-        "score": 0.7515773773193359
+        "score": 0.7515773773193359,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2358152": {
         "caption": "There are no people in the picture.",
@@ -1911,7 +2084,8 @@
         "logit_caption": 22.257537841796875,
         "logit_foil": 21.17352867126465,
         "negation": "caption",
-        "score": 1.0840091705322266
+        "score": 1.0840091705322266,
+        "segment": "correct"
     },
     "existence_visual7w_2358663": {
         "caption": "There are no people in the photo.",
@@ -1922,7 +2096,8 @@
         "logit_caption": 21.780176162719727,
         "logit_foil": 20.883237838745117,
         "negation": "caption",
-        "score": 0.8969383239746094
+        "score": 0.8969383239746094,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2358694": {
         "caption": "There are no people shown.",
@@ -1933,7 +2108,8 @@
         "logit_caption": 21.052152633666992,
         "logit_foil": 19.255704879760742,
         "negation": "caption",
-        "score": 1.79644775390625
+        "score": 1.79644775390625,
+        "segment": "correct"
     },
     "existence_visual7w_2358835": {
         "caption": "There are no people in the photo.",
@@ -1944,7 +2120,8 @@
         "logit_caption": 19.64082908630371,
         "logit_foil": 19.623977661132812,
         "negation": "caption",
-        "score": 0.016851425170898438
+        "score": 0.016851425170898438,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2359029": {
         "caption": "There are no animals.",
@@ -1955,7 +2132,8 @@
         "logit_caption": 18.286327362060547,
         "logit_foil": 18.242849349975586,
         "negation": "caption",
-        "score": 0.04347801208496094
+        "score": 0.04347801208496094,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2359039": {
         "caption": "There are some zebras facing right.",
@@ -1966,7 +2144,8 @@
         "logit_caption": 29.28602409362793,
         "logit_foil": 30.271812438964844,
         "negation": "foil",
-        "score": -0.9857883453369141
+        "score": -0.9857883453369141,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2359425": {
         "caption": "There are no people pictured.",
@@ -1977,7 +2156,8 @@
         "logit_caption": 18.65064811706543,
         "logit_foil": 18.43524932861328,
         "negation": "caption",
-        "score": 0.21539878845214844
+        "score": 0.21539878845214844,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2359468": {
         "caption": "There are no clowns in the photo.",
@@ -1988,7 +2168,8 @@
         "logit_caption": 20.087135314941406,
         "logit_foil": 20.683969497680664,
         "negation": "caption",
-        "score": -0.5968341827392578
+        "score": -0.5968341827392578,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2359483": {
         "caption": "There is a cat.",
@@ -1999,7 +2180,8 @@
         "logit_caption": 26.20723533630371,
         "logit_foil": 27.498306274414062,
         "negation": "foil",
-        "score": -1.2910709381103516
+        "score": -1.2910709381103516,
+        "segment": "incorrect"
     },
     "existence_visual7w_2359865": {
         "caption": "There are no people on the track.",
@@ -2010,7 +2192,8 @@
         "logit_caption": 21.245954513549805,
         "logit_foil": 19.918081283569336,
         "negation": "caption",
-        "score": 1.3278732299804688
+        "score": 1.3278732299804688,
+        "segment": "correct"
     },
     "existence_visual7w_2359944": {
         "caption": "There is a person pictured.",
@@ -2021,7 +2204,8 @@
         "logit_caption": 21.526487350463867,
         "logit_foil": 21.205995559692383,
         "negation": "foil",
-        "score": 0.3204917907714844
+        "score": 0.3204917907714844,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2359966": {
         "caption": "There are no people in the photo.",
@@ -2032,7 +2216,8 @@
         "logit_caption": 17.620534896850586,
         "logit_foil": 18.435379028320312,
         "negation": "caption",
-        "score": -0.8148441314697266
+        "score": -0.8148441314697266,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2360156": {
         "caption": "There are no people shown.",
@@ -2043,7 +2228,8 @@
         "logit_caption": 19.268014907836914,
         "logit_foil": 17.62154197692871,
         "negation": "caption",
-        "score": 1.6464729309082031
+        "score": 1.6464729309082031,
+        "segment": "correct"
     },
     "existence_visual7w_2360186": {
         "caption": "There is a bird in the picture.",
@@ -2054,7 +2240,8 @@
         "logit_caption": 23.443819046020508,
         "logit_foil": 23.056907653808594,
         "negation": "foil",
-        "score": 0.38691139221191406
+        "score": 0.38691139221191406,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2360351": {
         "caption": "There is a benche.",
@@ -2065,7 +2252,8 @@
         "logit_caption": 20.676162719726562,
         "logit_foil": 20.4271240234375,
         "negation": "foil",
-        "score": 0.2490386962890625
+        "score": 0.2490386962890625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2360364": {
         "caption": "There is a person.",
@@ -2076,7 +2264,8 @@
         "logit_caption": 19.240907669067383,
         "logit_foil": 18.641958236694336,
         "negation": "foil",
-        "score": 0.5989494323730469
+        "score": 0.5989494323730469,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2360434": {
         "caption": "There are some signs pictured.",
@@ -2087,7 +2276,8 @@
         "logit_caption": 26.983585357666016,
         "logit_foil": 25.05939292907715,
         "negation": "foil",
-        "score": 1.9241924285888672
+        "score": 1.9241924285888672,
+        "segment": "correct"
     },
     "existence_visual7w_2360535": {
         "caption": "There is a motorcycle in the picture.",
@@ -2098,7 +2288,8 @@
         "logit_caption": 26.17059326171875,
         "logit_foil": 25.767677307128906,
         "negation": "foil",
-        "score": 0.40291595458984375
+        "score": 0.40291595458984375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2360550": {
         "caption": "There is a walking signs shown.",
@@ -2109,7 +2300,8 @@
         "logit_caption": 26.01156997680664,
         "logit_foil": 24.892831802368164,
         "negation": "foil",
-        "score": 1.1187381744384766
+        "score": 1.1187381744384766,
+        "segment": "correct"
     },
     "existence_visual7w_2360625": {
         "caption": "There is a motorcycle.",
@@ -2120,7 +2312,8 @@
         "logit_caption": 28.870691299438477,
         "logit_foil": 26.433494567871094,
         "negation": "foil",
-        "score": 2.437196731567383
+        "score": 2.437196731567383,
+        "segment": "correct"
     },
     "existence_visual7w_2360779": {
         "caption": "There are no people in this photo.",
@@ -2131,7 +2324,8 @@
         "logit_caption": 20.489280700683594,
         "logit_foil": 20.610071182250977,
         "negation": "caption",
-        "score": -0.12079048156738281
+        "score": -0.12079048156738281,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2360933": {
         "caption": "There are some floor grates visible.",
@@ -2142,7 +2336,8 @@
         "logit_caption": 20.868093490600586,
         "logit_foil": 20.09169578552246,
         "negation": "foil",
-        "score": 0.776397705078125
+        "score": 0.776397705078125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2361000": {
         "caption": "There is a person in the picture.",
@@ -2153,7 +2348,8 @@
         "logit_caption": 22.51472282409668,
         "logit_foil": 22.300981521606445,
         "negation": "foil",
-        "score": 0.21374130249023438
+        "score": 0.21374130249023438,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2361023": {
         "caption": "There is a person.",
@@ -2164,7 +2360,8 @@
         "logit_caption": 16.735265731811523,
         "logit_foil": 16.04254913330078,
         "negation": "foil",
-        "score": 0.6927165985107422
+        "score": 0.6927165985107422,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2361093": {
         "caption": "There is a person snowboarding.",
@@ -2175,7 +2372,8 @@
         "logit_caption": 26.528684616088867,
         "logit_foil": 26.5715389251709,
         "negation": "foil",
-        "score": -0.04285430908203125
+        "score": -0.04285430908203125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2361120": {
         "caption": "There is a dishe.",
@@ -2186,7 +2384,8 @@
         "logit_caption": 17.88060760498047,
         "logit_foil": 17.537405014038086,
         "negation": "foil",
-        "score": 0.3432025909423828
+        "score": 0.3432025909423828,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2361154": {
         "caption": "There are no pets pictured.",
@@ -2197,7 +2396,8 @@
         "logit_caption": 19.406696319580078,
         "logit_foil": 19.652254104614258,
         "negation": "caption",
-        "score": -0.2455577850341797
+        "score": -0.2455577850341797,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2361201": {
         "caption": "There is a horse.",
@@ -2208,7 +2408,8 @@
         "logit_caption": 24.963125228881836,
         "logit_foil": 25.00613784790039,
         "negation": "foil",
-        "score": -0.04301261901855469
+        "score": -0.04301261901855469,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2361222": {
         "caption": "There is a skier.",
@@ -2219,7 +2420,8 @@
         "logit_caption": 26.713838577270508,
         "logit_foil": 25.959060668945312,
         "negation": "foil",
-        "score": 0.7547779083251953
+        "score": 0.7547779083251953,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2361244": {
         "caption": "There are some zebras in photo.",
@@ -2230,7 +2432,8 @@
         "logit_caption": 28.02251434326172,
         "logit_foil": 26.98938751220703,
         "negation": "foil",
-        "score": 1.0331268310546875
+        "score": 1.0331268310546875,
+        "segment": "correct"
     },
     "existence_visual7w_2361437": {
         "caption": "There are some cows shown.",
@@ -2241,7 +2444,8 @@
         "logit_caption": 27.81471824645996,
         "logit_foil": 26.153440475463867,
         "negation": "foil",
-        "score": 1.6612777709960938
+        "score": 1.6612777709960938,
+        "segment": "correct"
     },
     "existence_visual7w_2361671": {
         "caption": "There is a person.",
@@ -2252,7 +2456,8 @@
         "logit_caption": 20.562095642089844,
         "logit_foil": 19.829296112060547,
         "negation": "foil",
-        "score": 0.7327995300292969
+        "score": 0.7327995300292969,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2361728": {
         "caption": "There is a surfer.",
@@ -2263,7 +2468,8 @@
         "logit_caption": 26.06926727294922,
         "logit_foil": 23.71863555908203,
         "negation": "foil",
-        "score": 2.3506317138671875
+        "score": 2.3506317138671875,
+        "segment": "correct"
     },
     "existence_visual7w_2361872": {
         "caption": "There are some wheels visible on the plane.",
@@ -2274,7 +2480,8 @@
         "logit_caption": 24.689815521240234,
         "logit_foil": 24.20574378967285,
         "negation": "foil",
-        "score": 0.4840717315673828
+        "score": 0.4840717315673828,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2361951": {
         "caption": "There is a train in this picture.",
@@ -2285,7 +2492,8 @@
         "logit_caption": 26.479860305786133,
         "logit_foil": 25.424724578857422,
         "negation": "foil",
-        "score": 1.055135726928711
+        "score": 1.055135726928711,
+        "segment": "correct"
     },
     "existence_visual7w_2361996": {
         "caption": "There are no people.",
@@ -2296,7 +2504,8 @@
         "logit_caption": 21.344284057617188,
         "logit_foil": 18.946565628051758,
         "negation": "caption",
-        "score": 2.3977184295654297
+        "score": 2.3977184295654297,
+        "segment": "correct"
     },
     "existence_visual7w_2362000": {
         "caption": "There is a person in the photo.",
@@ -2307,7 +2516,8 @@
         "logit_caption": 22.227428436279297,
         "logit_foil": 22.2238712310791,
         "negation": "foil",
-        "score": 0.0035572052001953125
+        "score": 0.0035572052001953125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2362033": {
         "caption": "There is a motorcycle.",
@@ -2318,7 +2528,8 @@
         "logit_caption": 24.78976821899414,
         "logit_foil": 25.815763473510742,
         "negation": "foil",
-        "score": -1.0259952545166016
+        "score": -1.0259952545166016,
+        "segment": "incorrect"
     },
     "existence_visual7w_2362071": {
         "caption": "There is a car pictured.",
@@ -2329,7 +2540,8 @@
         "logit_caption": 23.373001098632812,
         "logit_foil": 22.680816650390625,
         "negation": "foil",
-        "score": 0.6921844482421875
+        "score": 0.6921844482421875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2362253": {
         "caption": "There is a plane.",
@@ -2340,7 +2552,8 @@
         "logit_caption": 26.606704711914062,
         "logit_foil": 24.76561164855957,
         "negation": "foil",
-        "score": 1.8410930633544922
+        "score": 1.8410930633544922,
+        "segment": "correct"
     },
     "existence_visual7w_2362476": {
         "caption": "There are some eagles visible.",
@@ -2351,7 +2564,8 @@
         "logit_caption": 24.10444450378418,
         "logit_foil": 24.387296676635742,
         "negation": "foil",
-        "score": -0.2828521728515625
+        "score": -0.2828521728515625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2362651": {
         "caption": "There are some windows in the room.",
@@ -2362,7 +2576,8 @@
         "logit_caption": 20.729045867919922,
         "logit_foil": 20.203208923339844,
         "negation": "foil",
-        "score": 0.5258369445800781
+        "score": 0.5258369445800781,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2362750": {
         "caption": "There is a person pictured.",
@@ -2373,7 +2588,8 @@
         "logit_caption": 19.625728607177734,
         "logit_foil": 19.288616180419922,
         "negation": "foil",
-        "score": 0.3371124267578125
+        "score": 0.3371124267578125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2362752": {
         "caption": "There are some skateboarders.",
@@ -2384,7 +2600,8 @@
         "logit_caption": 27.862247467041016,
         "logit_foil": 27.549278259277344,
         "negation": "foil",
-        "score": 0.3129692077636719
+        "score": 0.3129692077636719,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2362804": {
         "caption": "There is a dog.",
@@ -2395,7 +2612,8 @@
         "logit_caption": 17.63456153869629,
         "logit_foil": 16.74839210510254,
         "negation": "foil",
-        "score": 0.88616943359375
+        "score": 0.88616943359375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2362825": {
         "caption": "There is a woman.",
@@ -2406,7 +2624,8 @@
         "logit_caption": 21.40223503112793,
         "logit_foil": 19.808513641357422,
         "negation": "foil",
-        "score": 1.5937213897705078
+        "score": 1.5937213897705078,
+        "segment": "correct"
     },
     "existence_visual7w_2362983": {
         "caption": "There are no people in the photo.",
@@ -2417,7 +2636,8 @@
         "logit_caption": 18.443201065063477,
         "logit_foil": 18.109033584594727,
         "negation": "caption",
-        "score": 0.33416748046875
+        "score": 0.33416748046875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2363189": {
         "caption": "There is a benche.",
@@ -2428,7 +2648,8 @@
         "logit_caption": 20.49691390991211,
         "logit_foil": 20.041284561157227,
         "negation": "foil",
-        "score": 0.4556293487548828
+        "score": 0.4556293487548828,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2363200": {
         "caption": "There is a sliced.",
@@ -2439,7 +2660,8 @@
         "logit_caption": 22.452787399291992,
         "logit_foil": 23.386507034301758,
         "negation": "foil",
-        "score": -0.9337196350097656
+        "score": -0.9337196350097656,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2363335": {
         "caption": "There is a mast on the closest boat.",
@@ -2450,7 +2672,8 @@
         "logit_caption": 24.54865074157715,
         "logit_foil": 24.91971778869629,
         "negation": "foil",
-        "score": -0.3710670471191406
+        "score": -0.3710670471191406,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2363379": {
         "caption": "There is a bird in this picture.",
@@ -2461,7 +2684,8 @@
         "logit_caption": 23.20743751525879,
         "logit_foil": 23.639999389648438,
         "negation": "foil",
-        "score": -0.43256187438964844
+        "score": -0.43256187438964844,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2363425": {
         "caption": "There is a person.",
@@ -2472,7 +2696,8 @@
         "logit_caption": 21.0408935546875,
         "logit_foil": 20.00279426574707,
         "negation": "foil",
-        "score": 1.0380992889404297
+        "score": 1.0380992889404297,
+        "segment": "correct"
     },
     "existence_visual7w_2363610": {
         "caption": "There is a plane.",
@@ -2483,7 +2708,8 @@
         "logit_caption": 26.18450164794922,
         "logit_foil": 24.55636978149414,
         "negation": "foil",
-        "score": 1.6281318664550781
+        "score": 1.6281318664550781,
+        "segment": "correct"
     },
     "existence_visual7w_2363617": {
         "caption": "There is a pitcher visible.",
@@ -2494,7 +2720,8 @@
         "logit_caption": 19.348154067993164,
         "logit_foil": 19.169193267822266,
         "negation": "foil",
-        "score": 0.17896080017089844
+        "score": 0.17896080017089844,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2363675": {
         "caption": "There are some window.",
@@ -2505,7 +2732,8 @@
         "logit_caption": 25.986148834228516,
         "logit_foil": 24.230863571166992,
         "negation": "foil",
-        "score": 1.7552852630615234
+        "score": 1.7552852630615234,
+        "segment": "correct"
     },
     "existence_visual7w_2363723": {
         "caption": "There are some lights on the sides of the bed.",
@@ -2516,7 +2744,8 @@
         "logit_caption": 24.135467529296875,
         "logit_foil": 22.866622924804688,
         "negation": "foil",
-        "score": 1.2688446044921875
+        "score": 1.2688446044921875,
+        "segment": "correct"
     },
     "existence_visual7w_2363773": {
         "caption": "There is a person.",
@@ -2527,7 +2756,8 @@
         "logit_caption": 23.03816795349121,
         "logit_foil": 21.890907287597656,
         "negation": "foil",
-        "score": 1.1472606658935547
+        "score": 1.1472606658935547,
+        "segment": "correct"
     },
     "existence_visual7w_2363971": {
         "caption": "There are some people in the photo.",
@@ -2538,7 +2768,8 @@
         "logit_caption": 21.923267364501953,
         "logit_foil": 20.614410400390625,
         "negation": "foil",
-        "score": 1.3088569641113281
+        "score": 1.3088569641113281,
+        "segment": "correct"
     },
     "existence_visual7w_2364010": {
         "caption": "There are no people in the picture.",
@@ -2549,7 +2780,8 @@
         "logit_caption": 18.853992462158203,
         "logit_foil": 18.10939598083496,
         "negation": "caption",
-        "score": 0.7445964813232422
+        "score": 0.7445964813232422,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2364196": {
         "caption": "There is a person in the picture.",
@@ -2560,7 +2792,8 @@
         "logit_caption": 19.043197631835938,
         "logit_foil": 19.539182662963867,
         "negation": "foil",
-        "score": -0.4959850311279297
+        "score": -0.4959850311279297,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2364722": {
         "caption": "There is a computer pictured.",
@@ -2571,7 +2804,8 @@
         "logit_caption": 25.54428482055664,
         "logit_foil": 23.45862579345703,
         "negation": "foil",
-        "score": 2.0856590270996094
+        "score": 2.0856590270996094,
+        "segment": "correct"
     },
     "existence_visual7w_2364740": {
         "caption": "There are some people in the picture.",
@@ -2582,7 +2816,8 @@
         "logit_caption": 21.92143440246582,
         "logit_foil": 21.348434448242188,
         "negation": "foil",
-        "score": 0.5729999542236328
+        "score": 0.5729999542236328,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2364769": {
         "caption": "There is a laptop on the table.",
@@ -2593,7 +2828,8 @@
         "logit_caption": 21.536605834960938,
         "logit_foil": 22.732040405273438,
         "negation": "foil",
-        "score": -1.1954345703125
+        "score": -1.1954345703125,
+        "segment": "incorrect"
     },
     "existence_visual7w_2364922": {
         "caption": "There are some pizzas.",
@@ -2604,7 +2840,8 @@
         "logit_caption": 27.25365447998047,
         "logit_foil": 24.39188003540039,
         "negation": "foil",
-        "score": 2.861774444580078
+        "score": 2.861774444580078,
+        "segment": "correct"
     },
     "existence_visual7w_2364948": {
         "caption": "There is a elephant in the picture.",
@@ -2615,7 +2852,8 @@
         "logit_caption": 26.647424697875977,
         "logit_foil": 25.99148941040039,
         "negation": "foil",
-        "score": 0.6559352874755859
+        "score": 0.6559352874755859,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2365038": {
         "caption": "There are no people.",
@@ -2626,7 +2864,8 @@
         "logit_caption": 19.359216690063477,
         "logit_foil": 20.947437286376953,
         "negation": "caption",
-        "score": -1.5882205963134766
+        "score": -1.5882205963134766,
+        "segment": "incorrect"
     },
     "existence_visual7w_2365208": {
         "caption": "There are some people on the elephants.",
@@ -2637,7 +2876,8 @@
         "logit_caption": 28.417530059814453,
         "logit_foil": 28.328218460083008,
         "negation": "foil",
-        "score": 0.08931159973144531
+        "score": 0.08931159973144531,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2365252": {
         "caption": "There is a truck pictured.",
@@ -2648,7 +2888,8 @@
         "logit_caption": 27.065839767456055,
         "logit_foil": 25.295318603515625,
         "negation": "foil",
-        "score": 1.7705211639404297
+        "score": 1.7705211639404297,
+        "segment": "correct"
     },
     "existence_visual7w_2365320": {
         "caption": "There is a teddy bears.",
@@ -2659,7 +2900,8 @@
         "logit_caption": 19.357139587402344,
         "logit_foil": 19.337743759155273,
         "negation": "foil",
-        "score": 0.019395828247070312
+        "score": 0.019395828247070312,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2365399": {
         "caption": "There is a train shown.",
@@ -2670,7 +2912,8 @@
         "logit_caption": 23.299976348876953,
         "logit_foil": 21.609447479248047,
         "negation": "foil",
-        "score": 1.6905288696289062
+        "score": 1.6905288696289062,
+        "segment": "correct"
     },
     "existence_visual7w_2365480": {
         "caption": "There is a chair.",
@@ -2681,7 +2924,8 @@
         "logit_caption": 19.723670959472656,
         "logit_foil": 19.197311401367188,
         "negation": "foil",
-        "score": 0.5263595581054688
+        "score": 0.5263595581054688,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2365548": {
         "caption": "There are some people pictured.",
@@ -2692,7 +2936,8 @@
         "logit_caption": 21.47563934326172,
         "logit_foil": 20.566303253173828,
         "negation": "foil",
-        "score": 0.9093360900878906
+        "score": 0.9093360900878906,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2365707": {
         "caption": "There is a kite.",
@@ -2703,7 +2948,8 @@
         "logit_caption": 30.903329849243164,
         "logit_foil": 31.698867797851562,
         "negation": "foil",
-        "score": -0.7955379486083984
+        "score": -0.7955379486083984,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2366034": {
         "caption": "There are some pillows.",
@@ -2714,7 +2960,8 @@
         "logit_caption": 25.456600189208984,
         "logit_foil": 25.75316047668457,
         "negation": "foil",
-        "score": -0.29656028747558594
+        "score": -0.29656028747558594,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2366163": {
         "caption": "There are some windows visible.",
@@ -2725,7 +2972,8 @@
         "logit_caption": 21.111242294311523,
         "logit_foil": 21.241708755493164,
         "negation": "foil",
-        "score": -0.13046646118164062
+        "score": -0.13046646118164062,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2366253": {
         "caption": "There are some people in the photo.",
@@ -2736,7 +2984,8 @@
         "logit_caption": 20.221744537353516,
         "logit_foil": 20.14858055114746,
         "negation": "foil",
-        "score": 0.07316398620605469
+        "score": 0.07316398620605469,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2366276": {
         "caption": "There is a person shown.",
@@ -2747,7 +2996,8 @@
         "logit_caption": 21.72107696533203,
         "logit_foil": 21.6135196685791,
         "negation": "foil",
-        "score": 0.10755729675292969
+        "score": 0.10755729675292969,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2366368": {
         "caption": "There are some small cups shown.",
@@ -2758,7 +3008,8 @@
         "logit_caption": 23.99196434020996,
         "logit_foil": 24.618139266967773,
         "negation": "foil",
-        "score": -0.6261749267578125
+        "score": -0.6261749267578125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2366431": {
         "caption": "There is a tv.",
@@ -2769,7 +3020,8 @@
         "logit_caption": 21.006837844848633,
         "logit_foil": 20.434144973754883,
         "negation": "foil",
-        "score": 0.57269287109375
+        "score": 0.57269287109375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2366695": {
         "caption": "There is a train.",
@@ -2780,7 +3032,8 @@
         "logit_caption": 23.996747970581055,
         "logit_foil": 22.02417755126953,
         "negation": "foil",
-        "score": 1.9725704193115234
+        "score": 1.9725704193115234,
+        "segment": "correct"
     },
     "existence_visual7w_2367016": {
         "caption": "There is a pencil shown.",
@@ -2791,7 +3044,8 @@
         "logit_caption": 22.424304962158203,
         "logit_foil": 23.202091217041016,
         "negation": "foil",
-        "score": -0.7777862548828125
+        "score": -0.7777862548828125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2367076": {
         "caption": "There are no people.",
@@ -2802,7 +3056,8 @@
         "logit_caption": 16.681949615478516,
         "logit_foil": 17.846385955810547,
         "negation": "caption",
-        "score": -1.1644363403320312
+        "score": -1.1644363403320312,
+        "segment": "incorrect"
     },
     "existence_visual7w_2367084": {
         "caption": "There is a giraffe.",
@@ -2813,7 +3068,8 @@
         "logit_caption": 25.507123947143555,
         "logit_foil": 23.77712631225586,
         "negation": "foil",
-        "score": 1.7299976348876953
+        "score": 1.7299976348876953,
+        "segment": "correct"
     },
     "existence_visual7w_2367366": {
         "caption": "There are some people shown.",
@@ -2824,7 +3080,8 @@
         "logit_caption": 17.70899200439453,
         "logit_foil": 16.912595748901367,
         "negation": "foil",
-        "score": 0.7963962554931641
+        "score": 0.7963962554931641,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2367490": {
         "caption": "There are some motorcycles.",
@@ -2835,7 +3092,8 @@
         "logit_caption": 26.05685806274414,
         "logit_foil": 26.131431579589844,
         "negation": "foil",
-        "score": -0.07457351684570312
+        "score": -0.07457351684570312,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2367531": {
         "caption": "There is a tub.",
@@ -2846,7 +3104,8 @@
         "logit_caption": 26.900394439697266,
         "logit_foil": 25.970666885375977,
         "negation": "foil",
-        "score": 0.9297275543212891
+        "score": 0.9297275543212891,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2367700": {
         "caption": "There is a flower pots.",
@@ -2857,7 +3116,8 @@
         "logit_caption": 23.351797103881836,
         "logit_foil": 23.116199493408203,
         "negation": "foil",
-        "score": 0.2355976104736328
+        "score": 0.2355976104736328,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2367703": {
         "caption": "There is a motorcycle.",
@@ -2868,7 +3128,8 @@
         "logit_caption": 23.673030853271484,
         "logit_foil": 24.01051139831543,
         "negation": "foil",
-        "score": -0.3374805450439453
+        "score": -0.3374805450439453,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2367715": {
         "caption": "There are no people shown.",
@@ -2879,7 +3140,8 @@
         "logit_caption": 22.41310691833496,
         "logit_foil": 20.133472442626953,
         "negation": "caption",
-        "score": 2.279634475708008
+        "score": 2.279634475708008,
+        "segment": "correct"
     },
     "existence_visual7w_2367780": {
         "caption": "There is a pizza.",
@@ -2890,7 +3152,8 @@
         "logit_caption": 26.747175216674805,
         "logit_foil": 26.020397186279297,
         "negation": "foil",
-        "score": 0.7267780303955078
+        "score": 0.7267780303955078,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2367907": {
         "caption": "There is a hand.",
@@ -2901,7 +3164,8 @@
         "logit_caption": 20.57663345336914,
         "logit_foil": 21.580272674560547,
         "negation": "foil",
-        "score": -1.0036392211914062
+        "score": -1.0036392211914062,
+        "segment": "incorrect"
     },
     "existence_visual7w_2367942": {
         "caption": "There are some propellers on the plane.",
@@ -2912,7 +3176,8 @@
         "logit_caption": 23.496891021728516,
         "logit_foil": 23.369415283203125,
         "negation": "foil",
-        "score": 0.12747573852539062
+        "score": 0.12747573852539062,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2368047": {
         "caption": "There are some plants by the fireplace.",
@@ -2923,7 +3188,8 @@
         "logit_caption": 20.516672134399414,
         "logit_foil": 21.009489059448242,
         "negation": "foil",
-        "score": -0.4928169250488281
+        "score": -0.4928169250488281,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2368127": {
         "caption": "There is a horse in the picture.",
@@ -2934,7 +3200,8 @@
         "logit_caption": 22.520647048950195,
         "logit_foil": 21.83734130859375,
         "negation": "foil",
-        "score": 0.6833057403564453
+        "score": 0.6833057403564453,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2368190": {
         "caption": "There are no people in the photo.",
@@ -2945,7 +3212,8 @@
         "logit_caption": 22.7616024017334,
         "logit_foil": 22.58060073852539,
         "negation": "caption",
-        "score": 0.1810016632080078
+        "score": 0.1810016632080078,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2368433": {
         "caption": "There is a person pictured.",
@@ -2956,7 +3224,8 @@
         "logit_caption": 22.783885955810547,
         "logit_foil": 21.871952056884766,
         "negation": "foil",
-        "score": 0.9119338989257812
+        "score": 0.9119338989257812,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2368470": {
         "caption": "There are some bananas.",
@@ -2967,7 +3236,8 @@
         "logit_caption": 24.386245727539062,
         "logit_foil": 24.83463478088379,
         "negation": "foil",
-        "score": -0.44838905334472656
+        "score": -0.44838905334472656,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2368830": {
         "caption": "There is a clock.",
@@ -2978,7 +3248,8 @@
         "logit_caption": 22.44345474243164,
         "logit_foil": 21.961294174194336,
         "negation": "foil",
-        "score": 0.4821605682373047
+        "score": 0.4821605682373047,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2368862": {
         "caption": "There is a horse.",
@@ -2989,7 +3260,8 @@
         "logit_caption": 21.901081085205078,
         "logit_foil": 21.347707748413086,
         "negation": "foil",
-        "score": 0.5533733367919922
+        "score": 0.5533733367919922,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2368971": {
         "caption": "There is a clock shown.",
@@ -3000,7 +3272,8 @@
         "logit_caption": 26.238496780395508,
         "logit_foil": 23.65279769897461,
         "negation": "foil",
-        "score": 2.5856990814208984
+        "score": 2.5856990814208984,
+        "segment": "correct"
     },
     "existence_visual7w_2368996": {
         "caption": "There are some eyes of the bird in the photo.",
@@ -3011,7 +3284,8 @@
         "logit_caption": 26.437585830688477,
         "logit_foil": 26.110519409179688,
         "negation": "foil",
-        "score": 0.32706642150878906
+        "score": 0.32706642150878906,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2369128": {
         "caption": "There are some zebras.",
@@ -3022,7 +3296,8 @@
         "logit_caption": 30.788204193115234,
         "logit_foil": 29.961915969848633,
         "negation": "foil",
-        "score": 0.8262882232666016
+        "score": 0.8262882232666016,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2369455": {
         "caption": "There is a baseball players in the photo.",
@@ -3033,7 +3308,8 @@
         "logit_caption": 24.2404842376709,
         "logit_foil": 24.347902297973633,
         "negation": "foil",
-        "score": -0.10741806030273438
+        "score": -0.10741806030273438,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2369658": {
         "caption": "There are some toys on the bed.",
@@ -3044,7 +3320,8 @@
         "logit_caption": 27.546016693115234,
         "logit_foil": 26.17183494567871,
         "negation": "foil",
-        "score": 1.3741817474365234
+        "score": 1.3741817474365234,
+        "segment": "correct"
     },
     "existence_visual7w_2369718": {
         "caption": "There is a dog.",
@@ -3055,7 +3332,8 @@
         "logit_caption": 24.20316505432129,
         "logit_foil": 23.653005599975586,
         "negation": "foil",
-        "score": 0.5501594543457031
+        "score": 0.5501594543457031,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2370072": {
         "caption": "There are some people pictured here.",
@@ -3066,7 +3344,8 @@
         "logit_caption": 23.464269638061523,
         "logit_foil": 22.264535903930664,
         "negation": "foil",
-        "score": 1.1997337341308594
+        "score": 1.1997337341308594,
+        "segment": "correct"
     },
     "existence_visual7w_2370191": {
         "caption": "There are no women in this picture.",
@@ -3077,7 +3356,8 @@
         "logit_caption": 17.710926055908203,
         "logit_foil": 17.77111053466797,
         "negation": "caption",
-        "score": -0.060184478759765625
+        "score": -0.060184478759765625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2370194": {
         "caption": "There is a giraffe.",
@@ -3088,7 +3368,8 @@
         "logit_caption": 25.28026580810547,
         "logit_foil": 23.70535659790039,
         "negation": "foil",
-        "score": 1.5749092102050781
+        "score": 1.5749092102050781,
+        "segment": "correct"
     },
     "existence_visual7w_2370341": {
         "caption": "There is a teddy bears.",
@@ -3099,7 +3380,8 @@
         "logit_caption": 26.645692825317383,
         "logit_foil": 24.772354125976562,
         "negation": "foil",
-        "score": 1.8733386993408203
+        "score": 1.8733386993408203,
+        "segment": "correct"
     },
     "existence_visual7w_2370415": {
         "caption": "There is a dog in the water.",
@@ -3110,7 +3392,8 @@
         "logit_caption": 26.438201904296875,
         "logit_foil": 27.15190315246582,
         "negation": "foil",
-        "score": -0.7137012481689453
+        "score": -0.7137012481689453,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2370551": {
         "caption": "There is a horse.",
@@ -3121,7 +3404,8 @@
         "logit_caption": 26.257915496826172,
         "logit_foil": 25.651412963867188,
         "negation": "foil",
-        "score": 0.6065025329589844
+        "score": 0.6065025329589844,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2370565": {
         "caption": "There is a giraffe.",
@@ -3132,7 +3416,8 @@
         "logit_caption": 27.923166275024414,
         "logit_foil": 27.781747817993164,
         "negation": "foil",
-        "score": 0.14141845703125
+        "score": 0.14141845703125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2370690": {
         "caption": "There are no people pictured here.",
@@ -3143,7 +3428,8 @@
         "logit_caption": 21.014373779296875,
         "logit_foil": 19.552576065063477,
         "negation": "caption",
-        "score": 1.4617977142333984
+        "score": 1.4617977142333984,
+        "segment": "correct"
     },
     "existence_visual7w_2370812": {
         "caption": "There are no people.",
@@ -3154,7 +3440,8 @@
         "logit_caption": 15.981781005859375,
         "logit_foil": 17.59795379638672,
         "negation": "caption",
-        "score": -1.6161727905273438
+        "score": -1.6161727905273438,
+        "segment": "incorrect"
     },
     "existence_visual7w_2370873": {
         "caption": "There are some plates shown in the photo.",
@@ -3165,7 +3452,8 @@
         "logit_caption": 23.281272888183594,
         "logit_foil": 24.712642669677734,
         "negation": "foil",
-        "score": -1.4313697814941406
+        "score": -1.4313697814941406,
+        "segment": "incorrect"
     },
     "existence_visual7w_2370926": {
         "caption": "There is a player visible.",
@@ -3176,7 +3464,8 @@
         "logit_caption": 24.23067283630371,
         "logit_foil": 20.40479278564453,
         "negation": "foil",
-        "score": 3.8258800506591797
+        "score": 3.8258800506591797,
+        "segment": "correct"
     },
     "existence_visual7w_2371044": {
         "caption": "There are no people in the picture.",
@@ -3187,7 +3476,8 @@
         "logit_caption": 20.919864654541016,
         "logit_foil": 18.822988510131836,
         "negation": "caption",
-        "score": 2.0968761444091797
+        "score": 2.0968761444091797,
+        "segment": "correct"
     },
     "existence_visual7w_2371067": {
         "caption": "There is a skater.",
@@ -3198,7 +3488,8 @@
         "logit_caption": 27.37132453918457,
         "logit_foil": 25.82006072998047,
         "negation": "foil",
-        "score": 1.5512638092041016
+        "score": 1.5512638092041016,
+        "segment": "correct"
     },
     "existence_visual7w_2371111": {
         "caption": "There are no animals in this picture.",
@@ -3209,7 +3500,8 @@
         "logit_caption": 18.854801177978516,
         "logit_foil": 17.42755699157715,
         "negation": "caption",
-        "score": 1.4272441864013672
+        "score": 1.4272441864013672,
+        "segment": "correct"
     },
     "existence_visual7w_2371443": {
         "caption": "There is a skateboarder in the picture.",
@@ -3220,7 +3512,8 @@
         "logit_caption": 27.47174072265625,
         "logit_foil": 27.541166305541992,
         "negation": "foil",
-        "score": -0.06942558288574219
+        "score": -0.06942558288574219,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2371468": {
         "caption": "There is a vehicle.",
@@ -3231,7 +3524,8 @@
         "logit_caption": 21.50967788696289,
         "logit_foil": 21.361858367919922,
         "negation": "foil",
-        "score": 0.14781951904296875
+        "score": 0.14781951904296875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2371491": {
         "caption": "There is a person in the picture.",
@@ -3242,7 +3536,8 @@
         "logit_caption": 19.892362594604492,
         "logit_foil": 19.396894454956055,
         "negation": "foil",
-        "score": 0.4954681396484375
+        "score": 0.4954681396484375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2371493": {
         "caption": "There are no people.",
@@ -3253,7 +3548,8 @@
         "logit_caption": 20.64517593383789,
         "logit_foil": 22.87201690673828,
         "negation": "caption",
-        "score": -2.2268409729003906
+        "score": -2.2268409729003906,
+        "segment": "incorrect"
     },
     "existence_visual7w_2371495": {
         "caption": "There is a person in this picture.",
@@ -3264,7 +3560,8 @@
         "logit_caption": 22.982398986816406,
         "logit_foil": 22.58061408996582,
         "negation": "foil",
-        "score": 0.40178489685058594
+        "score": 0.40178489685058594,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2371597": {
         "caption": "There are no cars.",
@@ -3275,7 +3572,8 @@
         "logit_caption": 18.38643455505371,
         "logit_foil": 15.816801071166992,
         "negation": "caption",
-        "score": 2.5696334838867188
+        "score": 2.5696334838867188,
+        "segment": "correct"
     },
     "existence_visual7w_2371625": {
         "caption": "There is a person.",
@@ -3286,7 +3584,8 @@
         "logit_caption": 20.212533950805664,
         "logit_foil": 20.07193946838379,
         "negation": "foil",
-        "score": 0.140594482421875
+        "score": 0.140594482421875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2371901": {
         "caption": "There is a green objects on the floor.",
@@ -3297,7 +3596,8 @@
         "logit_caption": 20.553241729736328,
         "logit_foil": 22.50942611694336,
         "negation": "foil",
-        "score": -1.9561843872070312
+        "score": -1.9561843872070312,
+        "segment": "incorrect"
     },
     "existence_visual7w_2372073": {
         "caption": "There are some people in the picture.",
@@ -3308,7 +3608,8 @@
         "logit_caption": 18.941665649414062,
         "logit_foil": 18.48879623413086,
         "negation": "foil",
-        "score": 0.4528694152832031
+        "score": 0.4528694152832031,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2372230": {
         "caption": "There are no people visible.",
@@ -3319,7 +3620,8 @@
         "logit_caption": 18.325162887573242,
         "logit_foil": 19.291278839111328,
         "negation": "caption",
-        "score": -0.9661159515380859
+        "score": -0.9661159515380859,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2372473": {
         "caption": "There are some scooters in the photo.",
@@ -3330,7 +3632,8 @@
         "logit_caption": 25.315319061279297,
         "logit_foil": 24.18526840209961,
         "negation": "foil",
-        "score": 1.1300506591796875
+        "score": 1.1300506591796875,
+        "segment": "correct"
     },
     "existence_visual7w_2372572": {
         "caption": "There are no people.",
@@ -3341,7 +3644,8 @@
         "logit_caption": 20.64260482788086,
         "logit_foil": 19.340444564819336,
         "negation": "caption",
-        "score": 1.3021602630615234
+        "score": 1.3021602630615234,
+        "segment": "correct"
     },
     "existence_visual7w_2372620": {
         "caption": "There are some kites flying.",
@@ -3352,7 +3656,8 @@
         "logit_caption": 28.67510223388672,
         "logit_foil": 27.259519577026367,
         "negation": "foil",
-        "score": 1.4155826568603516
+        "score": 1.4155826568603516,
+        "segment": "correct"
     },
     "existence_visual7w_2372701": {
         "caption": "There are some legs visible.",
@@ -3363,7 +3668,8 @@
         "logit_caption": 18.84750747680664,
         "logit_foil": 19.90627098083496,
         "negation": "foil",
-        "score": -1.0587635040283203
+        "score": -1.0587635040283203,
+        "segment": "incorrect"
     },
     "existence_visual7w_2372786": {
         "caption": "There are some plates shown.",
@@ -3374,7 +3680,8 @@
         "logit_caption": 22.769908905029297,
         "logit_foil": 23.005794525146484,
         "negation": "foil",
-        "score": -0.2358856201171875
+        "score": -0.2358856201171875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2372870": {
         "caption": "There are no people pictured.",
@@ -3385,7 +3692,8 @@
         "logit_caption": 17.863279342651367,
         "logit_foil": 18.97919464111328,
         "negation": "caption",
-        "score": -1.115915298461914
+        "score": -1.115915298461914,
+        "segment": "incorrect"
     },
     "existence_visual7w_2373047": {
         "caption": "There are no animals.",
@@ -3396,7 +3704,8 @@
         "logit_caption": 17.754735946655273,
         "logit_foil": 17.90795135498047,
         "negation": "caption",
-        "score": -0.1532154083251953
+        "score": -0.1532154083251953,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2373121": {
         "caption": "There are no clouds in the sky.",
@@ -3407,7 +3716,8 @@
         "logit_caption": 16.902000427246094,
         "logit_foil": 16.858951568603516,
         "negation": "caption",
-        "score": 0.043048858642578125
+        "score": 0.043048858642578125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2373128": {
         "caption": "There are some pieces of food on the plate.",
@@ -3418,7 +3728,8 @@
         "logit_caption": 23.648591995239258,
         "logit_foil": 25.07251739501953,
         "negation": "foil",
-        "score": -1.4239253997802734
+        "score": -1.4239253997802734,
+        "segment": "incorrect"
     },
     "existence_visual7w_2373190": {
         "caption": "There are no dogs in the picture.",
@@ -3429,7 +3740,8 @@
         "logit_caption": 18.70160675048828,
         "logit_foil": 19.160053253173828,
         "negation": "caption",
-        "score": -0.4584465026855469
+        "score": -0.4584465026855469,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2373565": {
         "caption": "There are some men in the scene.",
@@ -3440,7 +3752,8 @@
         "logit_caption": 19.724111557006836,
         "logit_foil": 19.513324737548828,
         "negation": "foil",
-        "score": 0.2107868194580078
+        "score": 0.2107868194580078,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2373591": {
         "caption": "There are no people pictured.",
@@ -3451,7 +3764,8 @@
         "logit_caption": 20.495838165283203,
         "logit_foil": 19.906354904174805,
         "negation": "caption",
-        "score": 0.5894832611083984
+        "score": 0.5894832611083984,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2373845": {
         "caption": "There are no people visible.",
@@ -3462,7 +3776,8 @@
         "logit_caption": 20.983501434326172,
         "logit_foil": 20.402360916137695,
         "negation": "caption",
-        "score": 0.5811405181884766
+        "score": 0.5811405181884766,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2373889": {
         "caption": "There are no people in the picture.",
@@ -3473,7 +3788,8 @@
         "logit_caption": 18.705350875854492,
         "logit_foil": 18.75338363647461,
         "negation": "caption",
-        "score": -0.04803276062011719
+        "score": -0.04803276062011719,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2374237": {
         "caption": "There are no people riding the horses.",
@@ -3484,7 +3800,8 @@
         "logit_caption": 25.084381103515625,
         "logit_foil": 24.089885711669922,
         "negation": "caption",
-        "score": 0.9944953918457031
+        "score": 0.9944953918457031,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2374547": {
         "caption": "There are no people in the photo.",
@@ -3495,7 +3812,8 @@
         "logit_caption": 18.91232681274414,
         "logit_foil": 17.180749893188477,
         "negation": "caption",
-        "score": 1.731576919555664
+        "score": 1.731576919555664,
+        "segment": "correct"
     },
     "existence_visual7w_2374559": {
         "caption": "There are no people.",
@@ -3506,7 +3824,8 @@
         "logit_caption": 19.85984230041504,
         "logit_foil": 19.277305603027344,
         "negation": "caption",
-        "score": 0.5825366973876953
+        "score": 0.5825366973876953,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2374842": {
         "caption": "There are no birds in the photo.",
@@ -3517,7 +3836,8 @@
         "logit_caption": 25.98548698425293,
         "logit_foil": 26.661096572875977,
         "negation": "caption",
-        "score": -0.6756095886230469
+        "score": -0.6756095886230469,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2375454": {
         "caption": "There are some dishes in the picture.",
@@ -3528,7 +3848,8 @@
         "logit_caption": 26.518999099731445,
         "logit_foil": 24.55181121826172,
         "negation": "foil",
-        "score": 1.9671878814697266
+        "score": 1.9671878814697266,
+        "segment": "correct"
     },
     "existence_visual7w_2375837": {
         "caption": "There are some writing utensils clearly visible.",
@@ -3539,7 +3860,8 @@
         "logit_caption": 19.91423988342285,
         "logit_foil": 20.81025505065918,
         "negation": "foil",
-        "score": -0.8960151672363281
+        "score": -0.8960151672363281,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2375916": {
         "caption": "There are no people riding the motorcycle.",
@@ -3550,7 +3872,8 @@
         "logit_caption": 25.90841293334961,
         "logit_foil": 25.632678985595703,
         "negation": "caption",
-        "score": 0.27573394775390625
+        "score": 0.27573394775390625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2377797": {
         "caption": "There is a black horses in the scene.",
@@ -3561,7 +3884,8 @@
         "logit_caption": 25.183887481689453,
         "logit_foil": 24.131135940551758,
         "negation": "foil",
-        "score": 1.0527515411376953
+        "score": 1.0527515411376953,
+        "segment": "correct"
     },
     "existence_visual7w_2378084": {
         "caption": "There are some elephants.",
@@ -3572,7 +3896,8 @@
         "logit_caption": 27.392351150512695,
         "logit_foil": 26.68478012084961,
         "negation": "foil",
-        "score": 0.7075710296630859
+        "score": 0.7075710296630859,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2378335": {
         "caption": "There are no chairs in the room.",
@@ -3583,7 +3908,8 @@
         "logit_caption": 23.535158157348633,
         "logit_foil": 22.722946166992188,
         "negation": "caption",
-        "score": 0.8122119903564453
+        "score": 0.8122119903564453,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2378548": {
         "caption": "There are some cars.",
@@ -3594,7 +3920,8 @@
         "logit_caption": 21.571043014526367,
         "logit_foil": 22.314565658569336,
         "negation": "foil",
-        "score": -0.7435226440429688
+        "score": -0.7435226440429688,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2378568": {
         "caption": "There are no people pictured here.",
@@ -3605,7 +3932,8 @@
         "logit_caption": 19.18697166442871,
         "logit_foil": 17.566226959228516,
         "negation": "caption",
-        "score": 1.6207447052001953
+        "score": 1.6207447052001953,
+        "segment": "correct"
     },
     "existence_visual7w_2378774": {
         "caption": "There are some people.",
@@ -3616,7 +3944,8 @@
         "logit_caption": 21.657243728637695,
         "logit_foil": 20.571882247924805,
         "negation": "foil",
-        "score": 1.0853614807128906
+        "score": 1.0853614807128906,
+        "segment": "correct"
     },
     "existence_visual7w_2378887": {
         "caption": "There are some men playing.",
@@ -3627,7 +3956,8 @@
         "logit_caption": 24.83252716064453,
         "logit_foil": 24.237991333007812,
         "negation": "foil",
-        "score": 0.5945358276367188
+        "score": 0.5945358276367188,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2379053": {
         "caption": "There are some people visible.",
@@ -3638,7 +3968,8 @@
         "logit_caption": 19.810028076171875,
         "logit_foil": 18.669111251831055,
         "negation": "foil",
-        "score": 1.1409168243408203
+        "score": 1.1409168243408203,
+        "segment": "correct"
     },
     "existence_visual7w_2379274": {
         "caption": "There are no people in the picture.",
@@ -3649,7 +3980,8 @@
         "logit_caption": 18.35446548461914,
         "logit_foil": 18.015674591064453,
         "negation": "caption",
-        "score": 0.3387908935546875
+        "score": 0.3387908935546875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2379433": {
         "caption": "There are some wheels on the skateboard.",
@@ -3660,7 +3992,8 @@
         "logit_caption": 25.01832389831543,
         "logit_foil": 24.336484909057617,
         "negation": "foil",
-        "score": 0.6818389892578125
+        "score": 0.6818389892578125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2379573": {
         "caption": "There are some train tracks.",
@@ -3671,7 +4004,8 @@
         "logit_caption": 22.126964569091797,
         "logit_foil": 22.117643356323242,
         "negation": "foil",
-        "score": 0.009321212768554688
+        "score": 0.009321212768554688,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2379676": {
         "caption": "There are some bikes.",
@@ -3682,7 +4016,8 @@
         "logit_caption": 25.690879821777344,
         "logit_foil": 21.25278663635254,
         "negation": "foil",
-        "score": 4.438093185424805
+        "score": 4.438093185424805,
+        "segment": "correct"
     },
     "existence_visual7w_2380321": {
         "caption": "There are some pieces of carrots in the picture.",
@@ -3693,7 +4028,8 @@
         "logit_caption": 25.111194610595703,
         "logit_foil": 24.725448608398438,
         "negation": "foil",
-        "score": 0.3857460021972656
+        "score": 0.3857460021972656,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2380468": {
         "caption": "There are no people in the photo.",
@@ -3704,7 +4040,8 @@
         "logit_caption": 20.193368911743164,
         "logit_foil": 20.84874153137207,
         "negation": "caption",
-        "score": -0.6553726196289062
+        "score": -0.6553726196289062,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2380782": {
         "caption": "There are some horses.",
@@ -3715,7 +4052,8 @@
         "logit_caption": 23.815526962280273,
         "logit_foil": 21.325227737426758,
         "negation": "foil",
-        "score": 2.4902992248535156
+        "score": 2.4902992248535156,
+        "segment": "correct"
     },
     "existence_visual7w_2381149": {
         "caption": "There are no people pictured.",
@@ -3726,7 +4064,8 @@
         "logit_caption": 17.517822265625,
         "logit_foil": 18.154024124145508,
         "negation": "caption",
-        "score": -0.6362018585205078
+        "score": -0.6362018585205078,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2381178": {
         "caption": "There are some signs on the post.",
@@ -3737,7 +4076,8 @@
         "logit_caption": 21.85318946838379,
         "logit_foil": 21.64972686767578,
         "negation": "foil",
-        "score": 0.2034626007080078
+        "score": 0.2034626007080078,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2381725": {
         "caption": "There is a doughnut in the picture.",
@@ -3748,7 +4088,8 @@
         "logit_caption": 27.843334197998047,
         "logit_foil": 28.325485229492188,
         "negation": "foil",
-        "score": -0.4821510314941406
+        "score": -0.4821510314941406,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2382591": {
         "caption": "There are no dogs visible.",
@@ -3759,7 +4100,8 @@
         "logit_caption": 22.362836837768555,
         "logit_foil": 21.63444709777832,
         "negation": "caption",
-        "score": 0.7283897399902344
+        "score": 0.7283897399902344,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2382639": {
         "caption": "There are some pots on the top shelf.",
@@ -3770,7 +4112,8 @@
         "logit_caption": 25.659727096557617,
         "logit_foil": 25.594173431396484,
         "negation": "foil",
-        "score": 0.06555366516113281
+        "score": 0.06555366516113281,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2383309": {
         "caption": "There are no people in the tub.",
@@ -3781,7 +4124,8 @@
         "logit_caption": 25.813232421875,
         "logit_foil": 23.301387786865234,
         "negation": "caption",
-        "score": 2.5118446350097656
+        "score": 2.5118446350097656,
+        "segment": "correct"
     },
     "existence_visual7w_2383311": {
         "caption": "There are no people.",
@@ -3792,7 +4136,8 @@
         "logit_caption": 19.803010940551758,
         "logit_foil": 18.752817153930664,
         "negation": "caption",
-        "score": 1.0501937866210938
+        "score": 1.0501937866210938,
+        "segment": "correct"
     },
     "existence_visual7w_2383458": {
         "caption": "There are no people in the image.",
@@ -3803,7 +4148,8 @@
         "logit_caption": 19.573755264282227,
         "logit_foil": 19.681047439575195,
         "negation": "caption",
-        "score": -0.10729217529296875
+        "score": -0.10729217529296875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2383699": {
         "caption": "There are no people visible.",
@@ -3814,7 +4160,8 @@
         "logit_caption": 19.562362670898438,
         "logit_foil": 20.81058120727539,
         "negation": "caption",
-        "score": -1.2482185363769531
+        "score": -1.2482185363769531,
+        "segment": "incorrect"
     },
     "existence_visual7w_2384553": {
         "caption": "There are no people.",
@@ -3825,7 +4172,8 @@
         "logit_caption": 19.625268936157227,
         "logit_foil": 18.68073272705078,
         "negation": "caption",
-        "score": 0.9445362091064453
+        "score": 0.9445362091064453,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2385099": {
         "caption": "There are some faces in this picture.",
@@ -3836,7 +4184,8 @@
         "logit_caption": 20.043859481811523,
         "logit_foil": 20.1319522857666,
         "negation": "foil",
-        "score": -0.08809280395507812
+        "score": -0.08809280395507812,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2385149": {
         "caption": "There are some pillows stacked.",
@@ -3847,7 +4196,8 @@
         "logit_caption": 30.95710563659668,
         "logit_foil": 30.109363555908203,
         "negation": "foil",
-        "score": 0.8477420806884766
+        "score": 0.8477420806884766,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2385384": {
         "caption": "There are no people pictured.",
@@ -3858,7 +4208,8 @@
         "logit_caption": 26.002483367919922,
         "logit_foil": 22.192358016967773,
         "negation": "caption",
-        "score": 3.8101253509521484
+        "score": 3.8101253509521484,
+        "segment": "correct"
     },
     "existence_visual7w_2385711": {
         "caption": "There are no people in the picture.",
@@ -3869,7 +4220,8 @@
         "logit_caption": 20.651752471923828,
         "logit_foil": 19.704524993896484,
         "negation": "caption",
-        "score": 0.9472274780273438
+        "score": 0.9472274780273438,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2386201": {
         "caption": "There are no cars on the baseball field.",
@@ -3880,7 +4232,8 @@
         "logit_caption": 27.810367584228516,
         "logit_foil": 26.30645179748535,
         "negation": "caption",
-        "score": 1.503915786743164
+        "score": 1.503915786743164,
+        "segment": "correct"
     },
     "existence_visual7w_2386509": {
         "caption": "There are no animals in this picture.",
@@ -3891,7 +4244,8 @@
         "logit_caption": 21.506582260131836,
         "logit_foil": 20.296749114990234,
         "negation": "caption",
-        "score": 1.2098331451416016
+        "score": 1.2098331451416016,
+        "segment": "correct"
     },
     "existence_visual7w_2387013": {
         "caption": "There are no people in picture.",
@@ -3902,7 +4256,8 @@
         "logit_caption": 16.681270599365234,
         "logit_foil": 17.906679153442383,
         "negation": "caption",
-        "score": -1.2254085540771484
+        "score": -1.2254085540771484,
+        "segment": "incorrect"
     },
     "existence_visual7w_2387440": {
         "caption": "There are no humans in the picture.",
@@ -3913,7 +4268,8 @@
         "logit_caption": 17.82085609436035,
         "logit_foil": 17.64164924621582,
         "negation": "caption",
-        "score": 0.17920684814453125
+        "score": 0.17920684814453125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2387441": {
         "caption": "There are no people in the picture.",
@@ -3924,7 +4280,8 @@
         "logit_caption": 22.994102478027344,
         "logit_foil": 20.062259674072266,
         "negation": "caption",
-        "score": 2.931842803955078
+        "score": 2.931842803955078,
+        "segment": "correct"
     },
     "existence_visual7w_2387946": {
         "caption": "There are no animals.",
@@ -3935,7 +4292,8 @@
         "logit_caption": 16.963716506958008,
         "logit_foil": 18.341398239135742,
         "negation": "caption",
-        "score": -1.3776817321777344
+        "score": -1.3776817321777344,
+        "segment": "incorrect"
     },
     "existence_visual7w_2388051": {
         "caption": "There are some people.",
@@ -3946,7 +4304,8 @@
         "logit_caption": 23.130849838256836,
         "logit_foil": 23.415935516357422,
         "negation": "foil",
-        "score": -0.28508567810058594
+        "score": -0.28508567810058594,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2388767": {
         "caption": "There are no clouds in the sky.",
@@ -3957,7 +4316,8 @@
         "logit_caption": 22.10394859313965,
         "logit_foil": 20.957439422607422,
         "negation": "caption",
-        "score": 1.1465091705322266
+        "score": 1.1465091705322266,
+        "segment": "correct"
     },
     "existence_visual7w_2389326": {
         "caption": "There are no animals.",
@@ -3968,7 +4328,8 @@
         "logit_caption": 15.938695907592773,
         "logit_foil": 17.163345336914062,
         "negation": "caption",
-        "score": -1.224649429321289
+        "score": -1.224649429321289,
+        "segment": "incorrect"
     },
     "existence_visual7w_2389519": {
         "caption": "There are some bikes on the rack.",
@@ -3979,7 +4340,8 @@
         "logit_caption": 23.135740280151367,
         "logit_foil": 25.163562774658203,
         "negation": "foil",
-        "score": -2.027822494506836
+        "score": -2.027822494506836,
+        "segment": "incorrect"
     },
     "existence_visual7w_2390727": {
         "caption": "There are no animals.",
@@ -3990,7 +4352,8 @@
         "logit_caption": 19.343902587890625,
         "logit_foil": 16.993133544921875,
         "negation": "caption",
-        "score": 2.35076904296875
+        "score": 2.35076904296875,
+        "segment": "correct"
     },
     "existence_visual7w_2390850": {
         "caption": "There are no people in the water.",
@@ -4001,7 +4364,8 @@
         "logit_caption": 20.003116607666016,
         "logit_foil": 19.222640991210938,
         "negation": "caption",
-        "score": 0.7804756164550781
+        "score": 0.7804756164550781,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2391208": {
         "caption": "There are some zebras in the picture.",
@@ -4012,7 +4376,8 @@
         "logit_caption": 31.17288589477539,
         "logit_foil": 31.765892028808594,
         "negation": "foil",
-        "score": -0.5930061340332031
+        "score": -0.5930061340332031,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2391215": {
         "caption": "There are no people in picture.",
@@ -4023,7 +4388,8 @@
         "logit_caption": 18.195335388183594,
         "logit_foil": 18.402786254882812,
         "negation": "caption",
-        "score": -0.20745086669921875
+        "score": -0.20745086669921875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2391321": {
         "caption": "There are some cows.",
@@ -4034,7 +4400,8 @@
         "logit_caption": 25.536378860473633,
         "logit_foil": 24.04490852355957,
         "negation": "foil",
-        "score": 1.4914703369140625
+        "score": 1.4914703369140625,
+        "segment": "correct"
     },
     "existence_visual7w_2391415": {
         "caption": "There are no people.",
@@ -4045,7 +4412,8 @@
         "logit_caption": 19.792203903198242,
         "logit_foil": 19.67952537536621,
         "negation": "caption",
-        "score": 0.11267852783203125
+        "score": 0.11267852783203125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2391766": {
         "caption": "There are no birds in the sky.",
@@ -4056,7 +4424,8 @@
         "logit_caption": 21.32826805114746,
         "logit_foil": 19.600988388061523,
         "negation": "caption",
-        "score": 1.7272796630859375
+        "score": 1.7272796630859375,
+        "segment": "correct"
     },
     "existence_visual7w_2392312": {
         "caption": "There are no people in the bathroom.",
@@ -4067,7 +4436,8 @@
         "logit_caption": 23.21245002746582,
         "logit_foil": 22.862886428833008,
         "negation": "caption",
-        "score": 0.3495635986328125
+        "score": 0.3495635986328125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2392387": {
         "caption": "There are some bears.",
@@ -4078,7 +4448,8 @@
         "logit_caption": 23.057029724121094,
         "logit_foil": 20.816070556640625,
         "negation": "foil",
-        "score": 2.2409591674804688
+        "score": 2.2409591674804688,
+        "segment": "correct"
     },
     "existence_visual7w_2392482": {
         "caption": "There are some planes in the background.",
@@ -4089,7 +4460,8 @@
         "logit_caption": 22.141754150390625,
         "logit_foil": 22.08098602294922,
         "negation": "foil",
-        "score": 0.06076812744140625
+        "score": 0.06076812744140625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2392484": {
         "caption": "There are some shoes shown.",
@@ -4100,7 +4472,8 @@
         "logit_caption": 19.24671173095703,
         "logit_foil": 19.580551147460938,
         "negation": "foil",
-        "score": -0.33383941650390625
+        "score": -0.33383941650390625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2392555": {
         "caption": "There are no animals in the picture.",
@@ -4111,7 +4484,8 @@
         "logit_caption": 20.49224090576172,
         "logit_foil": 20.485368728637695,
         "negation": "caption",
-        "score": 0.0068721771240234375
+        "score": 0.0068721771240234375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2392973": {
         "caption": "There are no people seen.",
@@ -4122,7 +4496,8 @@
         "logit_caption": 19.041780471801758,
         "logit_foil": 18.336341857910156,
         "negation": "caption",
-        "score": 0.7054386138916016
+        "score": 0.7054386138916016,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2393243": {
         "caption": "There are some birds.",
@@ -4133,7 +4508,8 @@
         "logit_caption": 22.1839656829834,
         "logit_foil": 21.15464210510254,
         "negation": "foil",
-        "score": 1.0293235778808594
+        "score": 1.0293235778808594,
+        "segment": "correct"
     },
     "existence_visual7w_2393355": {
         "caption": "There are some players or shown.",
@@ -4144,7 +4520,8 @@
         "logit_caption": 21.126184463500977,
         "logit_foil": 20.381607055664062,
         "negation": "foil",
-        "score": 0.7445774078369141
+        "score": 0.7445774078369141,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2393653": {
         "caption": "There are some colors in the girl's shirt.",
@@ -4155,7 +4532,8 @@
         "logit_caption": 23.316383361816406,
         "logit_foil": 23.70660972595215,
         "negation": "foil",
-        "score": -0.3902263641357422
+        "score": -0.3902263641357422,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2393679": {
         "caption": "There are no animals shown.",
@@ -4166,7 +4544,8 @@
         "logit_caption": 20.230815887451172,
         "logit_foil": 18.10087013244629,
         "negation": "caption",
-        "score": 2.129945755004883
+        "score": 2.129945755004883,
+        "segment": "correct"
     },
     "existence_visual7w_2393805": {
         "caption": "There are no animals.",
@@ -4177,7 +4556,8 @@
         "logit_caption": 18.607959747314453,
         "logit_foil": 18.05518341064453,
         "negation": "caption",
-        "score": 0.5527763366699219
+        "score": 0.5527763366699219,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2393836": {
         "caption": "There are some tires on the car.",
@@ -4188,7 +4568,8 @@
         "logit_caption": 16.48330307006836,
         "logit_foil": 18.245952606201172,
         "negation": "foil",
-        "score": -1.7626495361328125
+        "score": -1.7626495361328125,
+        "segment": "incorrect"
     },
     "existence_visual7w_2393859": {
         "caption": "There are no people in the room.",
@@ -4199,7 +4580,8 @@
         "logit_caption": 21.255319595336914,
         "logit_foil": 20.584712982177734,
         "negation": "caption",
-        "score": 0.6706066131591797
+        "score": 0.6706066131591797,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2393889": {
         "caption": "There are no people crossing the street.",
@@ -4210,7 +4592,8 @@
         "logit_caption": 28.690889358520508,
         "logit_foil": 27.328264236450195,
         "negation": "caption",
-        "score": 1.3626251220703125
+        "score": 1.3626251220703125,
+        "segment": "correct"
     },
     "existence_visual7w_2394051": {
         "caption": "There are no women.",
@@ -4221,7 +4604,8 @@
         "logit_caption": 20.080665588378906,
         "logit_foil": 19.696866989135742,
         "negation": "caption",
-        "score": 0.38379859924316406
+        "score": 0.38379859924316406,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2394310": {
         "caption": "There are no people pictured.",
@@ -4232,7 +4616,8 @@
         "logit_caption": 16.22759437561035,
         "logit_foil": 18.667083740234375,
         "negation": "caption",
-        "score": -2.4394893646240234
+        "score": -2.4394893646240234,
+        "segment": "incorrect"
     },
     "existence_visual7w_2394557": {
         "caption": "There are no people in this photo.",
@@ -4243,7 +4628,8 @@
         "logit_caption": 21.42655372619629,
         "logit_foil": 20.910036087036133,
         "negation": "caption",
-        "score": 0.5165176391601562
+        "score": 0.5165176391601562,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2394602": {
         "caption": "There are some women in the picture.",
@@ -4254,7 +4640,8 @@
         "logit_caption": 22.29429817199707,
         "logit_foil": 23.13017463684082,
         "negation": "foil",
-        "score": -0.83587646484375
+        "score": -0.83587646484375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2394783": {
         "caption": "There are no people in the kitchen.",
@@ -4265,7 +4652,8 @@
         "logit_caption": 28.57293128967285,
         "logit_foil": 26.77753257751465,
         "negation": "caption",
-        "score": 1.7953987121582031
+        "score": 1.7953987121582031,
+        "segment": "correct"
     },
     "existence_visual7w_2395077": {
         "caption": "There are no animals in the photo.",
@@ -4276,7 +4664,8 @@
         "logit_caption": 23.38878631591797,
         "logit_foil": 23.920534133911133,
         "negation": "caption",
-        "score": -0.5317478179931641
+        "score": -0.5317478179931641,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2395930": {
         "caption": "There are no people shown.",
@@ -4287,7 +4676,8 @@
         "logit_caption": 20.71698760986328,
         "logit_foil": 21.74473762512207,
         "negation": "caption",
-        "score": -1.027750015258789
+        "score": -1.027750015258789,
+        "segment": "incorrect"
     },
     "existence_visual7w_2396309": {
         "caption": "There are no planes shown.",
@@ -4298,7 +4688,8 @@
         "logit_caption": 17.784332275390625,
         "logit_foil": 20.467031478881836,
         "negation": "caption",
-        "score": -2.682699203491211
+        "score": -2.682699203491211,
+        "segment": "incorrect"
     },
     "existence_visual7w_2396386": {
         "caption": "There are no elephants pictured.",
@@ -4309,7 +4700,8 @@
         "logit_caption": 22.29063606262207,
         "logit_foil": 20.88945960998535,
         "negation": "caption",
-        "score": 1.4011764526367188
+        "score": 1.4011764526367188,
+        "segment": "correct"
     },
     "existence_visual7w_2396743": {
         "caption": "There are no people.",
@@ -4320,7 +4712,8 @@
         "logit_caption": 18.451553344726562,
         "logit_foil": 18.247234344482422,
         "negation": "caption",
-        "score": 0.20431900024414062
+        "score": 0.20431900024414062,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2397031": {
         "caption": "There are no people.",
@@ -4331,7 +4724,8 @@
         "logit_caption": 18.906694412231445,
         "logit_foil": 19.736013412475586,
         "negation": "caption",
-        "score": -0.8293190002441406
+        "score": -0.8293190002441406,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2397338": {
         "caption": "There are no people pictured.",
@@ -4342,7 +4736,8 @@
         "logit_caption": 22.298681259155273,
         "logit_foil": 21.134817123413086,
         "negation": "caption",
-        "score": 1.1638641357421875
+        "score": 1.1638641357421875,
+        "segment": "correct"
     },
     "existence_visual7w_2397608": {
         "caption": "There are some vases shown.",
@@ -4353,7 +4748,8 @@
         "logit_caption": 25.31525421142578,
         "logit_foil": 23.261585235595703,
         "negation": "foil",
-        "score": 2.053668975830078
+        "score": 2.053668975830078,
+        "segment": "correct"
     },
     "existence_visual7w_2398382": {
         "caption": "There are some zebras.",
@@ -4364,7 +4760,8 @@
         "logit_caption": 28.524173736572266,
         "logit_foil": 26.551815032958984,
         "negation": "foil",
-        "score": 1.9723587036132812
+        "score": 1.9723587036132812,
+        "segment": "correct"
     },
     "existence_visual7w_2398412": {
         "caption": "There are no people pictured.",
@@ -4375,7 +4772,8 @@
         "logit_caption": 18.714540481567383,
         "logit_foil": 17.30396270751953,
         "negation": "caption",
-        "score": 1.4105777740478516
+        "score": 1.4105777740478516,
+        "segment": "correct"
     },
     "existence_visual7w_2398455": {
         "caption": "There are some players.",
@@ -4386,7 +4784,8 @@
         "logit_caption": 24.186311721801758,
         "logit_foil": 22.970888137817383,
         "negation": "foil",
-        "score": 1.215423583984375
+        "score": 1.215423583984375,
+        "segment": "correct"
     },
     "existence_visual7w_2398674": {
         "caption": "There are some kids in the pic.",
@@ -4397,7 +4796,8 @@
         "logit_caption": 22.894067764282227,
         "logit_foil": 22.682188034057617,
         "negation": "foil",
-        "score": 0.21187973022460938
+        "score": 0.21187973022460938,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2399357": {
         "caption": "There are some giraffe.",
@@ -4408,7 +4808,8 @@
         "logit_caption": 23.01372718811035,
         "logit_foil": 22.543882369995117,
         "negation": "foil",
-        "score": 0.4698448181152344
+        "score": 0.4698448181152344,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2399922": {
         "caption": "There are some people in the water.",
@@ -4419,7 +4820,8 @@
         "logit_caption": 23.73862075805664,
         "logit_foil": 22.93659210205078,
         "negation": "foil",
-        "score": 0.8020286560058594
+        "score": 0.8020286560058594,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2400052": {
         "caption": "There are no people.",
@@ -4430,7 +4832,8 @@
         "logit_caption": 16.055011749267578,
         "logit_foil": 17.940174102783203,
         "negation": "caption",
-        "score": -1.885162353515625
+        "score": -1.885162353515625,
+        "segment": "incorrect"
     },
     "existence_visual7w_2400365": {
         "caption": "There are no people.",
@@ -4441,7 +4844,8 @@
         "logit_caption": 18.636154174804688,
         "logit_foil": 20.329879760742188,
         "negation": "caption",
-        "score": -1.6937255859375
+        "score": -1.6937255859375,
+        "segment": "incorrect"
     },
     "existence_visual7w_2400644": {
         "caption": "There are no children.",
@@ -4452,7 +4856,8 @@
         "logit_caption": 19.44508171081543,
         "logit_foil": 19.595544815063477,
         "negation": "caption",
-        "score": -0.15046310424804688
+        "score": -0.15046310424804688,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2400857": {
         "caption": "There are some people in the picture.",
@@ -4463,7 +4868,8 @@
         "logit_caption": 19.36255645751953,
         "logit_foil": 19.588733673095703,
         "negation": "foil",
-        "score": -0.22617721557617188
+        "score": -0.22617721557617188,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2400879": {
         "caption": "There are no horses.",
@@ -4474,7 +4880,8 @@
         "logit_caption": 17.65456771850586,
         "logit_foil": 17.075166702270508,
         "negation": "caption",
-        "score": 0.5794010162353516
+        "score": 0.5794010162353516,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2400920": {
         "caption": "There are no dinosaurs in the picture.",
@@ -4485,7 +4892,8 @@
         "logit_caption": 18.41055679321289,
         "logit_foil": 18.244932174682617,
         "negation": "caption",
-        "score": 0.16562461853027344
+        "score": 0.16562461853027344,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2400921": {
         "caption": "There are no dinosaurs in the picture.",
@@ -4496,7 +4904,8 @@
         "logit_caption": 20.487468719482422,
         "logit_foil": 20.161640167236328,
         "negation": "caption",
-        "score": 0.32582855224609375
+        "score": 0.32582855224609375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2401170": {
         "caption": "There are no cars shown.",
@@ -4507,7 +4916,8 @@
         "logit_caption": 24.406280517578125,
         "logit_foil": 17.825002670288086,
         "negation": "caption",
-        "score": 6.581277847290039
+        "score": 6.581277847290039,
+        "segment": "correct"
     },
     "existence_visual7w_2401288": {
         "caption": "There are no people pictured here.",
@@ -4518,7 +4928,8 @@
         "logit_caption": 18.555410385131836,
         "logit_foil": 16.523113250732422,
         "negation": "caption",
-        "score": 2.032297134399414
+        "score": 2.032297134399414,
+        "segment": "correct"
     },
     "existence_visual7w_2401335": {
         "caption": "There are some wall sconces visible in this picture.",
@@ -4529,7 +4940,8 @@
         "logit_caption": 23.411388397216797,
         "logit_foil": 23.6214599609375,
         "negation": "foil",
-        "score": -0.21007156372070312
+        "score": -0.21007156372070312,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2401445": {
         "caption": "There are some surfboards shown.",
@@ -4540,7 +4952,8 @@
         "logit_caption": 30.193235397338867,
         "logit_foil": 27.5864200592041,
         "negation": "foil",
-        "score": 2.6068153381347656
+        "score": 2.6068153381347656,
+        "segment": "correct"
     },
     "existence_visual7w_2401627": {
         "caption": "There are no people paying to attention to the guy in the air.",
@@ -4551,7 +4964,8 @@
         "logit_caption": 25.9289608001709,
         "logit_foil": 26.438657760620117,
         "negation": "caption",
-        "score": -0.5096969604492188
+        "score": -0.5096969604492188,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2401699": {
         "caption": "There are no windows in the building.",
@@ -4562,7 +4976,8 @@
         "logit_caption": 18.539785385131836,
         "logit_foil": 18.27701759338379,
         "negation": "caption",
-        "score": 0.2627677917480469
+        "score": 0.2627677917480469,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2401869": {
         "caption": "There are no people visible.",
@@ -4573,7 +4988,8 @@
         "logit_caption": 20.820768356323242,
         "logit_foil": 19.541492462158203,
         "negation": "caption",
-        "score": 1.279275894165039
+        "score": 1.279275894165039,
+        "segment": "correct"
     },
     "existence_visual7w_2401904": {
         "caption": "There is a green buildings in the picture.",
@@ -4584,7 +5000,8 @@
         "logit_caption": 22.810497283935547,
         "logit_foil": 22.685482025146484,
         "negation": "foil",
-        "score": 0.1250152587890625
+        "score": 0.1250152587890625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2401974": {
         "caption": "There are some chimneys.",
@@ -4595,7 +5012,8 @@
         "logit_caption": 22.873096466064453,
         "logit_foil": 23.081579208374023,
         "negation": "foil",
-        "score": -0.2084827423095703
+        "score": -0.2084827423095703,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2402072": {
         "caption": "There are no people in this picture.",
@@ -4606,7 +5024,8 @@
         "logit_caption": 18.573034286499023,
         "logit_foil": 19.25436019897461,
         "negation": "caption",
-        "score": -0.6813259124755859
+        "score": -0.6813259124755859,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2402074": {
         "caption": "There are some red vehicles.",
@@ -4617,7 +5036,8 @@
         "logit_caption": 24.34940528869629,
         "logit_foil": 23.071561813354492,
         "negation": "foil",
-        "score": 1.2778434753417969
+        "score": 1.2778434753417969,
+        "segment": "correct"
     },
     "existence_visual7w_2402139": {
         "caption": "There are no clouds in the sky.",
@@ -4628,7 +5048,8 @@
         "logit_caption": 19.28322982788086,
         "logit_foil": 17.353988647460938,
         "negation": "caption",
-        "score": 1.9292411804199219
+        "score": 1.9292411804199219,
+        "segment": "correct"
     },
     "existence_visual7w_2402788": {
         "caption": "There are no people in picture.",
@@ -4639,7 +5060,8 @@
         "logit_caption": 17.066072463989258,
         "logit_foil": 18.159324645996094,
         "negation": "caption",
-        "score": -1.093252182006836
+        "score": -1.093252182006836,
+        "segment": "incorrect"
     },
     "existence_visual7w_2403149": {
         "caption": "There are no people pictured here.",
@@ -4650,7 +5072,8 @@
         "logit_caption": 20.487836837768555,
         "logit_foil": 19.61157989501953,
         "negation": "caption",
-        "score": 0.8762569427490234
+        "score": 0.8762569427490234,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2403284": {
         "caption": "There are no people pictured.",
@@ -4661,7 +5084,8 @@
         "logit_caption": 18.866092681884766,
         "logit_foil": 20.39632225036621,
         "negation": "caption",
-        "score": -1.5302295684814453
+        "score": -1.5302295684814453,
+        "segment": "incorrect"
     },
     "existence_visual7w_2403286": {
         "caption": "There are no people in the photo.",
@@ -4672,7 +5096,8 @@
         "logit_caption": 18.25794792175293,
         "logit_foil": 18.074554443359375,
         "negation": "caption",
-        "score": 0.1833934783935547
+        "score": 0.1833934783935547,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2403793": {
         "caption": "There are some wheels on the skateboard.",
@@ -4683,7 +5108,8 @@
         "logit_caption": 27.385066986083984,
         "logit_foil": 27.268198013305664,
         "negation": "foil",
-        "score": 0.11686897277832031
+        "score": 0.11686897277832031,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2403870": {
         "caption": "There are no people shown.",
@@ -4694,7 +5120,8 @@
         "logit_caption": 19.263916015625,
         "logit_foil": 18.420156478881836,
         "negation": "caption",
-        "score": 0.8437595367431641
+        "score": 0.8437595367431641,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2404069": {
         "caption": "There are no people.",
@@ -4705,7 +5132,8 @@
         "logit_caption": 20.7939395904541,
         "logit_foil": 21.242734909057617,
         "negation": "caption",
-        "score": -0.4487953186035156
+        "score": -0.4487953186035156,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2404185": {
         "caption": "There are no people.",
@@ -4716,7 +5144,8 @@
         "logit_caption": 20.01715087890625,
         "logit_foil": 18.220491409301758,
         "negation": "caption",
-        "score": 1.7966594696044922
+        "score": 1.7966594696044922,
+        "segment": "correct"
     },
     "existence_visual7w_2404317": {
         "caption": "There are some planes in the photo.",
@@ -4727,7 +5156,8 @@
         "logit_caption": 22.775474548339844,
         "logit_foil": 21.42645263671875,
         "negation": "foil",
-        "score": 1.3490219116210938
+        "score": 1.3490219116210938,
+        "segment": "correct"
     },
     "existence_visual7w_2404802": {
         "caption": "There are no people shown.",
@@ -4738,7 +5168,8 @@
         "logit_caption": 15.289155960083008,
         "logit_foil": 16.4635066986084,
         "negation": "caption",
-        "score": -1.1743507385253906
+        "score": -1.1743507385253906,
+        "segment": "incorrect"
     },
     "existence_visual7w_2405052": {
         "caption": "There are no people.",
@@ -4749,7 +5180,8 @@
         "logit_caption": 20.976648330688477,
         "logit_foil": 23.055631637573242,
         "negation": "caption",
-        "score": -2.0789833068847656
+        "score": -2.0789833068847656,
+        "segment": "incorrect"
     },
     "existence_visual7w_2405117": {
         "caption": "There are no people in the photo.",
@@ -4760,7 +5192,8 @@
         "logit_caption": 18.914541244506836,
         "logit_foil": 18.726137161254883,
         "negation": "caption",
-        "score": 0.18840408325195312
+        "score": 0.18840408325195312,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2405440": {
         "caption": "There are some people in the photo.",
@@ -4771,7 +5204,8 @@
         "logit_caption": 23.237518310546875,
         "logit_foil": 23.448575973510742,
         "negation": "foil",
-        "score": -0.2110576629638672
+        "score": -0.2110576629638672,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2406033": {
         "caption": "There is a suit.",
@@ -4782,7 +5216,8 @@
         "logit_caption": 22.10727882385254,
         "logit_foil": 21.00604248046875,
         "negation": "foil",
-        "score": 1.101236343383789
+        "score": 1.101236343383789,
+        "segment": "correct"
     },
     "existence_visual7w_2406500": {
         "caption": "There are no people in the picture.",
@@ -4793,7 +5228,8 @@
         "logit_caption": 15.88370132446289,
         "logit_foil": 16.671926498413086,
         "negation": "caption",
-        "score": -0.7882251739501953
+        "score": -0.7882251739501953,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2406684": {
         "caption": "There is a lamp.",
@@ -4804,7 +5240,8 @@
         "logit_caption": 20.97871208190918,
         "logit_foil": 21.584331512451172,
         "negation": "foil",
-        "score": -0.6056194305419922
+        "score": -0.6056194305419922,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2406729": {
         "caption": "There are no people.",
@@ -4815,7 +5252,8 @@
         "logit_caption": 20.348426818847656,
         "logit_foil": 20.064939498901367,
         "negation": "caption",
-        "score": 0.28348731994628906
+        "score": 0.28348731994628906,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2406837": {
         "caption": "There are no people.",
@@ -4826,7 +5264,8 @@
         "logit_caption": 19.434467315673828,
         "logit_foil": 19.16261100769043,
         "negation": "caption",
-        "score": 0.27185630798339844
+        "score": 0.27185630798339844,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2406996": {
         "caption": "There are no people in the picture.",
@@ -4837,7 +5276,8 @@
         "logit_caption": 16.659927368164062,
         "logit_foil": 16.787996292114258,
         "negation": "caption",
-        "score": -0.1280689239501953
+        "score": -0.1280689239501953,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2407816": {
         "caption": "There are some power lines.",
@@ -4848,7 +5288,8 @@
         "logit_caption": 23.634199142456055,
         "logit_foil": 21.576265335083008,
         "negation": "foil",
-        "score": 2.057933807373047
+        "score": 2.057933807373047,
+        "segment": "correct"
     },
     "existence_visual7w_2408431": {
         "caption": "There are some strings on the kite.",
@@ -4859,7 +5300,8 @@
         "logit_caption": 24.544160842895508,
         "logit_foil": 25.511350631713867,
         "negation": "foil",
-        "score": -0.9671897888183594
+        "score": -0.9671897888183594,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2408510": {
         "caption": "There are some dials on the microwave.",
@@ -4870,7 +5312,8 @@
         "logit_caption": 28.8768367767334,
         "logit_foil": 28.73534393310547,
         "negation": "foil",
-        "score": 0.1414928436279297
+        "score": 0.1414928436279297,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2409553": {
         "caption": "There is a flower.",
@@ -4881,7 +5324,8 @@
         "logit_caption": 18.116844177246094,
         "logit_foil": 18.221420288085938,
         "negation": "foil",
-        "score": -0.10457611083984375
+        "score": -0.10457611083984375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2409603": {
         "caption": "There are no dogs on the beach.",
@@ -4892,7 +5336,8 @@
         "logit_caption": 23.419504165649414,
         "logit_foil": 20.292015075683594,
         "negation": "caption",
-        "score": 3.1274890899658203
+        "score": 3.1274890899658203,
+        "segment": "correct"
     },
     "existence_visual7w_2409635": {
         "caption": "There are some trees in the forefront of the picture.",
@@ -4903,7 +5348,8 @@
         "logit_caption": 20.45628547668457,
         "logit_foil": 20.572744369506836,
         "negation": "foil",
-        "score": -0.11645889282226562
+        "score": -0.11645889282226562,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2409813": {
         "caption": "There are some round glass containers.",
@@ -4914,7 +5360,8 @@
         "logit_caption": 22.713964462280273,
         "logit_foil": 22.767314910888672,
         "negation": "foil",
-        "score": -0.05335044860839844
+        "score": -0.05335044860839844,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2410005": {
         "caption": "There are some men on each team.",
@@ -4925,7 +5372,8 @@
         "logit_caption": 20.184778213500977,
         "logit_foil": 19.00814437866211,
         "negation": "foil",
-        "score": 1.1766338348388672
+        "score": 1.1766338348388672,
+        "segment": "correct"
     },
     "existence_visual7w_2410671": {
         "caption": "There are some giraffes.",
@@ -4936,7 +5384,8 @@
         "logit_caption": 31.440275192260742,
         "logit_foil": 28.138118743896484,
         "negation": "foil",
-        "score": 3.302156448364258
+        "score": 3.302156448364258,
+        "segment": "correct"
     },
     "existence_visual7w_2411229": {
         "caption": "There are no people in the photo.",
@@ -4947,7 +5396,8 @@
         "logit_caption": 19.042865753173828,
         "logit_foil": 19.05035400390625,
         "negation": "caption",
-        "score": -0.007488250732421875
+        "score": -0.007488250732421875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2411479": {
         "caption": "There are some doughnuts appear to be yellow.",
@@ -4958,7 +5408,8 @@
         "logit_caption": 32.134883880615234,
         "logit_foil": 32.065547943115234,
         "negation": "foil",
-        "score": 0.0693359375
+        "score": 0.0693359375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2411632": {
         "caption": "There are no people in the photo.",
@@ -4969,7 +5420,8 @@
         "logit_caption": 19.605886459350586,
         "logit_foil": 19.09769058227539,
         "negation": "caption",
-        "score": 0.5081958770751953
+        "score": 0.5081958770751953,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2411827": {
         "caption": "There are no people visible.",
@@ -4980,7 +5432,8 @@
         "logit_caption": 20.02017593383789,
         "logit_foil": 18.965360641479492,
         "negation": "caption",
-        "score": 1.0548152923583984
+        "score": 1.0548152923583984,
+        "segment": "correct"
     },
     "existence_visual7w_2411942": {
         "caption": "There are some zebras in the picture.",
@@ -4991,7 +5444,8 @@
         "logit_caption": 30.387662887573242,
         "logit_foil": 29.487159729003906,
         "negation": "foil",
-        "score": 0.9005031585693359
+        "score": 0.9005031585693359,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2412168": {
         "caption": "There are no windows in the photo.",
@@ -5002,7 +5456,8 @@
         "logit_caption": 23.1937313079834,
         "logit_foil": 23.046281814575195,
         "negation": "caption",
-        "score": 0.14744949340820312
+        "score": 0.14744949340820312,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2412169": {
         "caption": "There are some windows visible on the building.",
@@ -5013,7 +5468,8 @@
         "logit_caption": 23.205690383911133,
         "logit_foil": 21.211488723754883,
         "negation": "foil",
-        "score": 1.99420166015625
+        "score": 1.99420166015625,
+        "segment": "correct"
     },
     "existence_visual7w_2413132": {
         "caption": "There are no people in this picture.",
@@ -5024,7 +5480,8 @@
         "logit_caption": 24.034067153930664,
         "logit_foil": 20.669954299926758,
         "negation": "caption",
-        "score": 3.3641128540039062
+        "score": 3.3641128540039062,
+        "segment": "correct"
     },
     "existence_visual7w_2413486": {
         "caption": "There are no people wearing a helmet.",
@@ -5035,7 +5492,8 @@
         "logit_caption": 20.52391242980957,
         "logit_foil": 20.837419509887695,
         "negation": "caption",
-        "score": -0.313507080078125
+        "score": -0.313507080078125,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2413592": {
         "caption": "There are no of his feet touching the ground.",
@@ -5046,7 +5504,8 @@
         "logit_caption": 24.38144874572754,
         "logit_foil": 23.772794723510742,
         "negation": "caption",
-        "score": 0.6086540222167969
+        "score": 0.6086540222167969,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2413600": {
         "caption": "There are no chickens.",
@@ -5057,7 +5516,8 @@
         "logit_caption": 18.9794979095459,
         "logit_foil": 17.87495231628418,
         "negation": "caption",
-        "score": 1.1045455932617188
+        "score": 1.1045455932617188,
+        "segment": "correct"
     },
     "existence_visual7w_2414337": {
         "caption": "There are no lamps on the table.",
@@ -5068,7 +5528,8 @@
         "logit_caption": 22.12851905822754,
         "logit_foil": 21.540611267089844,
         "negation": "caption",
-        "score": 0.5879077911376953
+        "score": 0.5879077911376953,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2414848": {
         "caption": "There is a sheep standing.",
@@ -5079,7 +5540,8 @@
         "logit_caption": 26.61484146118164,
         "logit_foil": 25.580795288085938,
         "negation": "foil",
-        "score": 1.0340461730957031
+        "score": 1.0340461730957031,
+        "segment": "correct"
     },
     "existence_visual7w_2414988": {
         "caption": "There are some elephants in the picture.",
@@ -5090,7 +5552,8 @@
         "logit_caption": 26.409154891967773,
         "logit_foil": 25.41117286682129,
         "negation": "foil",
-        "score": 0.9979820251464844
+        "score": 0.9979820251464844,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2415024": {
         "caption": "There are some windows around the vines.",
@@ -5101,7 +5564,8 @@
         "logit_caption": 27.45469093322754,
         "logit_foil": 26.627748489379883,
         "negation": "foil",
-        "score": 0.8269424438476562
+        "score": 0.8269424438476562,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2415439": {
         "caption": "There are no elephants pictured.",
@@ -5112,7 +5576,8 @@
         "logit_caption": 19.483497619628906,
         "logit_foil": 18.92462730407715,
         "negation": "caption",
-        "score": 0.5588703155517578
+        "score": 0.5588703155517578,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2415752": {
         "caption": "There are no people.",
@@ -5123,7 +5588,8 @@
         "logit_caption": 17.895761489868164,
         "logit_foil": 17.42453384399414,
         "negation": "caption",
-        "score": 0.47122764587402344
+        "score": 0.47122764587402344,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2416008": {
         "caption": "There are no people.",
@@ -5134,7 +5600,8 @@
         "logit_caption": 19.959932327270508,
         "logit_foil": 19.882919311523438,
         "negation": "caption",
-        "score": 0.07701301574707031
+        "score": 0.07701301574707031,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2416322": {
         "caption": "There are some people wearing glasses.",
@@ -5145,7 +5612,8 @@
         "logit_caption": 18.616735458374023,
         "logit_foil": 17.5716552734375,
         "negation": "foil",
-        "score": 1.0450801849365234
+        "score": 1.0450801849365234,
+        "segment": "correct"
     },
     "existence_visual7w_2416634": {
         "caption": "There are no dolphins visible.",
@@ -5156,7 +5624,8 @@
         "logit_caption": 21.682340621948242,
         "logit_foil": 22.704591751098633,
         "negation": "caption",
-        "score": -1.0222511291503906
+        "score": -1.0222511291503906,
+        "segment": "incorrect"
     },
     "existence_visual7w_2416742": {
         "caption": "There are some people visible.",
@@ -5167,7 +5636,8 @@
         "logit_caption": 23.5052433013916,
         "logit_foil": 22.177045822143555,
         "negation": "foil",
-        "score": 1.3281974792480469
+        "score": 1.3281974792480469,
+        "segment": "correct"
     },
     "existence_visual7w_2416837": {
         "caption": "There are no dinosaurs in the picture.",
@@ -5178,7 +5648,8 @@
         "logit_caption": 19.383630752563477,
         "logit_foil": 19.372541427612305,
         "negation": "caption",
-        "score": 0.011089324951171875
+        "score": 0.011089324951171875,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2417320": {
         "caption": "There are some people in the photo.",
@@ -5189,7 +5660,8 @@
         "logit_caption": 20.508865356445312,
         "logit_foil": 20.794971466064453,
         "negation": "foil",
-        "score": -0.2861061096191406
+        "score": -0.2861061096191406,
+        "segment": "ambiguous"
     },
     "existence_visual7w_2417412": {
         "caption": "There are some colors on the bird.",
@@ -5200,7 +5672,8 @@
         "logit_caption": 26.273576736450195,
         "logit_foil": 25.295068740844727,
         "negation": "foil",
-        "score": 0.9785079956054688
+        "score": 0.9785079956054688,
+        "segment": "ambiguous"
     },
     "existence_visual7w_285805": {
         "caption": "There are no clouds visible in the sky.",
@@ -5211,7 +5684,8 @@
         "logit_caption": 22.9829044342041,
         "logit_foil": 21.992053985595703,
         "negation": "caption",
-        "score": 0.9908504486083984
+        "score": 0.9908504486083984,
+        "segment": "ambiguous"
     },
     "existence_visual7w_285848": {
         "caption": "There are no people.",
@@ -5222,7 +5696,8 @@
         "logit_caption": 21.402538299560547,
         "logit_foil": 19.494346618652344,
         "negation": "caption",
-        "score": 1.9081916809082031
+        "score": 1.9081916809082031,
+        "segment": "correct"
     },
     "existence_visual7w_285923": {
         "caption": "There are no trains on the tracks.",
@@ -5233,7 +5708,8 @@
         "logit_caption": 26.21430015563965,
         "logit_foil": 25.932722091674805,
         "negation": "caption",
-        "score": 0.28157806396484375
+        "score": 0.28157806396484375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_285933": {
         "caption": "There are some blueberries.",
@@ -5244,7 +5720,8 @@
         "logit_caption": 20.12729263305664,
         "logit_foil": 22.04569435119629,
         "negation": "foil",
-        "score": -1.9184017181396484
+        "score": -1.9184017181396484,
+        "segment": "incorrect"
     },
     "existence_visual7w_285977": {
         "caption": "There are no people.",
@@ -5255,7 +5732,8 @@
         "logit_caption": 19.483970642089844,
         "logit_foil": 19.001710891723633,
         "negation": "caption",
-        "score": 0.48225975036621094
+        "score": 0.48225975036621094,
+        "segment": "ambiguous"
     },
     "existence_visual7w_285996": {
         "caption": "There are no people in the picture.",
@@ -5266,7 +5744,8 @@
         "logit_caption": 21.568828582763672,
         "logit_foil": 20.90976333618164,
         "negation": "caption",
-        "score": 0.6590652465820312
+        "score": 0.6590652465820312,
+        "segment": "ambiguous"
     },
     "existence_visual7w_286034": {
         "caption": "There is a truck.",
@@ -5277,7 +5756,8 @@
         "logit_caption": 19.870813369750977,
         "logit_foil": 18.467891693115234,
         "negation": "foil",
-        "score": 1.4029216766357422
+        "score": 1.4029216766357422,
+        "segment": "correct"
     },
     "existence_visual7w_497990": {
         "caption": "There are some tourists.",
@@ -5288,7 +5768,8 @@
         "logit_caption": 22.302762985229492,
         "logit_foil": 22.46156120300293,
         "negation": "foil",
-        "score": -0.1587982177734375
+        "score": -0.1587982177734375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_497995": {
         "caption": "There are some players wear red shorts.",
@@ -5299,7 +5780,8 @@
         "logit_caption": 23.413393020629883,
         "logit_foil": 23.339115142822266,
         "negation": "foil",
-        "score": 0.07427787780761719
+        "score": 0.07427787780761719,
+        "segment": "ambiguous"
     },
     "existence_visual7w_498210": {
         "caption": "There are some men.",
@@ -5310,7 +5792,8 @@
         "logit_caption": 20.61834716796875,
         "logit_foil": 20.0252628326416,
         "negation": "foil",
-        "score": 0.5930843353271484
+        "score": 0.5930843353271484,
+        "segment": "ambiguous"
     },
     "existence_visual7w_498214": {
         "caption": "There are some guys playing frisbee.",
@@ -5321,7 +5804,8 @@
         "logit_caption": 27.586944580078125,
         "logit_foil": 26.37930679321289,
         "negation": "foil",
-        "score": 1.2076377868652344
+        "score": 1.2076377868652344,
+        "segment": "correct"
     },
     "existence_visual7w_61601": {
         "caption": "There are no clouds in the sky.",
@@ -5332,7 +5816,8 @@
         "logit_caption": 19.492990493774414,
         "logit_foil": 19.465303421020508,
         "negation": "caption",
-        "score": 0.02768707275390625
+        "score": 0.02768707275390625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_713025": {
         "caption": "There are no people.",
@@ -5343,7 +5828,8 @@
         "logit_caption": 17.962276458740234,
         "logit_foil": 17.605819702148438,
         "negation": "caption",
-        "score": 0.3564567565917969
+        "score": 0.3564567565917969,
+        "segment": "ambiguous"
     },
     "existence_visual7w_713092": {
         "caption": "There are some buses.",
@@ -5354,7 +5840,8 @@
         "logit_caption": 28.690006256103516,
         "logit_foil": 24.814434051513672,
         "negation": "foil",
-        "score": 3.8755722045898438
+        "score": 3.8755722045898438,
+        "segment": "correct"
     },
     "existence_visual7w_713229": {
         "caption": "There are some maple leaves visible.",
@@ -5365,7 +5852,8 @@
         "logit_caption": 21.230886459350586,
         "logit_foil": 21.112112045288086,
         "negation": "foil",
-        "score": 0.1187744140625
+        "score": 0.1187744140625,
+        "segment": "ambiguous"
     },
     "existence_visual7w_713666": {
         "caption": "There are no people on the bus.",
@@ -5376,7 +5864,8 @@
         "logit_caption": 22.60202980041504,
         "logit_foil": 21.8774356842041,
         "negation": "caption",
-        "score": 0.7245941162109375
+        "score": 0.7245941162109375,
+        "segment": "ambiguous"
     },
     "existence_visual7w_713731": {
         "caption": "There are no people.",
@@ -5387,6 +5876,7 @@
         "logit_caption": 16.6097354888916,
         "logit_foil": 16.92418098449707,
         "negation": "caption",
-        "score": -0.31444549560546875
+        "score": -0.31444549560546875,
+        "segment": "ambiguous"
     }
 }

@@ -11,8 +11,10 @@ CONFIG = {
     'encoder': 'vision',    # vision/text
     'component': 'mha',     # mha/mlp
     'dataset': 'rephrased', # standard/rephrased
-    'correct': True,        # True/False/F
-    'negation': 'caption'      # foil/caption
+    'correct': None,        # True/False/F
+    'negation': 'caption',   # foil/caption
+    'metric': 'difference',     # absolute/difference
+    'segment': 'correct'
 }
 
 filepath = generate_ablation_result_filepath(CONFIG)

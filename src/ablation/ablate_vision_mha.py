@@ -12,8 +12,10 @@ CONFIG = {
     'encoder': 'vision',    # vision/text
     'component': 'mha',     # mha/mlp
     'dataset': 'rephrased', # standard/rephrased
-    'correct': True,        # True/False
-    'negation': 'caption'      # foil/caption
+    'correct': None,        # True/False
+    'negation': 'caption',  # foil/caption
+    'metric': 'difference',     # absolute/difference
+    'segment': 'correct'
 }
 
 # Load dataset and model
@@ -58,7 +60,10 @@ for data in tqdm(dataset.values()):
     # Generate model inputs
     inputs = generate_clip_input(data, processor)
     # Obtain score (in this case caption logit) of example without any ablation
-    score = data['logit_caption']
+    if CONFIG['metric'] == 'absolute':
+        score = data['logit_caption']
+    if CONFIG['metric'] == 'difference':
+        score = data['score']
     # Set up empty tensor to store ablation results for this example
     score_differences = torch.zeros(n_layers)
     # Loop over layers to ablate in each layer separately
@@ -69,7 +74,10 @@ for data in tqdm(dataset.values()):
         ablation_hook = model.vision_model.encoder.layers[l].self_attn.register_forward_hook(hook_fn)
         # Run forward pass to get output with ablation
         output = model(**inputs)
-        ablated_score = output.logits_per_text[0].item()
+        if CONFIG['metric'] == 'absolute':
+            ablated_score = output.logits_per_text[0].item()
+        if CONFIG['metric'] == 'difference':
+            ablated_score = (output.logits_per_text[0] - output.logits_per_text[1]).item()
         # Save ablation result and remove hook
         score_differences[l] = score - ablated_score
         ablation_hook.remove()

@@ -14,11 +14,14 @@ def generate_clip_input(data: Dict[str, Any], processor: CLIPProcessor):
 
 def load_dataset(type='rephrased', min_score=-1000, min_logit_caption=-1000, min_logit_foil=-1000, **kwargs):
     """
-    If no arguments are provided this will return correctly classified examples from the rephrased dataset where the negation is in the foil
+    If no arguments are provided this will return
+    - instances from the 'correct' segment
+    - from the rephrased dataset
+    - where the negation is in the foil
     """
 
     # Merge default filter values with those provided via kwargs
-    default_filters = {'negation': 'foil', 'correct': True}
+    default_filters = {'negation': 'foil', 'segment': 'correct'}
     category_filters = {**default_filters, **kwargs}
 
     valid_types = ['standard', 'rephrased']

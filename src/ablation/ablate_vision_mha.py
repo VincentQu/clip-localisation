@@ -1,9 +1,9 @@
 from src.utils.data_utils import load_dataset, generate_clip_input
 from src.utils.model_utils import load_model
-from src.utils.ablation_utils import create_storage_hook_fn, create_ablation_hook_fn, store_ablation_results
-
+from src.utils.ablation_utils import create_img_storage_hook_fn, create_ablation_hook_fn, store_img_ablation_results
 
 from collections import defaultdict
+from pprint import pprint
 import torch
 from tqdm import tqdm
 
@@ -12,16 +12,19 @@ CONFIG = {
     'encoder': 'vision',    # vision/text
     'component': 'mha',     # mha/mlp
     'dataset': 'rephrased', # standard/rephrased
-    'correct': None,        # True/False
     'negation': 'caption',  # foil/caption
-    'metric': 'difference',     # absolute/difference
-    'segment': 'correct'
+    'metric': 'difference', # absolute/difference
+    'segment': 'ambiguous',  # correct/ambiguous/incorrect
+    'effect': 'absolute'    # absolute/relative
 }
 
 # Load dataset and model
 dataset = load_dataset(**CONFIG)
+pprint(CONFIG)
 print(f'Input examples: {len(dataset)}')
+
 model, processor = load_model()
+ablated_model, _ = load_model()
 
 # Obtain relevant model variables
 n_layers = model.vision_model.config.num_hidden_layers
@@ -30,66 +33,68 @@ patch_size = model.vision_model.config.patch_size
 image_size = model.vision_model.config.image_size
 tokens = (image_size // patch_size) ** 2 + 1 # + cls token
 
-# Calculate mean activations across dataset
-
-activations = defaultdict(lambda: {'sum': torch.zeros((tokens, hidden_size)), 'count': 0})
+activations = defaultdict(lambda: torch.zeros((tokens, hidden_size)))
 
 all_hooks = []
 for layer_idx, layer in enumerate(model.vision_model.encoder.layers):
-    storage_hook_fn = create_storage_hook_fn(layer_idx, activations)
+    storage_hook_fn = create_img_storage_hook_fn(layer_idx, activations)
     storage_hook = layer.self_attn.register_forward_hook(storage_hook_fn)
     all_hooks.append(storage_hook)
 
-print('Recording activations in dataset')
-
-for data in tqdm(dataset.values()):
-    inputs = generate_clip_input(data, processor)
-    model(**inputs)
-
-for hook in all_hooks:
-    hook.remove()
-
-avg_activations = {layer: data['sum'] / data['count'] for layer, data in activations.items()}
-
-# Ablate MHA outputs
-
 total_score_differences = {'sum': torch.zeros(n_layers), 'count': 0}
-# Loop over data
-print(f"Running ablation of {CONFIG['component'].upper()} in {CONFIG['encoder']} encoder")
+before_after = defaultdict(lambda: list())
+
 for data in tqdm(dataset.values()):
-    # Generate model inputs
     inputs = generate_clip_input(data, processor)
-    # Obtain score (in this case caption logit) of example without any ablation
+    # Get pixel values and calculate average
+    img = inputs.pixel_values
+    avg_img = img.mean(dim=(-2, -1), keepdim=True).expand_as(img)
+    # Create new input objects with averaged pixel values
+    new_inputs = inputs.copy()
+    new_inputs['pixel_values'] = avg_img
+    # Forward pass to record activations with averaged image
+    model(**new_inputs)
+
+    # Obtain score of instance without any ablation
     if CONFIG['metric'] == 'absolute':
         score = data['logit_caption']
     if CONFIG['metric'] == 'difference':
         score = data['score']
-    # Set up empty tensor to store ablation results for this example
+    # Set up empty tensor to store ablation results for this instance
     score_differences = torch.zeros(n_layers)
-    # Loop over layers to ablate in each layer separately
+
+    # Loop over layers to do ablation
     for l in range(n_layers):
         # Create hook function for this layer
-        hook_fn = create_ablation_hook_fn(layer=l, mean_activations=avg_activations)
+        hook_fn = create_ablation_hook_fn(layer=l, mean_activations=activations)
         # Register hook in this layer of the model
-        ablation_hook = model.vision_model.encoder.layers[l].self_attn.register_forward_hook(hook_fn)
+        ablation_hook = ablated_model.vision_model.encoder.layers[l].self_attn.register_forward_hook(hook_fn)
         # Run forward pass to get output with ablation
-        output = model(**inputs)
+        output = ablated_model(**inputs)
         if CONFIG['metric'] == 'absolute':
             ablated_score = output.logits_per_text[0].item()
         if CONFIG['metric'] == 'difference':
             ablated_score = (output.logits_per_text[0] - output.logits_per_text[1]).item()
-        # Save ablation result and remove hook
-        score_differences[l] = score - ablated_score
+        # Save score difference (normal - ablated) for this layer
+        if CONFIG['effect'] == 'absolute':
+            score_differences[l] = score - ablated_score
+        if CONFIG['effect'] == 'relative':
+            score_differences[l] = ablated_score / score
+        # Save original and ablated score to dict
+        before_after[l].append((score, ablated_score))
+        # Remove hook
         ablation_hook.remove()
+
     # Save results from this example to total results dict
     total_score_differences['sum'] += score_differences
     total_score_differences['count'] += 1
 
 mean_ablation_effect = (total_score_differences['sum'] / total_score_differences['count']).numpy()
-
-# Create dictionaries to save results
-activation_dict = {layer: val.cpu().detach().numpy() for layer, val in avg_activations.items()}
 effect_dict = {layer: val for layer, val in enumerate(mean_ablation_effect)}
 
+# Remove remaining hooks
+for hook in all_hooks:
+    hook.remove()
+
 # Save results
-store_ablation_results(activation_dict, effect_dict, CONFIG)
+store_img_ablation_results(effect_dict, before_after, CONFIG)

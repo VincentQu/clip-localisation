@@ -11,17 +11,16 @@ from matplotlib.ticker import PercentFormatter
 # Experiment configuration
 CONFIG = {
     'encoder': 'vision',    # vision/text
-    'component': 'mha_tokens',     # mha/mlp
+    'component': 'mlp',     # mha/mlp
     'dataset': 'rephrased', # standard/rephrased
-    'negation': 'foil',  # foil/caption
+    'negation': 'caption',  # foil/caption
     'metric': 'difference', # absolute/difference
-    'segment': 'incorrect',  # correct/ambiguous/incorrect
+    'segment': 'ambiguous',  # correct/ambiguous/incorrect
     'effect': 'absolute'    # absolute/relative
 }
 
 
 h5_filepath = generate_ablation_result_filepath(CONFIG)
-# print(filepath)
 
 try:
     with h5py.File(h5_filepath, 'r') as hdf:

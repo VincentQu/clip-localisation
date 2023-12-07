@@ -13,9 +13,9 @@ CONFIG = {
     'encoder': 'vision',    # vision/text
     'component': 'mha_tokens',     # mha/mlp
     'dataset': 'rephrased', # standard/rephrased
-    'negation': 'foil',  # foil/caption
+    'negation': 'caption',  # foil/caption
     'metric': 'difference', # absolute/difference
-    'segment': 'incorrect',  # correct/ambiguous/incorrect
+    'segment': 'correct',  # correct/ambiguous/incorrect
     'effect': 'absolute'    # absolute/relative
 }
 
@@ -35,22 +35,31 @@ if 'token' in CONFIG['component']:
     effect_df = pd.DataFrame(effects).transpose()
     effect_df_annot = effect_df.map(lambda x: f'{x:.2f}' if x >= 0.02 or x <=-0.02 else '')
 
-    fig, ax = plt.subplots(1, 1, figsize=(8, 10))
+    effect_sum_df = pd.DataFrame(enumerate(effect_df.sum()), columns=['Layer', 'Effect'])
+    effect_sum_df['Layer'] += 1
+    effect_sum_df
 
-    x_tick_labels = [i + 1 for i in range(effect_df.shape[1])]
-    y_tick_labels = [i + 1 for i in range(effect_df.shape[0])]
+    fig, ax = plt.subplots(2, 2, figsize=(8, 11), gridspec_kw={'height_ratios': [4, 1],
+                                                               'width_ratios': [15, 1]})
 
-    # effect_hm = sns.heatmap(effect_df, annot=True, fmt='', ax=ax)
-    effect_hm = sns.heatmap(effect_df, annot=effect_df_annot, fmt='', vmin=0, vmax=0.6, ax=ax)
-    effect_hm.set(xlabel='Layer', ylabel='Head', xticklabels=x_tick_labels, yticklabels=y_tick_labels,
+    x_tick_labels = list(range(1, effect_df.shape[1] + 1))
+    y_tick_labels = list(range(1, effect_df.shape[0], 2))
+    x_ticks = [i - 1 for i in x_tick_labels]
+    y_ticks = [i - 0.5 for i in y_tick_labels]
+
+    effect_hm = sns.heatmap(effect_df, annot=effect_df_annot, fmt='', vmin=0, vmax=0.6, ax=ax[0, 0], cbar_ax=ax[0,1])
+    effect_hm.set(xlabel='Layer', ylabel='Position', yticks=y_ticks,
+                  xticklabels=x_tick_labels, yticklabels=y_tick_labels,
                   title='Ablation effect per layer and position')
     effect_hm.xaxis.tick_top()
     effect_hm.xaxis.set_label_position('top')
 
     for idx, (key, value) in enumerate(CONFIG.items()):
-        ax.text(1.3, 1 - idx * 0.02, f'{str(key).capitalize()}: {str(value).upper()}',
-                transform=ax.transAxes, verticalalignment='top')
+        ax[1,1].text(0, 1 - idx * 0.1, f'{str(key).capitalize()}: {str(value).upper()}',
+                transform=ax[1,1].transAxes, verticalalignment='top')
 
+    effect_sum_hm = sns.barplot(data=effect_sum_df, x='Layer', y='Effect', color='tomato', ax=ax[1,0])
+    ax[1,1].axis('off')
     plt.tight_layout()
 
     plot_filepath = generate_ablation_chart_filepath(CONFIG)

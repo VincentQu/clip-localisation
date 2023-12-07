@@ -13,7 +13,7 @@ CONFIG = {
     'encoder': 'vision',    # vision/text
     'component': 'mha',     # mha/mlp
     'dataset': 'rephrased', # standard/rephrased
-    'negation': 'caption',  # foil/caption
+    'negation': 'foil',  # foil/caption
     'metric': 'difference', # absolute/difference
     'segment': 'incorrect',  # correct/ambiguous/incorrect
     'effect': 'absolute'    # absolute/relative

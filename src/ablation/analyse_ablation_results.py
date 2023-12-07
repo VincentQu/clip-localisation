@@ -11,11 +11,11 @@ from matplotlib.ticker import PercentFormatter
 # Experiment configuration
 CONFIG = {
     'encoder': 'vision',    # vision/text
-    'component': 'mlp',     # mha/mlp
+    'component': 'mha_tokens',     # mha/mlp
     'dataset': 'rephrased', # standard/rephrased
-    'negation': 'caption',  # foil/caption
+    'negation': 'foil',  # foil/caption
     'metric': 'difference', # absolute/difference
-    'segment': 'ambiguous',  # correct/ambiguous/incorrect
+    'segment': 'incorrect',  # correct/ambiguous/incorrect
     'effect': 'absolute'    # absolute/relative
 }
 
@@ -33,16 +33,17 @@ except:
 
 if 'token' in CONFIG['component']:
     effect_df = pd.DataFrame(effects).transpose()
-    effect_df_annot = effect_df.map(lambda x: f'{x:.2f}' if x >= 0.02 else '')
+    effect_df_annot = effect_df.map(lambda x: f'{x:.2f}' if x >= 0.02 or x <=-0.02 else '')
 
     fig, ax = plt.subplots(1, 1, figsize=(8, 10))
 
     x_tick_labels = [i + 1 for i in range(effect_df.shape[1])]
     y_tick_labels = [i + 1 for i in range(effect_df.shape[0])]
 
+    # effect_hm = sns.heatmap(effect_df, annot=True, fmt='', ax=ax)
     effect_hm = sns.heatmap(effect_df, annot=effect_df_annot, fmt='', vmin=0, vmax=0.6, ax=ax)
     effect_hm.set(xlabel='Layer', ylabel='Head', xticklabels=x_tick_labels, yticklabels=y_tick_labels,
-                  title='Ablation effect per layer and attention head')
+                  title='Ablation effect per layer and position')
     effect_hm.xaxis.tick_top()
     effect_hm.xaxis.set_label_position('top')
 

@@ -7,7 +7,7 @@ import seaborn as sns
 from tqdm import tqdm
 
 CONFIG = {
-    'negation': 'foil',
+    'negation': 'caption',
     'segment': None,
     'layer_of_interest': 3
 }
@@ -80,6 +80,8 @@ ax.set(xlabel="Attention head", ylabel="Position")
 plt.suptitle("How much does each position attend to the 'no' token?", fontsize=16, fontweight='bold')
 ax.set_title(f"Layer {CONFIG['layer_of_interest'] + 1} - Negation in the {CONFIG['negation']}", fontsize=14)
 # plt.show()
+
+plt.tight_layout()
 
 plot_filename = f"attention_layer_{'_'.join([str(v) for v in CONFIG.values()])}"
 plot_filepath = f"../../output/charts/attention/{plot_filename}"

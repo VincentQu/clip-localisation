@@ -37,7 +37,7 @@ for key, data in tqdm(existence_rephrased.items()):
     doc = nlp(caption)
     subjects = [c.text for c in doc.noun_chunks]
     # If subject was found, run CLIPSeg on image using the subject as the object to find in the image
-    if len(subjects) > 0:
+    if data['negation'] == 'foil' and len(subjects) > 0:
         # Forward pass through CLIPSeg
         subject = subjects[0]
         inputs = processor(text=[subject], images=image, return_tensors="pt", padding=True)

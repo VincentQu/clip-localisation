@@ -29,6 +29,7 @@ for key, data in tqdm(valse_existence.items()):
             'negation': 'caption' if data['provenance_of_foils'] == 'zero_to_something' else 'foil',
             'logit_caption': logit_caption,
             'logit_foil': logit_foil,
+            'positions': inputs.input_ids.shape[1],
             'score': score,
             'correct': score > 0,
             'segment': 'incorrect' if score < segment_thresholds[0] else 'ambiguous' if score < segment_thresholds[1] else 'correct'

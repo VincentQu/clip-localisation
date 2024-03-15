@@ -1,5 +1,6 @@
 import json
 from tqdm import tqdm
+import torch
 import os
 
 from src.utils.model_utils import load_model
@@ -58,6 +59,8 @@ for key, data in tqdm(valse_existence_rephrased.items()):
         outputs = model(**inputs, return_dict=True)
         logit_caption, logit_foil = outputs.logits_per_text.squeeze().tolist()
         score = logit_caption - logit_foil
+        caption_embed, foil_embed = outputs.text_embeds
+        caption_foil_dot = torch.dot(caption_embed, foil_embed).item()
         entry = {
             'dataset_idx': data['dataset_idx'],
             'caption': data['caption'],
@@ -66,6 +69,8 @@ for key, data in tqdm(valse_existence_rephrased.items()):
             'negation': 'caption' if data['provenance_of_foils'] == 'zero_to_something' else 'foil',
             'logit_caption': logit_caption,
             'logit_foil': logit_foil,
+            'similarity_caption_foil': caption_foil_dot,
+            'positions': inputs.input_ids.shape[1],
             'score': score,
             'correct': score > 0,
             'segment': 'incorrect' if score < segment_thresholds[0] else 'ambiguous' if score < segment_thresholds[1] else 'correct'

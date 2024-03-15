@@ -11,7 +11,7 @@ from matplotlib.ticker import PercentFormatter
 # Experiment configuration
 CONFIG = {
     'encoder': 'vision',    # vision/text
-    'component': 'mha_tokens',     # mha/mlp
+    'component': 'mlp',     # mha/mlp
     'dataset': 'rephrased', # standard/rephrased
     'negation': 'caption',  # foil/caption
     'metric': 'difference', # absolute/difference
@@ -19,6 +19,7 @@ CONFIG = {
     'effect': 'absolute'    # absolute/relative
 }
 
+OUTPUT_FORMAT = 'eps' # [eps, png]
 
 h5_filepath = generate_ablation_result_filepath(CONFIG)
 
@@ -90,41 +91,87 @@ else:
         pivot(index='layer', columns='category', values='instances').\
         fillna(0)
     before_after_summary = before_after_summary.div(before_after_summary.sum(axis=1), axis=0)
+    before_after_summary.index = before_after_summary.index.astype(int)
 
-    # Create a figure with two subplots
-    fig, axes = plt.subplots(2, 1, figsize=(9, 6))  # Adjust the figsize as needed
+    if OUTPUT_FORMAT == 'png':
+        # Create a figure with two subplots
+        fig, axes = plt.subplots(2, 1, figsize=(9, 6))
 
-    # First plot
-    sns.set_theme(style="whitegrid")
-    sns.barplot(data=effects_df, x='Layer', y='Effect', ax=axes[0], color='tomato')
+        # First plot
+        sns.set_theme(style="whitegrid")
+        sns.barplot(data=effects_df, x='Layer', y='Effect', ax=axes[0], color='tomato')
 
-    # Add text annotations
-    for idx, (key, value) in enumerate(CONFIG.items()):
-        axes[0].text(1.05, 1 - idx * 0.12, f'{str(key).capitalize()}: {str(value).upper()}',
-                     transform=axes[0].transAxes, verticalalignment='top')
+        # Add text annotations
+        for idx, (key, value) in enumerate(CONFIG.items()):
+            axes[0].text(1.05, 1 - idx * 0.12, f'{str(key).capitalize()}: {str(value).upper()}',
+                         transform=axes[0].transAxes, verticalalignment='top')
 
-    axes[0].set_title('Ablation effect per encoder layer', fontsize=16, fontweight='bold')
+        axes[0].set_title('Ablation effect per encoder layer', fontsize=16, fontweight='bold')
 
-    # Second plot
-    before_after_summary.plot.bar(stacked=True, ax=axes[1], color=['olivedrab', 'steelblue', 'darkred'])
-    axes[1].set_xlabel('Layer')
-    axes[1].set_ylabel('Proportion of instances')
-    axes[1].yaxis.set_major_formatter(PercentFormatter(1))
-    axes[1].legend(bbox_to_anchor=(1.05, 1.0), loc='upper left', title='Ablated performance')
-    plt.xticks(rotation=0)
-    plt.grid(False)
-    axes[1].set_title('Distribution of performance after ablation per encoder layer', fontsize=16, fontweight='bold')
+        # Second plot
+        before_after_summary.plot.bar(stacked=True, ax=axes[1], color=['olivedrab', 'steelblue', 'darkred'])
+        axes[1].set_xlabel('Layer')
+        axes[1].set_ylabel('Proportion of instances')
+        axes[1].yaxis.set_major_formatter(PercentFormatter(1))
+        axes[1].legend(bbox_to_anchor=(1.05, 1.0), loc='upper left', title='Ablated performance')
+        plt.xticks(rotation=0)
+        plt.grid(False)
+        axes[1].set_title('Distribution of performance after ablation per encoder layer', fontsize=16, fontweight='bold')
 
-    # Tight layout for better spacing
-    plt.tight_layout()
+        # Tight layout for better spacing
+        plt.tight_layout()
 
-    # Show the plot
-    # plt.show()
+        # Show the plot
+        plt.show()
 
-    plot_filepath = generate_ablation_chart_filepath(CONFIG)
+        plot_filepath = generate_ablation_chart_filepath(CONFIG)
 
-    try:
-        plt.savefig(plot_filepath)
-        print('Plot saved at', plot_filepath)
-    except:
-        print('Plot could not be saved')
+        try:
+            plt.savefig(plot_filepath)
+            print('Plot saved at', plot_filepath)
+        except:
+            print('Plot could not be saved')
+
+    if OUTPUT_FORMAT == 'eps':
+
+        plt.rcParams.update({
+            "text.usetex": True,
+            "font.size": 11
+        })
+
+        fig, axes = plt.subplots(2, 1)
+
+        # First plot
+        sns.set_theme(style="whitegrid")
+        sns.barplot(data=effects_df, x='Layer', y='Effect', ax=axes[0], color='#02456b')
+
+        axes[0].set_title('(a)')
+        # axes[0].text(0.5, 0.9, "(a)", ha='center', va='center', transform=axes[0].transAxes, fontweight='bold')
+
+        # Second plot
+        before_after_summary.plot.bar(stacked=True, ax=axes[1], color=['#5ea865', '#9ecaa2', '#deede0'], width=0.8)
+        axes[1].set_xlabel('Layer')
+        axes[1].set_ylabel('Proportion of instances')
+        axes[1].yaxis.set_major_formatter(PercentFormatter(1))
+        axes[1].legend(bbox_to_anchor=(0.92, 1.0), loc='upper right', title='Ablated performance')
+        # axes[1].xaxis.set_major_locator(plt.MaxNLocator(integer=True)) # Set x-axis tick labels as integers
+        plt.xticks(rotation=0)
+        plt.grid(False)
+        axes[1].set_title('(b)')
+        # axes[1].text(0.5, 0.9, "(b)", ha='center', va='center', transform=axes[1].transAxes)
+
+        # Tight layout for better spacing
+        plt.tight_layout(pad=0.5)
+
+        print(effects_df)
+        # print(before_after_summary)
+
+        # plt.show()
+
+        plot_filepath_eps = generate_ablation_chart_filepath(CONFIG).replace('.png', '.eps')
+
+        try:
+            plt.savefig(plot_filepath_eps, format='eps')
+            print('Plot saved at', plot_filepath_eps)
+        except:
+            print('Plot could not be saved')

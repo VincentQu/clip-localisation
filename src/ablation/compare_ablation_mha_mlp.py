@@ -7,7 +7,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 NEGATION = 'caption'
-SEGMENT = 'incorrect'
+SEGMENT = 'correct'
 
 # MHA
 MHA_CONFIG = {

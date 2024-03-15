@@ -1,6 +1,6 @@
 from src.utils.data_utils import load_dataset, generate_clip_input
 from src.utils.model_utils import load_model
-from src.utils.causal_tracing_utils import create_tracing_hook_fn, generate_tracing_chart_filepath
+from src.utils.causal_tracing_utils import create_tracing_hook_fn, generate_tracing_chart_filepath, store_causal_tracing_results
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -13,8 +13,8 @@ from tqdm import tqdm
 CONFIG = {
     'encoder': 'text',    # vision/text
     'dataset': 'rephrased', # standard/rephrased
-    'negation': 'caption',  # foil/caption
-    'segment': 'correct'  # correct/ambiguous/incorrect
+    'negation': 'foil',  # foil/caption
+    'segment': 'incorrect'  # correct/ambiguous/incorrect
 }
 
 present_idx = 0 if CONFIG['negation'] == 'foil' else 1
@@ -96,15 +96,19 @@ weights = np.ones_like(scores_final)
 weights[:, position_agg_start, :] = np.tile(np.expand_dims(further_token_counts, 1), 13)
 avg_scores = np.average(scores_final, axis=0, weights=weights)
 
+# Save results
+store_causal_tracing_results(results=avg_scores, config=CONFIG)
+
+"""
 # Plotting
-generic_token_labels = ['<SOT>',
+generic_token_labels = ['[SOT]',
                         'there',
                         'is/are',
                         'a/some',
                         'first subject token',
                         'further subject tokens',
                         '.',
-                        '<EOT>']
+                        '[EOT]']
 
 non_agg_pos = [l for l in range(len(generic_token_labels)) if generic_token_labels[l] != 'further subject tokens']
 
@@ -127,3 +131,27 @@ plt.tight_layout()
 plot_filepath = generate_tracing_chart_filepath(CONFIG)
 
 plt.savefig(plot_filepath)
+
+# Save eps version for final report
+
+plt.rcParams.update({
+    "text.usetex": True,
+    "font.size": 14
+})
+
+fig, axes = plt.subplots(1, 1, figsize=(10, 6))
+
+sns.set_theme(style="whitegrid")
+sns.heatmap(avg_scores, annot=True, fmt=".2f", ax=axes)
+
+axes.set_title('Causal tracing effect per layer and input position')
+# axes.set_title('Causal tracing effect per layer and input position', fontsize=16, fontweight='bold')
+
+axes.set(xlabel="Layer", ylabel="Position")
+axes.set_yticklabels(labels=generic_token_labels, rotation=0)
+
+plt.tight_layout()
+
+plot_filepath_eps = generate_tracing_chart_filepath(CONFIG).replace('.png', '.eps')
+plt.savefig(plot_filepath_eps, format='eps')
+"""

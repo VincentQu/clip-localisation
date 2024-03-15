@@ -8,6 +8,7 @@
         "logit_caption": 21.752960205078125,
         "logit_foil": 23.82511329650879,
         "negation": "foil",
+        "positions": 8,
         "score": -2.072153091430664,
         "segment": "incorrect"
     },
@@ -20,6 +21,7 @@
         "logit_caption": 32.167179107666016,
         "logit_foil": 32.03670120239258,
         "negation": "foil",
+        "positions": 13,
         "score": 0.1304779052734375,
         "segment": "ambiguous"
     },
@@ -32,6 +34,7 @@
         "logit_caption": 19.862869262695312,
         "logit_foil": 19.74724769592285,
         "negation": "foil",
+        "positions": 13,
         "score": 0.11562156677246094,
         "segment": "ambiguous"
     },
@@ -44,6 +47,7 @@
         "logit_caption": 24.0682315826416,
         "logit_foil": 22.770912170410156,
         "negation": "foil",
+        "positions": 8,
         "score": 1.2973194122314453,
         "segment": "correct"
     },
@@ -56,6 +60,7 @@
         "logit_caption": 27.146696090698242,
         "logit_foil": 26.717300415039062,
         "negation": "caption",
+        "positions": 11,
         "score": 0.4293956756591797,
         "segment": "ambiguous"
     },
@@ -68,6 +73,7 @@
         "logit_caption": 26.41578483581543,
         "logit_foil": 26.26393699645996,
         "negation": "foil",
+        "positions": 9,
         "score": 0.15184783935546875,
         "segment": "ambiguous"
     },
@@ -80,6 +86,7 @@
         "logit_caption": 16.04887580871582,
         "logit_foil": 16.674224853515625,
         "negation": "caption",
+        "positions": 10,
         "score": -0.6253490447998047,
         "segment": "ambiguous"
     },
@@ -92,6 +99,7 @@
         "logit_caption": 23.193477630615234,
         "logit_foil": 22.38791847229004,
         "negation": "caption",
+        "positions": 9,
         "score": 0.8055591583251953,
         "segment": "ambiguous"
     },
@@ -104,6 +112,7 @@
         "logit_caption": 24.319177627563477,
         "logit_foil": 24.183443069458008,
         "negation": "foil",
+        "positions": 7,
         "score": 0.13573455810546875,
         "segment": "ambiguous"
     },
@@ -116,6 +125,7 @@
         "logit_caption": 19.48250961303711,
         "logit_foil": 19.078754425048828,
         "negation": "caption",
+        "positions": 10,
         "score": 0.40375518798828125,
         "segment": "ambiguous"
     },
@@ -128,6 +138,7 @@
         "logit_caption": 23.652795791625977,
         "logit_foil": 24.239166259765625,
         "negation": "foil",
+        "positions": 11,
         "score": -0.5863704681396484,
         "segment": "ambiguous"
     },
@@ -140,6 +151,7 @@
         "logit_caption": 20.370269775390625,
         "logit_foil": 18.988224029541016,
         "negation": "caption",
+        "positions": 8,
         "score": 1.3820457458496094,
         "segment": "correct"
     },
@@ -152,6 +164,7 @@
         "logit_caption": 18.4270076751709,
         "logit_foil": 20.46627426147461,
         "negation": "foil",
+        "positions": 7,
         "score": -2.039266586303711,
         "segment": "incorrect"
     },
@@ -164,6 +177,7 @@
         "logit_caption": 20.47645378112793,
         "logit_foil": 18.997665405273438,
         "negation": "caption",
+        "positions": 7,
         "score": 1.4787883758544922,
         "segment": "correct"
     },
@@ -176,6 +190,7 @@
         "logit_caption": 19.71539306640625,
         "logit_foil": 18.749502182006836,
         "negation": "caption",
+        "positions": 11,
         "score": 0.9658908843994141,
         "segment": "ambiguous"
     },
@@ -188,6 +203,7 @@
         "logit_caption": 23.725833892822266,
         "logit_foil": 23.483867645263672,
         "negation": "foil",
+        "positions": 7,
         "score": 0.24196624755859375,
         "segment": "ambiguous"
     },
@@ -200,6 +216,7 @@
         "logit_caption": 26.237024307250977,
         "logit_foil": 24.655406951904297,
         "negation": "caption",
+        "positions": 7,
         "score": 1.5816173553466797,
         "segment": "correct"
     },
@@ -212,6 +229,7 @@
         "logit_caption": 20.338642120361328,
         "logit_foil": 18.867137908935547,
         "negation": "caption",
+        "positions": 7,
         "score": 1.4715042114257812,
         "segment": "correct"
     },
@@ -224,6 +242,7 @@
         "logit_caption": 22.625614166259766,
         "logit_foil": 21.53388786315918,
         "negation": "foil",
+        "positions": 7,
         "score": 1.091726303100586,
         "segment": "correct"
     },
@@ -236,6 +255,7 @@
         "logit_caption": 28.53951644897461,
         "logit_foil": 27.52507209777832,
         "negation": "foil",
+        "positions": 11,
         "score": 1.014444351196289,
         "segment": "correct"
     },
@@ -248,6 +268,7 @@
         "logit_caption": 20.87679672241211,
         "logit_foil": 20.515201568603516,
         "negation": "caption",
+        "positions": 10,
         "score": 0.36159515380859375,
         "segment": "ambiguous"
     },
@@ -260,6 +281,7 @@
         "logit_caption": 18.431318283081055,
         "logit_foil": 17.979867935180664,
         "negation": "caption",
+        "positions": 8,
         "score": 0.4514503479003906,
         "segment": "ambiguous"
     },
@@ -272,6 +294,7 @@
         "logit_caption": 17.035003662109375,
         "logit_foil": 17.450960159301758,
         "negation": "caption",
+        "positions": 10,
         "score": -0.4159564971923828,
         "segment": "ambiguous"
     },
@@ -284,6 +307,7 @@
         "logit_caption": 29.922887802124023,
         "logit_foil": 28.15971565246582,
         "negation": "foil",
+        "positions": 8,
         "score": 1.7631721496582031,
         "segment": "correct"
     },
@@ -296,6 +320,7 @@
         "logit_caption": 18.18340301513672,
         "logit_foil": 19.455202102661133,
         "negation": "caption",
+        "positions": 7,
         "score": -1.271799087524414,
         "segment": "incorrect"
     },
@@ -308,6 +333,7 @@
         "logit_caption": 23.94273567199707,
         "logit_foil": 21.55849838256836,
         "negation": "foil",
+        "positions": 7,
         "score": 2.384237289428711,
         "segment": "correct"
     },
@@ -320,6 +346,7 @@
         "logit_caption": 22.16910743713379,
         "logit_foil": 22.317052841186523,
         "negation": "caption",
+        "positions": 10,
         "score": -0.14794540405273438,
         "segment": "ambiguous"
     },
@@ -332,6 +359,7 @@
         "logit_caption": 23.2888126373291,
         "logit_foil": 21.14659309387207,
         "negation": "caption",
+        "positions": 8,
         "score": 2.1422195434570312,
         "segment": "correct"
     },
@@ -344,6 +372,7 @@
         "logit_caption": 21.947566986083984,
         "logit_foil": 20.802379608154297,
         "negation": "caption",
+        "positions": 9,
         "score": 1.1451873779296875,
         "segment": "correct"
     },
@@ -356,6 +385,7 @@
         "logit_caption": 27.847064971923828,
         "logit_foil": 25.865121841430664,
         "negation": "foil",
+        "positions": 11,
         "score": 1.981943130493164,
         "segment": "correct"
     },
@@ -368,6 +398,7 @@
         "logit_caption": 16.633384704589844,
         "logit_foil": 16.250898361206055,
         "negation": "caption",
+        "positions": 7,
         "score": 0.38248634338378906,
         "segment": "ambiguous"
     },
@@ -380,6 +411,7 @@
         "logit_caption": 19.9818172454834,
         "logit_foil": 17.238933563232422,
         "negation": "caption",
+        "positions": 10,
         "score": 2.7428836822509766,
         "segment": "correct"
     },
@@ -392,6 +424,7 @@
         "logit_caption": 22.07435417175293,
         "logit_foil": 21.4285888671875,
         "negation": "foil",
+        "positions": 7,
         "score": 0.6457653045654297,
         "segment": "ambiguous"
     },
@@ -404,6 +437,7 @@
         "logit_caption": 20.470191955566406,
         "logit_foil": 18.609027862548828,
         "negation": "caption",
+        "positions": 10,
         "score": 1.8611640930175781,
         "segment": "correct"
     },
@@ -416,6 +450,7 @@
         "logit_caption": 23.532821655273438,
         "logit_foil": 24.183752059936523,
         "negation": "foil",
+        "positions": 8,
         "score": -0.6509304046630859,
         "segment": "ambiguous"
     },
@@ -428,6 +463,7 @@
         "logit_caption": 18.09629249572754,
         "logit_foil": 17.898332595825195,
         "negation": "caption",
+        "positions": 8,
         "score": 0.19795989990234375,
         "segment": "ambiguous"
     },
@@ -440,6 +476,7 @@
         "logit_caption": 19.44051170349121,
         "logit_foil": 18.378185272216797,
         "negation": "caption",
+        "positions": 7,
         "score": 1.062326431274414,
         "segment": "correct"
     },
@@ -452,6 +489,7 @@
         "logit_caption": 20.55291175842285,
         "logit_foil": 18.80435562133789,
         "negation": "caption",
+        "positions": 10,
         "score": 1.748556137084961,
         "segment": "correct"
     },
@@ -464,6 +502,7 @@
         "logit_caption": 21.024084091186523,
         "logit_foil": 20.043813705444336,
         "negation": "foil",
+        "positions": 7,
         "score": 0.9802703857421875,
         "segment": "ambiguous"
     },
@@ -476,6 +515,7 @@
         "logit_caption": 20.452768325805664,
         "logit_foil": 20.527482986450195,
         "negation": "caption",
+        "positions": 10,
         "score": -0.07471466064453125,
         "segment": "ambiguous"
     },
@@ -488,6 +528,7 @@
         "logit_caption": 25.67728614807129,
         "logit_foil": 25.467674255371094,
         "negation": "foil",
+        "positions": 8,
         "score": 0.2096118927001953,
         "segment": "ambiguous"
     },
@@ -500,6 +541,7 @@
         "logit_caption": 28.892763137817383,
         "logit_foil": 27.95844268798828,
         "negation": "foil",
+        "positions": 10,
         "score": 0.9343204498291016,
         "segment": "ambiguous"
     },
@@ -512,6 +554,7 @@
         "logit_caption": 18.390525817871094,
         "logit_foil": 19.245594024658203,
         "negation": "caption",
+        "positions": 8,
         "score": -0.8550682067871094,
         "segment": "ambiguous"
     },
@@ -524,6 +567,7 @@
         "logit_caption": 23.008892059326172,
         "logit_foil": 22.184417724609375,
         "negation": "caption",
+        "positions": 10,
         "score": 0.8244743347167969,
         "segment": "ambiguous"
     },
@@ -536,6 +580,7 @@
         "logit_caption": 17.792295455932617,
         "logit_foil": 18.010356903076172,
         "negation": "caption",
+        "positions": 8,
         "score": -0.2180614471435547,
         "segment": "ambiguous"
     },
@@ -548,6 +593,7 @@
         "logit_caption": 20.68387794494629,
         "logit_foil": 20.280946731567383,
         "negation": "caption",
+        "positions": 10,
         "score": 0.40293121337890625,
         "segment": "ambiguous"
     },
@@ -560,6 +606,7 @@
         "logit_caption": 23.842864990234375,
         "logit_foil": 24.033348083496094,
         "negation": "foil",
+        "positions": 10,
         "score": -0.19048309326171875,
         "segment": "ambiguous"
     },
@@ -572,6 +619,7 @@
         "logit_caption": 14.561338424682617,
         "logit_foil": 14.527007102966309,
         "negation": "caption",
+        "positions": 7,
         "score": 0.034331321716308594,
         "segment": "ambiguous"
     },
@@ -584,6 +632,7 @@
         "logit_caption": 18.865285873413086,
         "logit_foil": 17.327747344970703,
         "negation": "caption",
+        "positions": 7,
         "score": 1.5375385284423828,
         "segment": "correct"
     },
@@ -596,6 +645,7 @@
         "logit_caption": 24.800128936767578,
         "logit_foil": 21.730802536010742,
         "negation": "caption",
+        "positions": 10,
         "score": 3.069326400756836,
         "segment": "correct"
     },
@@ -608,6 +658,7 @@
         "logit_caption": 24.527332305908203,
         "logit_foil": 24.772640228271484,
         "negation": "foil",
+        "positions": 9,
         "score": -0.24530792236328125,
         "segment": "ambiguous"
     },
@@ -620,6 +671,7 @@
         "logit_caption": 19.840349197387695,
         "logit_foil": 19.056041717529297,
         "negation": "caption",
+        "positions": 10,
         "score": 0.7843074798583984,
         "segment": "ambiguous"
     },
@@ -632,6 +684,7 @@
         "logit_caption": 22.97246742248535,
         "logit_foil": 20.399354934692383,
         "negation": "foil",
+        "positions": 7,
         "score": 2.5731124877929688,
         "segment": "correct"
     },
@@ -644,6 +697,7 @@
         "logit_caption": 24.048917770385742,
         "logit_foil": 22.35416030883789,
         "negation": "caption",
+        "positions": 10,
         "score": 1.6947574615478516,
         "segment": "correct"
     },
@@ -656,6 +710,7 @@
         "logit_caption": 24.603975296020508,
         "logit_foil": 21.958301544189453,
         "negation": "caption",
+        "positions": 9,
         "score": 2.6456737518310547,
         "segment": "correct"
     },
@@ -668,6 +723,7 @@
         "logit_caption": 24.001291275024414,
         "logit_foil": 23.618942260742188,
         "negation": "caption",
+        "positions": 8,
         "score": 0.38234901428222656,
         "segment": "ambiguous"
     },
@@ -680,6 +736,7 @@
         "logit_caption": 18.244140625,
         "logit_foil": 18.739255905151367,
         "negation": "caption",
+        "positions": 8,
         "score": -0.4951152801513672,
         "segment": "ambiguous"
     },
@@ -692,6 +749,7 @@
         "logit_caption": 28.145845413208008,
         "logit_foil": 26.643239974975586,
         "negation": "foil",
+        "positions": 8,
         "score": 1.5026054382324219,
         "segment": "correct"
     },
@@ -704,6 +762,7 @@
         "logit_caption": 20.547128677368164,
         "logit_foil": 20.809865951538086,
         "negation": "caption",
+        "positions": 10,
         "score": -0.2627372741699219,
         "segment": "ambiguous"
     },
@@ -716,6 +775,7 @@
         "logit_caption": 24.775842666625977,
         "logit_foil": 23.343700408935547,
         "negation": "foil",
+        "positions": 8,
         "score": 1.4321422576904297,
         "segment": "correct"
     },
@@ -728,6 +788,7 @@
         "logit_caption": 24.099010467529297,
         "logit_foil": 23.006250381469727,
         "negation": "caption",
+        "positions": 11,
         "score": 1.0927600860595703,
         "segment": "correct"
     },
@@ -740,6 +801,7 @@
         "logit_caption": 20.234874725341797,
         "logit_foil": 18.90198516845703,
         "negation": "caption",
+        "positions": 10,
         "score": 1.3328895568847656,
         "segment": "correct"
     },
@@ -752,6 +814,7 @@
         "logit_caption": 17.826852798461914,
         "logit_foil": 16.869726181030273,
         "negation": "caption",
+        "positions": 8,
         "score": 0.9571266174316406,
         "segment": "ambiguous"
     },
@@ -764,6 +827,7 @@
         "logit_caption": 18.577207565307617,
         "logit_foil": 18.99103546142578,
         "negation": "caption",
+        "positions": 10,
         "score": -0.41382789611816406,
         "segment": "ambiguous"
     },
@@ -776,6 +840,7 @@
         "logit_caption": 17.212404251098633,
         "logit_foil": 18.013412475585938,
         "negation": "caption",
+        "positions": 7,
         "score": -0.8010082244873047,
         "segment": "ambiguous"
     },
@@ -788,6 +853,7 @@
         "logit_caption": 21.778656005859375,
         "logit_foil": 22.230703353881836,
         "negation": "caption",
+        "positions": 8,
         "score": -0.45204734802246094,
         "segment": "ambiguous"
     },
@@ -800,6 +866,7 @@
         "logit_caption": 18.26222038269043,
         "logit_foil": 19.03287696838379,
         "negation": "caption",
+        "positions": 7,
         "score": -0.7706565856933594,
         "segment": "ambiguous"
     },
@@ -812,6 +879,7 @@
         "logit_caption": 20.15974235534668,
         "logit_foil": 20.240299224853516,
         "negation": "caption",
+        "positions": 8,
         "score": -0.08055686950683594,
         "segment": "ambiguous"
     },
@@ -824,6 +892,7 @@
         "logit_caption": 26.125600814819336,
         "logit_foil": 25.465364456176758,
         "negation": "caption",
+        "positions": 10,
         "score": 0.6602363586425781,
         "segment": "ambiguous"
     },
@@ -836,6 +905,7 @@
         "logit_caption": 24.183551788330078,
         "logit_foil": 24.10190773010254,
         "negation": "foil",
+        "positions": 8,
         "score": 0.08164405822753906,
         "segment": "ambiguous"
     },
@@ -848,6 +918,7 @@
         "logit_caption": 19.227384567260742,
         "logit_foil": 19.91710662841797,
         "negation": "caption",
+        "positions": 7,
         "score": -0.6897220611572266,
         "segment": "ambiguous"
     },
@@ -860,6 +931,7 @@
         "logit_caption": 18.533557891845703,
         "logit_foil": 18.441850662231445,
         "negation": "caption",
+        "positions": 10,
         "score": 0.09170722961425781,
         "segment": "ambiguous"
     },
@@ -872,6 +944,7 @@
         "logit_caption": 24.702821731567383,
         "logit_foil": 24.759544372558594,
         "negation": "caption",
+        "positions": 10,
         "score": -0.05672264099121094,
         "segment": "ambiguous"
     },
@@ -884,6 +957,7 @@
         "logit_caption": 23.925628662109375,
         "logit_foil": 24.05560302734375,
         "negation": "foil",
+        "positions": 7,
         "score": -0.129974365234375,
         "segment": "ambiguous"
     },
@@ -896,6 +970,7 @@
         "logit_caption": 19.120969772338867,
         "logit_foil": 18.908367156982422,
         "negation": "caption",
+        "positions": 7,
         "score": 0.2126026153564453,
         "segment": "ambiguous"
     },
@@ -908,6 +983,7 @@
         "logit_caption": 21.489585876464844,
         "logit_foil": 21.347944259643555,
         "negation": "caption",
+        "positions": 10,
         "score": 0.14164161682128906,
         "segment": "ambiguous"
     },
@@ -920,6 +996,7 @@
         "logit_caption": 19.309707641601562,
         "logit_foil": 18.779827117919922,
         "negation": "caption",
+        "positions": 10,
         "score": 0.5298805236816406,
         "segment": "ambiguous"
     },
@@ -932,6 +1009,7 @@
         "logit_caption": 20.36882781982422,
         "logit_foil": 20.51279640197754,
         "negation": "caption",
+        "positions": 8,
         "score": -0.1439685821533203,
         "segment": "ambiguous"
     },
@@ -944,6 +1022,7 @@
         "logit_caption": 22.372825622558594,
         "logit_foil": 21.268598556518555,
         "negation": "caption",
+        "positions": 7,
         "score": 1.104227066040039,
         "segment": "correct"
     },
@@ -956,6 +1035,7 @@
         "logit_caption": 19.15317153930664,
         "logit_foil": 18.857650756835938,
         "negation": "caption",
+        "positions": 10,
         "score": 0.2955207824707031,
         "segment": "ambiguous"
     },
@@ -968,6 +1048,7 @@
         "logit_caption": 21.822816848754883,
         "logit_foil": 20.969276428222656,
         "negation": "caption",
+        "positions": 7,
         "score": 0.8535404205322266,
         "segment": "ambiguous"
     },
@@ -980,6 +1061,7 @@
         "logit_caption": 20.0201416015625,
         "logit_foil": 18.62339210510254,
         "negation": "caption",
+        "positions": 9,
         "score": 1.396749496459961,
         "segment": "correct"
     },
@@ -992,6 +1074,7 @@
         "logit_caption": 27.402639389038086,
         "logit_foil": 26.506593704223633,
         "negation": "foil",
+        "positions": 10,
         "score": 0.8960456848144531,
         "segment": "ambiguous"
     },
@@ -1004,6 +1087,7 @@
         "logit_caption": 18.914669036865234,
         "logit_foil": 18.723289489746094,
         "negation": "caption",
+        "positions": 10,
         "score": 0.19137954711914062,
         "segment": "ambiguous"
     },
@@ -1016,6 +1100,7 @@
         "logit_caption": 21.47174072265625,
         "logit_foil": 22.01950454711914,
         "negation": "caption",
+        "positions": 10,
         "score": -0.5477638244628906,
         "segment": "ambiguous"
     },
@@ -1028,6 +1113,7 @@
         "logit_caption": 29.66539764404297,
         "logit_foil": 30.704912185668945,
         "negation": "foil",
+        "positions": 11,
         "score": -1.0395145416259766,
         "segment": "incorrect"
     },
@@ -1040,6 +1126,7 @@
         "logit_caption": 27.316036224365234,
         "logit_foil": 28.31307601928711,
         "negation": "foil",
+        "positions": 10,
         "score": -0.997039794921875,
         "segment": "ambiguous"
     },
@@ -1052,6 +1139,7 @@
         "logit_caption": 21.16929817199707,
         "logit_foil": 21.096996307373047,
         "negation": "caption",
+        "positions": 10,
         "score": 0.07230186462402344,
         "segment": "ambiguous"
     },
@@ -1064,6 +1152,7 @@
         "logit_caption": 27.11444091796875,
         "logit_foil": 25.139970779418945,
         "negation": "foil",
+        "positions": 8,
         "score": 1.9744701385498047,
         "segment": "correct"
     },
@@ -1076,6 +1165,7 @@
         "logit_caption": 23.867002487182617,
         "logit_foil": 23.472043991088867,
         "negation": "foil",
+        "positions": 11,
         "score": 0.39495849609375,
         "segment": "ambiguous"
     },
@@ -1088,6 +1178,7 @@
         "logit_caption": 20.212129592895508,
         "logit_foil": 18.66667938232422,
         "negation": "caption",
+        "positions": 7,
         "score": 1.545450210571289,
         "segment": "correct"
     },
@@ -1100,6 +1191,7 @@
         "logit_caption": 26.45879554748535,
         "logit_foil": 24.17814826965332,
         "negation": "foil",
+        "positions": 11,
         "score": 2.2806472778320312,
         "segment": "correct"
     },
@@ -1112,6 +1204,7 @@
         "logit_caption": 21.51532554626465,
         "logit_foil": 20.5579891204834,
         "negation": "caption",
+        "positions": 7,
         "score": 0.95733642578125,
         "segment": "ambiguous"
     },
@@ -1124,6 +1217,7 @@
         "logit_caption": 19.283185958862305,
         "logit_foil": 19.076656341552734,
         "negation": "caption",
+        "positions": 10,
         "score": 0.2065296173095703,
         "segment": "ambiguous"
     },
@@ -1136,6 +1230,7 @@
         "logit_caption": 21.057601928710938,
         "logit_foil": 21.325973510742188,
         "negation": "caption",
+        "positions": 10,
         "score": -0.26837158203125,
         "segment": "ambiguous"
     },
@@ -1148,6 +1243,7 @@
         "logit_caption": 20.22629737854004,
         "logit_foil": 18.960142135620117,
         "negation": "caption",
+        "positions": 7,
         "score": 1.2661552429199219,
         "segment": "correct"
     },
@@ -1160,6 +1256,7 @@
         "logit_caption": 18.853473663330078,
         "logit_foil": 20.56353759765625,
         "negation": "caption",
+        "positions": 8,
         "score": -1.7100639343261719,
         "segment": "incorrect"
     },
@@ -1172,6 +1269,7 @@
         "logit_caption": 20.030048370361328,
         "logit_foil": 19.60774040222168,
         "negation": "caption",
+        "positions": 7,
         "score": 0.42230796813964844,
         "segment": "ambiguous"
     },
@@ -1184,6 +1282,7 @@
         "logit_caption": 21.415687561035156,
         "logit_foil": 20.874542236328125,
         "negation": "caption",
+        "positions": 8,
         "score": 0.5411453247070312,
         "segment": "ambiguous"
     },
@@ -1196,6 +1295,7 @@
         "logit_caption": 25.68697166442871,
         "logit_foil": 25.46363067626953,
         "negation": "caption",
+        "positions": 10,
         "score": 0.2233409881591797,
         "segment": "ambiguous"
     },
@@ -1208,6 +1308,7 @@
         "logit_caption": 19.812734603881836,
         "logit_foil": 18.560596466064453,
         "negation": "caption",
+        "positions": 7,
         "score": 1.2521381378173828,
         "segment": "correct"
     },
@@ -1220,6 +1321,7 @@
         "logit_caption": 17.790054321289062,
         "logit_foil": 18.020790100097656,
         "negation": "caption",
+        "positions": 8,
         "score": -0.23073577880859375,
         "segment": "ambiguous"
     },
@@ -1232,6 +1334,7 @@
         "logit_caption": 30.417089462280273,
         "logit_foil": 29.567461013793945,
         "negation": "foil",
+        "positions": 11,
         "score": 0.8496284484863281,
         "segment": "ambiguous"
     },
@@ -1244,6 +1347,7 @@
         "logit_caption": 17.272308349609375,
         "logit_foil": 16.97338104248047,
         "negation": "caption",
+        "positions": 7,
         "score": 0.29892730712890625,
         "segment": "ambiguous"
     },
@@ -1256,6 +1360,7 @@
         "logit_caption": 18.365825653076172,
         "logit_foil": 16.907835006713867,
         "negation": "foil",
+        "positions": 10,
         "score": 1.4579906463623047,
         "segment": "correct"
     },
@@ -1268,6 +1373,7 @@
         "logit_caption": 21.25351905822754,
         "logit_foil": 21.09156036376953,
         "negation": "caption",
+        "positions": 10,
         "score": 0.1619586944580078,
         "segment": "ambiguous"
     },
@@ -1280,6 +1386,7 @@
         "logit_caption": 28.046327590942383,
         "logit_foil": 27.048654556274414,
         "negation": "foil",
+        "positions": 10,
         "score": 0.9976730346679688,
         "segment": "ambiguous"
     },
@@ -1292,6 +1399,7 @@
         "logit_caption": 26.37364387512207,
         "logit_foil": 23.367565155029297,
         "negation": "foil",
+        "positions": 12,
         "score": 3.0060787200927734,
         "segment": "correct"
     },
@@ -1304,6 +1412,7 @@
         "logit_caption": 21.218284606933594,
         "logit_foil": 19.920446395874023,
         "negation": "caption",
+        "positions": 8,
         "score": 1.2978382110595703,
         "segment": "correct"
     },
@@ -1316,6 +1425,7 @@
         "logit_caption": 22.22808837890625,
         "logit_foil": 22.105329513549805,
         "negation": "foil",
+        "positions": 8,
         "score": 0.12275886535644531,
         "segment": "ambiguous"
     },
@@ -1328,6 +1438,7 @@
         "logit_caption": 23.459238052368164,
         "logit_foil": 23.008636474609375,
         "negation": "caption",
+        "positions": 7,
         "score": 0.45060157775878906,
         "segment": "ambiguous"
     },
@@ -1340,6 +1451,7 @@
         "logit_caption": 21.12469482421875,
         "logit_foil": 19.870134353637695,
         "negation": "caption",
+        "positions": 10,
         "score": 1.2545604705810547,
         "segment": "correct"
     },
@@ -1352,6 +1464,7 @@
         "logit_caption": 24.347108840942383,
         "logit_foil": 24.253576278686523,
         "negation": "foil",
+        "positions": 11,
         "score": 0.09353256225585938,
         "segment": "ambiguous"
     },
@@ -1364,6 +1477,7 @@
         "logit_caption": 19.476354598999023,
         "logit_foil": 20.14742660522461,
         "negation": "foil",
+        "positions": 9,
         "score": -0.6710720062255859,
         "segment": "ambiguous"
     },
@@ -1376,6 +1490,7 @@
         "logit_caption": 20.458974838256836,
         "logit_foil": 20.345699310302734,
         "negation": "caption",
+        "positions": 10,
         "score": 0.11327552795410156,
         "segment": "ambiguous"
     },
@@ -1388,6 +1503,7 @@
         "logit_caption": 18.47178840637207,
         "logit_foil": 17.881549835205078,
         "negation": "caption",
+        "positions": 10,
         "score": 0.5902385711669922,
         "segment": "ambiguous"
     },
@@ -1400,6 +1516,7 @@
         "logit_caption": 20.781776428222656,
         "logit_foil": 21.633127212524414,
         "negation": "caption",
+        "positions": 10,
         "score": -0.8513507843017578,
         "segment": "ambiguous"
     },
@@ -1412,6 +1529,7 @@
         "logit_caption": 22.629518508911133,
         "logit_foil": 22.82051658630371,
         "negation": "caption",
+        "positions": 10,
         "score": -0.19099807739257812,
         "segment": "ambiguous"
     },
@@ -1424,6 +1542,7 @@
         "logit_caption": 22.587848663330078,
         "logit_foil": 20.184078216552734,
         "negation": "caption",
+        "positions": 8,
         "score": 2.4037704467773438,
         "segment": "correct"
     },
@@ -1436,6 +1555,7 @@
         "logit_caption": 27.201427459716797,
         "logit_foil": 26.177419662475586,
         "negation": "caption",
+        "positions": 11,
         "score": 1.024007797241211,
         "segment": "correct"
     },
@@ -1448,6 +1568,7 @@
         "logit_caption": 23.392425537109375,
         "logit_foil": 22.747989654541016,
         "negation": "caption",
+        "positions": 10,
         "score": 0.6444358825683594,
         "segment": "ambiguous"
     },
@@ -1460,6 +1581,7 @@
         "logit_caption": 19.228023529052734,
         "logit_foil": 17.765586853027344,
         "negation": "caption",
+        "positions": 10,
         "score": 1.4624366760253906,
         "segment": "correct"
     },
@@ -1472,6 +1594,7 @@
         "logit_caption": 22.01439094543457,
         "logit_foil": 21.283512115478516,
         "negation": "caption",
+        "positions": 7,
         "score": 0.7308788299560547,
         "segment": "ambiguous"
     },
@@ -1484,6 +1607,7 @@
         "logit_caption": 28.097393035888672,
         "logit_foil": 25.208951950073242,
         "negation": "foil",
+        "positions": 8,
         "score": 2.8884410858154297,
         "segment": "correct"
     },
@@ -1496,6 +1620,7 @@
         "logit_caption": 23.40605354309082,
         "logit_foil": 24.1284122467041,
         "negation": "caption",
+        "positions": 12,
         "score": -0.7223587036132812,
         "segment": "ambiguous"
     },
@@ -1508,6 +1633,7 @@
         "logit_caption": 23.80196189880371,
         "logit_foil": 22.784591674804688,
         "negation": "foil",
+        "positions": 12,
         "score": 1.0173702239990234,
         "segment": "correct"
     },
@@ -1520,6 +1646,7 @@
         "logit_caption": 19.930139541625977,
         "logit_foil": 18.66838836669922,
         "negation": "caption",
+        "positions": 8,
         "score": 1.2617511749267578,
         "segment": "correct"
     },
@@ -1532,6 +1659,7 @@
         "logit_caption": 23.437475204467773,
         "logit_foil": 25.370643615722656,
         "negation": "caption",
+        "positions": 8,
         "score": -1.9331684112548828,
         "segment": "incorrect"
     },
@@ -1544,6 +1672,7 @@
         "logit_caption": 23.59394645690918,
         "logit_foil": 23.773035049438477,
         "negation": "foil",
+        "positions": 8,
         "score": -0.17908859252929688,
         "segment": "ambiguous"
     },
@@ -1556,6 +1685,7 @@
         "logit_caption": 20.43543815612793,
         "logit_foil": 19.72582244873047,
         "negation": "foil",
+        "positions": 7,
         "score": 0.7096157073974609,
         "segment": "ambiguous"
     },
@@ -1568,6 +1698,7 @@
         "logit_caption": 19.877758026123047,
         "logit_foil": 19.622873306274414,
         "negation": "caption",
+        "positions": 10,
         "score": 0.2548847198486328,
         "segment": "ambiguous"
     },
@@ -1580,6 +1711,7 @@
         "logit_caption": 26.075143814086914,
         "logit_foil": 25.309797286987305,
         "negation": "foil",
+        "positions": 10,
         "score": 0.7653465270996094,
         "segment": "ambiguous"
     },
@@ -1592,6 +1724,7 @@
         "logit_caption": 21.67006492614746,
         "logit_foil": 18.255659103393555,
         "negation": "foil",
+        "positions": 8,
         "score": 3.4144058227539062,
         "segment": "correct"
     },
@@ -1604,6 +1737,7 @@
         "logit_caption": 24.188922882080078,
         "logit_foil": 24.105640411376953,
         "negation": "foil",
+        "positions": 7,
         "score": 0.083282470703125,
         "segment": "ambiguous"
     },
@@ -1616,6 +1750,7 @@
         "logit_caption": 21.893781661987305,
         "logit_foil": 22.33599853515625,
         "negation": "caption",
+        "positions": 10,
         "score": -0.4422168731689453,
         "segment": "ambiguous"
     },
@@ -1628,6 +1763,7 @@
         "logit_caption": 29.117443084716797,
         "logit_foil": 28.27674674987793,
         "negation": "foil",
+        "positions": 10,
         "score": 0.8406963348388672,
         "segment": "ambiguous"
     },
@@ -1640,6 +1776,7 @@
         "logit_caption": 20.112714767456055,
         "logit_foil": 19.418161392211914,
         "negation": "caption",
+        "positions": 7,
         "score": 0.6945533752441406,
         "segment": "ambiguous"
     },
@@ -1652,6 +1789,7 @@
         "logit_caption": 19.466670989990234,
         "logit_foil": 18.724605560302734,
         "negation": "caption",
+        "positions": 7,
         "score": 0.7420654296875,
         "segment": "ambiguous"
     },
@@ -1664,6 +1802,7 @@
         "logit_caption": 24.04216766357422,
         "logit_foil": 24.014245986938477,
         "negation": "foil",
+        "positions": 12,
         "score": 0.027921676635742188,
         "segment": "ambiguous"
     },
@@ -1676,6 +1815,7 @@
         "logit_caption": 22.94618034362793,
         "logit_foil": 21.374021530151367,
         "negation": "caption",
+        "positions": 10,
         "score": 1.5721588134765625,
         "segment": "correct"
     },
@@ -1688,6 +1828,7 @@
         "logit_caption": 15.097060203552246,
         "logit_foil": 16.081220626831055,
         "negation": "caption",
+        "positions": 7,
         "score": -0.9841604232788086,
         "segment": "ambiguous"
     },
@@ -1700,6 +1841,7 @@
         "logit_caption": 23.351545333862305,
         "logit_foil": 19.173603057861328,
         "negation": "foil",
+        "positions": 8,
         "score": 4.177942276000977,
         "segment": "correct"
     },
@@ -1712,6 +1854,7 @@
         "logit_caption": 19.567182540893555,
         "logit_foil": 19.78289222717285,
         "negation": "caption",
+        "positions": 10,
         "score": -0.21570968627929688,
         "segment": "ambiguous"
     },
@@ -1724,6 +1867,7 @@
         "logit_caption": 24.529273986816406,
         "logit_foil": 22.936267852783203,
         "negation": "foil",
+        "positions": 10,
         "score": 1.5930061340332031,
         "segment": "correct"
     },
@@ -1736,6 +1880,7 @@
         "logit_caption": 26.724599838256836,
         "logit_foil": 25.388151168823242,
         "negation": "foil",
+        "positions": 11,
         "score": 1.3364486694335938,
         "segment": "correct"
     },
@@ -1748,6 +1893,7 @@
         "logit_caption": 18.8828125,
         "logit_foil": 19.019182205200195,
         "negation": "caption",
+        "positions": 8,
         "score": -0.1363697052001953,
         "segment": "ambiguous"
     },
@@ -1760,6 +1906,7 @@
         "logit_caption": 19.23423194885254,
         "logit_foil": 19.303409576416016,
         "negation": "foil",
+        "positions": 7,
         "score": -0.06917762756347656,
         "segment": "ambiguous"
     },
@@ -1772,6 +1919,7 @@
         "logit_caption": 19.41866683959961,
         "logit_foil": 18.49833106994629,
         "negation": "caption",
+        "positions": 8,
         "score": 0.9203357696533203,
         "segment": "ambiguous"
     },
@@ -1784,6 +1932,7 @@
         "logit_caption": 16.677541732788086,
         "logit_foil": 17.384784698486328,
         "negation": "caption",
+        "positions": 7,
         "score": -0.7072429656982422,
         "segment": "ambiguous"
     },
@@ -1796,6 +1945,7 @@
         "logit_caption": 21.24324607849121,
         "logit_foil": 20.618059158325195,
         "negation": "caption",
+        "positions": 10,
         "score": 0.6251869201660156,
         "segment": "ambiguous"
     },
@@ -1808,6 +1958,7 @@
         "logit_caption": 20.377065658569336,
         "logit_foil": 17.61729621887207,
         "negation": "foil",
+        "positions": 7,
         "score": 2.7597694396972656,
         "segment": "correct"
     },
@@ -1820,6 +1971,7 @@
         "logit_caption": 20.459985733032227,
         "logit_foil": 19.869823455810547,
         "negation": "caption",
+        "positions": 11,
         "score": 0.5901622772216797,
         "segment": "ambiguous"
     },
@@ -1832,6 +1984,7 @@
         "logit_caption": 18.425630569458008,
         "logit_foil": 18.51439094543457,
         "negation": "caption",
+        "positions": 7,
         "score": -0.0887603759765625,
         "segment": "ambiguous"
     },
@@ -1844,6 +1997,7 @@
         "logit_caption": 22.751577377319336,
         "logit_foil": 22.803625106811523,
         "negation": "foil",
+        "positions": 8,
         "score": -0.0520477294921875,
         "segment": "ambiguous"
     },
@@ -1856,6 +2010,7 @@
         "logit_caption": 29.03939437866211,
         "logit_foil": 27.787506103515625,
         "negation": "foil",
+        "positions": 10,
         "score": 1.2518882751464844,
         "segment": "correct"
     },
@@ -1868,6 +2023,7 @@
         "logit_caption": 23.58049774169922,
         "logit_foil": 21.397180557250977,
         "negation": "foil",
+        "positions": 8,
         "score": 2.183317184448242,
         "segment": "correct"
     },
@@ -1880,6 +2036,7 @@
         "logit_caption": 20.08142852783203,
         "logit_foil": 18.284475326538086,
         "negation": "foil",
+        "positions": 8,
         "score": 1.7969532012939453,
         "segment": "correct"
     },
@@ -1892,6 +2049,7 @@
         "logit_caption": 19.92032241821289,
         "logit_foil": 19.532915115356445,
         "negation": "caption",
+        "positions": 10,
         "score": 0.3874073028564453,
         "segment": "ambiguous"
     },
@@ -1904,6 +2062,7 @@
         "logit_caption": 26.050382614135742,
         "logit_foil": 26.28256607055664,
         "negation": "foil",
+        "positions": 11,
         "score": -0.23218345642089844,
         "segment": "ambiguous"
     },
@@ -1916,6 +2075,7 @@
         "logit_caption": 16.291980743408203,
         "logit_foil": 17.75227165222168,
         "negation": "caption",
+        "positions": 8,
         "score": -1.4602909088134766,
         "segment": "incorrect"
     },
@@ -1928,6 +2088,7 @@
         "logit_caption": 20.145263671875,
         "logit_foil": 20.450759887695312,
         "negation": "caption",
+        "positions": 7,
         "score": -0.3054962158203125,
         "segment": "ambiguous"
     },
@@ -1940,6 +2101,7 @@
         "logit_caption": 26.398841857910156,
         "logit_foil": 26.68276596069336,
         "negation": "caption",
+        "positions": 9,
         "score": -0.2839241027832031,
         "segment": "ambiguous"
     },
@@ -1952,6 +2114,7 @@
         "logit_caption": 21.651695251464844,
         "logit_foil": 22.29067039489746,
         "negation": "caption",
+        "positions": 10,
         "score": -0.6389751434326172,
         "segment": "ambiguous"
     },
@@ -1964,6 +2127,7 @@
         "logit_caption": 27.380796432495117,
         "logit_foil": 25.345821380615234,
         "negation": "caption",
+        "positions": 10,
         "score": 2.034975051879883,
         "segment": "correct"
     },
@@ -1976,6 +2140,7 @@
         "logit_caption": 18.4406681060791,
         "logit_foil": 18.044965744018555,
         "negation": "caption",
+        "positions": 10,
         "score": 0.3957023620605469,
         "segment": "ambiguous"
     },
@@ -1988,6 +2153,7 @@
         "logit_caption": 21.69808006286621,
         "logit_foil": 20.989286422729492,
         "negation": "caption",
+        "positions": 10,
         "score": 0.7087936401367188,
         "segment": "ambiguous"
     },
@@ -2000,6 +2166,7 @@
         "logit_caption": 19.964426040649414,
         "logit_foil": 20.28598403930664,
         "negation": "caption",
+        "positions": 7,
         "score": -0.32155799865722656,
         "segment": "ambiguous"
     },
@@ -2012,6 +2179,7 @@
         "logit_caption": 19.071117401123047,
         "logit_foil": 20.83455467224121,
         "negation": "caption",
+        "positions": 7,
         "score": -1.763437271118164,
         "segment": "incorrect"
     },
@@ -2024,6 +2192,7 @@
         "logit_caption": 18.79684829711914,
         "logit_foil": 18.677324295043945,
         "negation": "caption",
+        "positions": 10,
         "score": 0.11952400207519531,
         "segment": "ambiguous"
     },
@@ -2036,6 +2205,7 @@
         "logit_caption": 20.23236656188965,
         "logit_foil": 17.683603286743164,
         "negation": "caption",
+        "positions": 7,
         "score": 2.5487632751464844,
         "segment": "correct"
     },
@@ -2048,6 +2218,7 @@
         "logit_caption": 28.04900550842285,
         "logit_foil": 26.235422134399414,
         "negation": "caption",
+        "positions": 10,
         "score": 1.8135833740234375,
         "segment": "correct"
     },
@@ -2060,6 +2231,7 @@
         "logit_caption": 27.33018684387207,
         "logit_foil": 28.103675842285156,
         "negation": "foil",
+        "positions": 11,
         "score": -0.7734889984130859,
         "segment": "ambiguous"
     },
@@ -2072,6 +2244,7 @@
         "logit_caption": 20.71315574645996,
         "logit_foil": 19.264307022094727,
         "negation": "foil",
+        "positions": 8,
         "score": 1.4488487243652344,
         "segment": "correct"
     },
@@ -2084,6 +2257,7 @@
         "logit_caption": 17.2225284576416,
         "logit_foil": 15.083728790283203,
         "negation": "caption",
+        "positions": 8,
         "score": 2.1387996673583984,
         "segment": "correct"
     },
@@ -2096,6 +2270,7 @@
         "logit_caption": 20.34786033630371,
         "logit_foil": 18.281639099121094,
         "negation": "caption",
+        "positions": 7,
         "score": 2.066221237182617,
         "segment": "correct"
     },
@@ -2108,6 +2283,7 @@
         "logit_caption": 21.804210662841797,
         "logit_foil": 22.746978759765625,
         "negation": "foil",
+        "positions": 7,
         "score": -0.9427680969238281,
         "segment": "ambiguous"
     },
@@ -2120,6 +2296,7 @@
         "logit_caption": 19.344738006591797,
         "logit_foil": 18.802453994750977,
         "negation": "caption",
+        "positions": 8,
         "score": 0.5422840118408203,
         "segment": "ambiguous"
     },
@@ -2132,6 +2309,7 @@
         "logit_caption": 22.257537841796875,
         "logit_foil": 20.597993850708008,
         "negation": "caption",
+        "positions": 10,
         "score": 1.6595439910888672,
         "segment": "correct"
     },
@@ -2144,6 +2322,7 @@
         "logit_caption": 21.780176162719727,
         "logit_foil": 20.92378807067871,
         "negation": "caption",
+        "positions": 10,
         "score": 0.8563880920410156,
         "segment": "ambiguous"
     },
@@ -2156,6 +2335,7 @@
         "logit_caption": 21.052152633666992,
         "logit_foil": 19.399465560913086,
         "negation": "caption",
+        "positions": 8,
         "score": 1.6526870727539062,
         "segment": "correct"
     },
@@ -2168,6 +2348,7 @@
         "logit_caption": 19.64082908630371,
         "logit_foil": 19.069272994995117,
         "negation": "caption",
+        "positions": 10,
         "score": 0.5715560913085938,
         "segment": "ambiguous"
     },
@@ -2180,6 +2361,7 @@
         "logit_caption": 18.286327362060547,
         "logit_foil": 18.597312927246094,
         "negation": "caption",
+        "positions": 7,
         "score": -0.3109855651855469,
         "segment": "ambiguous"
     },
@@ -2192,6 +2374,7 @@
         "logit_caption": 29.596403121948242,
         "logit_foil": 30.271812438964844,
         "negation": "foil",
+        "positions": 10,
         "score": -0.6754093170166016,
         "segment": "ambiguous"
     },
@@ -2204,6 +2387,7 @@
         "logit_caption": 18.65064811706543,
         "logit_foil": 17.876047134399414,
         "negation": "caption",
+        "positions": 8,
         "score": 0.7746009826660156,
         "segment": "ambiguous"
     },
@@ -2216,6 +2400,7 @@
         "logit_caption": 20.087135314941406,
         "logit_foil": 21.077306747436523,
         "negation": "caption",
+        "positions": 10,
         "score": -0.9901714324951172,
         "segment": "ambiguous"
     },
@@ -2228,6 +2413,7 @@
         "logit_caption": 26.20723533630371,
         "logit_foil": 27.498306274414062,
         "negation": "foil",
+        "positions": 7,
         "score": -1.2910709381103516,
         "segment": "incorrect"
     },
@@ -2240,6 +2426,7 @@
         "logit_caption": 21.245954513549805,
         "logit_foil": 21.116363525390625,
         "negation": "caption",
+        "positions": 10,
         "score": 0.1295909881591797,
         "segment": "ambiguous"
     },
@@ -2252,6 +2439,7 @@
         "logit_caption": 21.526487350463867,
         "logit_foil": 21.205995559692383,
         "negation": "foil",
+        "positions": 8,
         "score": 0.3204917907714844,
         "segment": "ambiguous"
     },
@@ -2264,6 +2452,7 @@
         "logit_caption": 17.620534896850586,
         "logit_foil": 18.00811004638672,
         "negation": "caption",
+        "positions": 10,
         "score": -0.3875751495361328,
         "segment": "ambiguous"
     },
@@ -2276,6 +2465,7 @@
         "logit_caption": 19.268014907836914,
         "logit_foil": 17.421974182128906,
         "negation": "caption",
+        "positions": 8,
         "score": 1.8460407257080078,
         "segment": "correct"
     },
@@ -2288,6 +2478,7 @@
         "logit_caption": 23.443819046020508,
         "logit_foil": 23.056907653808594,
         "negation": "foil",
+        "positions": 10,
         "score": 0.38691139221191406,
         "segment": "ambiguous"
     },
@@ -2300,6 +2491,7 @@
         "logit_caption": 20.676162719726562,
         "logit_foil": 20.4271240234375,
         "negation": "foil",
+        "positions": 8,
         "score": 0.2490386962890625,
         "segment": "ambiguous"
     },
@@ -2312,6 +2504,7 @@
         "logit_caption": 19.240907669067383,
         "logit_foil": 18.641958236694336,
         "negation": "foil",
+        "positions": 7,
         "score": 0.5989494323730469,
         "segment": "ambiguous"
     },
@@ -2324,6 +2517,7 @@
         "logit_caption": 26.993423461914062,
         "logit_foil": 25.05939292907715,
         "negation": "foil",
+        "positions": 8,
         "score": 1.934030532836914,
         "segment": "correct"
     },
@@ -2336,6 +2530,7 @@
         "logit_caption": 26.17059326171875,
         "logit_foil": 25.767677307128906,
         "negation": "foil",
+        "positions": 10,
         "score": 0.40291595458984375,
         "segment": "ambiguous"
     },
@@ -2348,6 +2543,7 @@
         "logit_caption": 26.01156997680664,
         "logit_foil": 24.892831802368164,
         "negation": "foil",
+        "positions": 9,
         "score": 1.1187381744384766,
         "segment": "correct"
     },
@@ -2360,6 +2556,7 @@
         "logit_caption": 28.870691299438477,
         "logit_foil": 26.433494567871094,
         "negation": "foil",
+        "positions": 7,
         "score": 2.437196731567383,
         "segment": "correct"
     },
@@ -2372,6 +2569,7 @@
         "logit_caption": 20.489280700683594,
         "logit_foil": 20.218902587890625,
         "negation": "caption",
+        "positions": 10,
         "score": 0.27037811279296875,
         "segment": "ambiguous"
     },
@@ -2384,6 +2582,7 @@
         "logit_caption": 20.969425201416016,
         "logit_foil": 20.09169578552246,
         "negation": "foil",
+        "positions": 10,
         "score": 0.8777294158935547,
         "segment": "ambiguous"
     },
@@ -2396,6 +2595,7 @@
         "logit_caption": 22.51472282409668,
         "logit_foil": 22.300981521606445,
         "negation": "foil",
+        "positions": 10,
         "score": 0.21374130249023438,
         "segment": "ambiguous"
     },
@@ -2408,6 +2608,7 @@
         "logit_caption": 16.735265731811523,
         "logit_foil": 16.04254913330078,
         "negation": "foil",
+        "positions": 7,
         "score": 0.6927165985107422,
         "segment": "ambiguous"
     },
@@ -2420,6 +2621,7 @@
         "logit_caption": 26.528684616088867,
         "logit_foil": 26.5715389251709,
         "negation": "foil",
+        "positions": 8,
         "score": -0.04285430908203125,
         "segment": "ambiguous"
     },
@@ -2432,6 +2634,7 @@
         "logit_caption": 17.88060760498047,
         "logit_foil": 17.537405014038086,
         "negation": "foil",
+        "positions": 8,
         "score": 0.3432025909423828,
         "segment": "ambiguous"
     },
@@ -2444,6 +2647,7 @@
         "logit_caption": 19.406696319580078,
         "logit_foil": 19.590057373046875,
         "negation": "caption",
+        "positions": 8,
         "score": -0.18336105346679688,
         "segment": "ambiguous"
     },
@@ -2456,6 +2660,7 @@
         "logit_caption": 24.963125228881836,
         "logit_foil": 25.00613784790039,
         "negation": "foil",
+        "positions": 7,
         "score": -0.04301261901855469,
         "segment": "ambiguous"
     },
@@ -2468,6 +2673,7 @@
         "logit_caption": 26.713838577270508,
         "logit_foil": 25.959060668945312,
         "negation": "foil",
+        "positions": 7,
         "score": 0.7547779083251953,
         "segment": "ambiguous"
     },
@@ -2480,6 +2686,7 @@
         "logit_caption": 28.33890151977539,
         "logit_foil": 26.98938751220703,
         "negation": "foil",
+        "positions": 10,
         "score": 1.3495140075683594,
         "segment": "correct"
     },
@@ -2492,6 +2699,7 @@
         "logit_caption": 27.734546661376953,
         "logit_foil": 26.153440475463867,
         "negation": "foil",
+        "positions": 8,
         "score": 1.581106185913086,
         "segment": "correct"
     },
@@ -2504,6 +2712,7 @@
         "logit_caption": 20.562095642089844,
         "logit_foil": 19.829296112060547,
         "negation": "foil",
+        "positions": 7,
         "score": 0.7327995300292969,
         "segment": "ambiguous"
     },
@@ -2516,6 +2725,7 @@
         "logit_caption": 26.06926727294922,
         "logit_foil": 23.71863555908203,
         "negation": "foil",
+        "positions": 7,
         "score": 2.3506317138671875,
         "segment": "correct"
     },
@@ -2528,6 +2738,7 @@
         "logit_caption": 24.611103057861328,
         "logit_foil": 24.20574378967285,
         "negation": "foil",
+        "positions": 11,
         "score": 0.40535926818847656,
         "segment": "ambiguous"
     },
@@ -2540,6 +2751,7 @@
         "logit_caption": 26.479860305786133,
         "logit_foil": 25.424724578857422,
         "negation": "foil",
+        "positions": 10,
         "score": 1.055135726928711,
         "segment": "correct"
     },
@@ -2552,6 +2764,7 @@
         "logit_caption": 21.344284057617188,
         "logit_foil": 19.77826690673828,
         "negation": "caption",
+        "positions": 7,
         "score": 1.5660171508789062,
         "segment": "correct"
     },
@@ -2564,6 +2777,7 @@
         "logit_caption": 22.227428436279297,
         "logit_foil": 22.2238712310791,
         "negation": "foil",
+        "positions": 10,
         "score": 0.0035572052001953125,
         "segment": "ambiguous"
     },
@@ -2576,6 +2790,7 @@
         "logit_caption": 24.78976821899414,
         "logit_foil": 25.815763473510742,
         "negation": "foil",
+        "positions": 7,
         "score": -1.0259952545166016,
         "segment": "incorrect"
     },
@@ -2588,6 +2803,7 @@
         "logit_caption": 23.373001098632812,
         "logit_foil": 22.680816650390625,
         "negation": "foil",
+        "positions": 8,
         "score": 0.6921844482421875,
         "segment": "ambiguous"
     },
@@ -2600,6 +2816,7 @@
         "logit_caption": 26.606704711914062,
         "logit_foil": 24.76561164855957,
         "negation": "foil",
+        "positions": 7,
         "score": 1.8410930633544922,
         "segment": "correct"
     },
@@ -2612,6 +2829,7 @@
         "logit_caption": 27.20684051513672,
         "logit_foil": 27.409305572509766,
         "negation": "foil",
+        "positions": 9,
         "score": -0.20246505737304688,
         "segment": "ambiguous"
     },
@@ -2624,6 +2842,7 @@
         "logit_caption": 24.242958068847656,
         "logit_foil": 24.387296676635742,
         "negation": "foil",
+        "positions": 8,
         "score": -0.14433860778808594,
         "segment": "ambiguous"
     },
@@ -2636,6 +2855,7 @@
         "logit_caption": 20.776939392089844,
         "logit_foil": 20.203208923339844,
         "negation": "foil",
+        "positions": 10,
         "score": 0.57373046875,
         "segment": "ambiguous"
     },
@@ -2648,6 +2868,7 @@
         "logit_caption": 19.625728607177734,
         "logit_foil": 19.288616180419922,
         "negation": "foil",
+        "positions": 8,
         "score": 0.3371124267578125,
         "segment": "ambiguous"
     },
@@ -2660,6 +2881,7 @@
         "logit_caption": 28.44979476928711,
         "logit_foil": 27.549278259277344,
         "negation": "foil",
+        "positions": 9,
         "score": 0.9005165100097656,
         "segment": "ambiguous"
     },
@@ -2672,6 +2894,7 @@
         "logit_caption": 17.63456153869629,
         "logit_foil": 16.74839210510254,
         "negation": "foil",
+        "positions": 7,
         "score": 0.88616943359375,
         "segment": "ambiguous"
     },
@@ -2684,6 +2907,7 @@
         "logit_caption": 21.40223503112793,
         "logit_foil": 19.808513641357422,
         "negation": "foil",
+        "positions": 7,
         "score": 1.5937213897705078,
         "segment": "correct"
     },
@@ -2696,6 +2920,7 @@
         "logit_caption": 18.443201065063477,
         "logit_foil": 18.261117935180664,
         "negation": "caption",
+        "positions": 10,
         "score": 0.1820831298828125,
         "segment": "ambiguous"
     },
@@ -2708,6 +2933,7 @@
         "logit_caption": 20.49691390991211,
         "logit_foil": 20.041284561157227,
         "negation": "foil",
+        "positions": 8,
         "score": 0.4556293487548828,
         "segment": "ambiguous"
     },
@@ -2720,6 +2946,7 @@
         "logit_caption": 22.452787399291992,
         "logit_foil": 23.386507034301758,
         "negation": "foil",
+        "positions": 7,
         "score": -0.9337196350097656,
         "segment": "ambiguous"
     },
@@ -2732,6 +2959,7 @@
         "logit_caption": 24.54865074157715,
         "logit_foil": 24.91971778869629,
         "negation": "foil",
+        "positions": 11,
         "score": -0.3710670471191406,
         "segment": "ambiguous"
     },
@@ -2744,6 +2972,7 @@
         "logit_caption": 23.20743751525879,
         "logit_foil": 23.639999389648438,
         "negation": "foil",
+        "positions": 10,
         "score": -0.43256187438964844,
         "segment": "ambiguous"
     },
@@ -2756,6 +2985,7 @@
         "logit_caption": 21.0408935546875,
         "logit_foil": 20.00279426574707,
         "negation": "foil",
+        "positions": 7,
         "score": 1.0380992889404297,
         "segment": "correct"
     },
@@ -2768,6 +2998,7 @@
         "logit_caption": 26.18450164794922,
         "logit_foil": 24.55636978149414,
         "negation": "foil",
+        "positions": 7,
         "score": 1.6281318664550781,
         "segment": "correct"
     },
@@ -2780,6 +3011,7 @@
         "logit_caption": 19.348154067993164,
         "logit_foil": 19.169193267822266,
         "negation": "foil",
+        "positions": 8,
         "score": 0.17896080017089844,
         "segment": "ambiguous"
     },
@@ -2792,6 +3024,7 @@
         "logit_caption": 25.70423698425293,
         "logit_foil": 24.230863571166992,
         "negation": "foil",
+        "positions": 7,
         "score": 1.4733734130859375,
         "segment": "correct"
     },
@@ -2804,6 +3037,7 @@
         "logit_caption": 24.286958694458008,
         "logit_foil": 23.870908737182617,
         "negation": "foil",
+        "positions": 10,
         "score": 0.4160499572753906,
         "segment": "ambiguous"
     },
@@ -2816,6 +3050,7 @@
         "logit_caption": 24.076210021972656,
         "logit_foil": 22.866622924804688,
         "negation": "foil",
+        "positions": 13,
         "score": 1.2095870971679688,
         "segment": "correct"
     },
@@ -2828,6 +3063,7 @@
         "logit_caption": 23.03816795349121,
         "logit_foil": 21.890907287597656,
         "negation": "foil",
+        "positions": 7,
         "score": 1.1472606658935547,
         "segment": "correct"
     },
@@ -2840,6 +3076,7 @@
         "logit_caption": 18.928394317626953,
         "logit_foil": 17.89190101623535,
         "negation": "caption",
+        "positions": 10,
         "score": 1.0364933013916016,
         "segment": "correct"
     },
@@ -2852,6 +3089,7 @@
         "logit_caption": 20.193954467773438,
         "logit_foil": 19.204484939575195,
         "negation": "foil",
+        "positions": 9,
         "score": 0.9894695281982422,
         "segment": "ambiguous"
     },
@@ -2864,6 +3102,7 @@
         "logit_caption": 21.922542572021484,
         "logit_foil": 20.614410400390625,
         "negation": "foil",
+        "positions": 10,
         "score": 1.3081321716308594,
         "segment": "correct"
     },
@@ -2876,6 +3115,7 @@
         "logit_caption": 18.853992462158203,
         "logit_foil": 18.435558319091797,
         "negation": "caption",
+        "positions": 10,
         "score": 0.41843414306640625,
         "segment": "ambiguous"
     },
@@ -2888,6 +3128,7 @@
         "logit_caption": 19.043197631835938,
         "logit_foil": 19.539182662963867,
         "negation": "foil",
+        "positions": 10,
         "score": -0.4959850311279297,
         "segment": "ambiguous"
     },
@@ -2900,6 +3141,7 @@
         "logit_caption": 26.199506759643555,
         "logit_foil": 25.385059356689453,
         "negation": "foil",
+        "positions": 8,
         "score": 0.8144474029541016,
         "segment": "ambiguous"
     },
@@ -2912,6 +3154,7 @@
         "logit_caption": 25.54428482055664,
         "logit_foil": 23.45862579345703,
         "negation": "foil",
+        "positions": 9,
         "score": 2.0856590270996094,
         "segment": "correct"
     },
@@ -2924,6 +3167,7 @@
         "logit_caption": 21.777498245239258,
         "logit_foil": 21.348434448242188,
         "negation": "foil",
+        "positions": 10,
         "score": 0.4290637969970703,
         "segment": "ambiguous"
     },
@@ -2936,6 +3180,7 @@
         "logit_caption": 21.536605834960938,
         "logit_foil": 22.732040405273438,
         "negation": "foil",
+        "positions": 10,
         "score": -1.1954345703125,
         "segment": "incorrect"
     },
@@ -2948,6 +3193,7 @@
         "logit_caption": 26.2373104095459,
         "logit_foil": 24.39188003540039,
         "negation": "foil",
+        "positions": 7,
         "score": 1.8454303741455078,
         "segment": "correct"
     },
@@ -2960,6 +3206,7 @@
         "logit_caption": 26.647424697875977,
         "logit_foil": 25.99148941040039,
         "negation": "foil",
+        "positions": 10,
         "score": 0.6559352874755859,
         "segment": "ambiguous"
     },
@@ -2972,6 +3219,7 @@
         "logit_caption": 19.359216690063477,
         "logit_foil": 20.293081283569336,
         "negation": "caption",
+        "positions": 7,
         "score": -0.9338645935058594,
         "segment": "ambiguous"
     },
@@ -2984,6 +3232,7 @@
         "logit_caption": 28.281583786010742,
         "logit_foil": 28.328218460083008,
         "negation": "foil",
+        "positions": 10,
         "score": -0.046634674072265625,
         "segment": "ambiguous"
     },
@@ -2996,6 +3245,7 @@
         "logit_caption": 27.065839767456055,
         "logit_foil": 25.295318603515625,
         "negation": "foil",
+        "positions": 8,
         "score": 1.7705211639404297,
         "segment": "correct"
     },
@@ -3008,6 +3258,7 @@
         "logit_caption": 19.357139587402344,
         "logit_foil": 19.337743759155273,
         "negation": "foil",
+        "positions": 8,
         "score": 0.019395828247070312,
         "segment": "ambiguous"
     },
@@ -3020,6 +3271,7 @@
         "logit_caption": 23.299976348876953,
         "logit_foil": 21.609447479248047,
         "negation": "foil",
+        "positions": 8,
         "score": 1.6905288696289062,
         "segment": "correct"
     },
@@ -3032,6 +3284,7 @@
         "logit_caption": 19.723670959472656,
         "logit_foil": 19.197311401367188,
         "negation": "foil",
+        "positions": 7,
         "score": 0.5263595581054688,
         "segment": "ambiguous"
     },
@@ -3044,6 +3297,7 @@
         "logit_caption": 21.71343231201172,
         "logit_foil": 20.566303253173828,
         "negation": "foil",
+        "positions": 8,
         "score": 1.1471290588378906,
         "segment": "correct"
     },
@@ -3056,6 +3310,7 @@
         "logit_caption": 30.903329849243164,
         "logit_foil": 31.698867797851562,
         "negation": "foil",
+        "positions": 7,
         "score": -0.7955379486083984,
         "segment": "ambiguous"
     },
@@ -3068,6 +3323,7 @@
         "logit_caption": 25.27465057373047,
         "logit_foil": 25.75316047668457,
         "negation": "foil",
+        "positions": 7,
         "score": -0.47850990295410156,
         "segment": "ambiguous"
     },
@@ -3080,6 +3336,7 @@
         "logit_caption": 21.061952590942383,
         "logit_foil": 21.241708755493164,
         "negation": "foil",
+        "positions": 8,
         "score": -0.17975616455078125,
         "segment": "ambiguous"
     },
@@ -3092,6 +3349,7 @@
         "logit_caption": 19.838436126708984,
         "logit_foil": 20.14858055114746,
         "negation": "foil",
+        "positions": 10,
         "score": -0.31014442443847656,
         "segment": "ambiguous"
     },
@@ -3104,6 +3362,7 @@
         "logit_caption": 21.72107696533203,
         "logit_foil": 21.6135196685791,
         "negation": "foil",
+        "positions": 8,
         "score": 0.10755729675292969,
         "segment": "ambiguous"
     },
@@ -3116,6 +3375,7 @@
         "logit_caption": 24.351594924926758,
         "logit_foil": 24.618139266967773,
         "negation": "foil",
+        "positions": 9,
         "score": -0.2665443420410156,
         "segment": "ambiguous"
     },
@@ -3128,6 +3388,7 @@
         "logit_caption": 21.006837844848633,
         "logit_foil": 20.434144973754883,
         "negation": "foil",
+        "positions": 7,
         "score": 0.57269287109375,
         "segment": "ambiguous"
     },
@@ -3140,6 +3401,7 @@
         "logit_caption": 23.996747970581055,
         "logit_foil": 22.02417755126953,
         "negation": "foil",
+        "positions": 7,
         "score": 1.9725704193115234,
         "segment": "correct"
     },
@@ -3152,6 +3414,7 @@
         "logit_caption": 22.424304962158203,
         "logit_foil": 23.202091217041016,
         "negation": "foil",
+        "positions": 8,
         "score": -0.7777862548828125,
         "segment": "ambiguous"
     },
@@ -3164,6 +3427,7 @@
         "logit_caption": 16.681949615478516,
         "logit_foil": 16.98834228515625,
         "negation": "caption",
+        "positions": 7,
         "score": -0.3063926696777344,
         "segment": "ambiguous"
     },
@@ -3176,6 +3440,7 @@
         "logit_caption": 25.507123947143555,
         "logit_foil": 23.77712631225586,
         "negation": "foil",
+        "positions": 7,
         "score": 1.7299976348876953,
         "segment": "correct"
     },
@@ -3188,6 +3453,7 @@
         "logit_caption": 18.161270141601562,
         "logit_foil": 16.912595748901367,
         "negation": "foil",
+        "positions": 8,
         "score": 1.2486743927001953,
         "segment": "correct"
     },
@@ -3200,6 +3466,7 @@
         "logit_caption": 25.736541748046875,
         "logit_foil": 26.131431579589844,
         "negation": "foil",
+        "positions": 7,
         "score": -0.39488983154296875,
         "segment": "ambiguous"
     },
@@ -3212,6 +3479,7 @@
         "logit_caption": 26.900394439697266,
         "logit_foil": 25.970666885375977,
         "negation": "foil",
+        "positions": 7,
         "score": 0.9297275543212891,
         "segment": "ambiguous"
     },
@@ -3224,6 +3492,7 @@
         "logit_caption": 23.351797103881836,
         "logit_foil": 23.116199493408203,
         "negation": "foil",
+        "positions": 8,
         "score": 0.2355976104736328,
         "segment": "ambiguous"
     },
@@ -3236,6 +3505,7 @@
         "logit_caption": 23.673030853271484,
         "logit_foil": 24.01051139831543,
         "negation": "foil",
+        "positions": 7,
         "score": -0.3374805450439453,
         "segment": "ambiguous"
     },
@@ -3248,6 +3518,7 @@
         "logit_caption": 22.41310691833496,
         "logit_foil": 19.6943302154541,
         "negation": "caption",
+        "positions": 8,
         "score": 2.7187767028808594,
         "segment": "correct"
     },
@@ -3260,6 +3531,7 @@
         "logit_caption": 25.300207138061523,
         "logit_foil": 27.90223503112793,
         "negation": "foil",
+        "positions": 12,
         "score": -2.6020278930664062,
         "segment": "incorrect"
     },
@@ -3272,6 +3544,7 @@
         "logit_caption": 26.747175216674805,
         "logit_foil": 26.020397186279297,
         "negation": "foil",
+        "positions": 7,
         "score": 0.7267780303955078,
         "segment": "ambiguous"
     },
@@ -3284,6 +3557,7 @@
         "logit_caption": 20.57663345336914,
         "logit_foil": 21.580272674560547,
         "negation": "foil",
+        "positions": 7,
         "score": -1.0036392211914062,
         "segment": "incorrect"
     },
@@ -3296,6 +3570,7 @@
         "logit_caption": 22.948904037475586,
         "logit_foil": 23.369415283203125,
         "negation": "foil",
+        "positions": 11,
         "score": -0.42051124572753906,
         "segment": "ambiguous"
     },
@@ -3308,6 +3583,7 @@
         "logit_caption": 20.315631866455078,
         "logit_foil": 21.009489059448242,
         "negation": "foil",
+        "positions": 10,
         "score": -0.6938571929931641,
         "segment": "ambiguous"
     },
@@ -3320,6 +3596,7 @@
         "logit_caption": 22.520647048950195,
         "logit_foil": 21.83734130859375,
         "negation": "foil",
+        "positions": 10,
         "score": 0.6833057403564453,
         "segment": "ambiguous"
     },
@@ -3332,6 +3609,7 @@
         "logit_caption": 18.119688034057617,
         "logit_foil": 18.668603897094727,
         "negation": "foil",
+        "positions": 8,
         "score": -0.5489158630371094,
         "segment": "ambiguous"
     },
@@ -3344,6 +3622,7 @@
         "logit_caption": 22.7616024017334,
         "logit_foil": 21.996065139770508,
         "negation": "caption",
+        "positions": 10,
         "score": 0.7655372619628906,
         "segment": "ambiguous"
     },
@@ -3356,6 +3635,7 @@
         "logit_caption": 22.783885955810547,
         "logit_foil": 21.871952056884766,
         "negation": "foil",
+        "positions": 8,
         "score": 0.9119338989257812,
         "segment": "ambiguous"
     },
@@ -3368,6 +3648,7 @@
         "logit_caption": 24.598541259765625,
         "logit_foil": 24.83463478088379,
         "negation": "foil",
+        "positions": 7,
         "score": -0.23609352111816406,
         "segment": "ambiguous"
     },
@@ -3380,6 +3661,7 @@
         "logit_caption": 22.44345474243164,
         "logit_foil": 21.961294174194336,
         "negation": "foil",
+        "positions": 7,
         "score": 0.4821605682373047,
         "segment": "ambiguous"
     },
@@ -3392,6 +3674,7 @@
         "logit_caption": 21.901081085205078,
         "logit_foil": 21.347707748413086,
         "negation": "foil",
+        "positions": 7,
         "score": 0.5533733367919922,
         "segment": "ambiguous"
     },
@@ -3404,6 +3687,7 @@
         "logit_caption": 26.238496780395508,
         "logit_foil": 23.65279769897461,
         "negation": "foil",
+        "positions": 8,
         "score": 2.5856990814208984,
         "segment": "correct"
     },
@@ -3416,6 +3700,7 @@
         "logit_caption": 26.409271240234375,
         "logit_foil": 26.110519409179688,
         "negation": "foil",
+        "positions": 13,
         "score": 0.2987518310546875,
         "segment": "ambiguous"
     },
@@ -3428,6 +3713,7 @@
         "logit_caption": 30.683320999145508,
         "logit_foil": 29.961915969848633,
         "negation": "foil",
+        "positions": 8,
         "score": 0.721405029296875,
         "segment": "ambiguous"
     },
@@ -3440,6 +3726,7 @@
         "logit_caption": 24.2404842376709,
         "logit_foil": 24.347902297973633,
         "negation": "foil",
+        "positions": 11,
         "score": -0.10741806030273438,
         "segment": "ambiguous"
     },
@@ -3452,6 +3739,7 @@
         "logit_caption": 27.503158569335938,
         "logit_foil": 26.17183494567871,
         "negation": "foil",
+        "positions": 10,
         "score": 1.3313236236572266,
         "segment": "correct"
     },
@@ -3464,6 +3752,7 @@
         "logit_caption": 24.20316505432129,
         "logit_foil": 23.653005599975586,
         "negation": "foil",
+        "positions": 7,
         "score": 0.5501594543457031,
         "segment": "ambiguous"
     },
@@ -3476,6 +3765,7 @@
         "logit_caption": 24.693016052246094,
         "logit_foil": 22.264535903930664,
         "negation": "foil",
+        "positions": 9,
         "score": 2.4284801483154297,
         "segment": "correct"
     },
@@ -3488,6 +3778,7 @@
         "logit_caption": 17.710926055908203,
         "logit_foil": 17.547611236572266,
         "negation": "caption",
+        "positions": 10,
         "score": 0.1633148193359375,
         "segment": "ambiguous"
     },
@@ -3500,6 +3791,7 @@
         "logit_caption": 25.28026580810547,
         "logit_foil": 23.70535659790039,
         "negation": "foil",
+        "positions": 7,
         "score": 1.5749092102050781,
         "segment": "correct"
     },
@@ -3512,6 +3804,7 @@
         "logit_caption": 26.645692825317383,
         "logit_foil": 24.772354125976562,
         "negation": "foil",
+        "positions": 8,
         "score": 1.8733386993408203,
         "segment": "correct"
     },
@@ -3524,6 +3817,7 @@
         "logit_caption": 26.438201904296875,
         "logit_foil": 27.15190315246582,
         "negation": "foil",
+        "positions": 10,
         "score": -0.7137012481689453,
         "segment": "ambiguous"
     },
@@ -3536,6 +3830,7 @@
         "logit_caption": 26.257915496826172,
         "logit_foil": 25.651412963867188,
         "negation": "foil",
+        "positions": 7,
         "score": 0.6065025329589844,
         "segment": "ambiguous"
     },
@@ -3548,6 +3843,7 @@
         "logit_caption": 27.923166275024414,
         "logit_foil": 27.781747817993164,
         "negation": "foil",
+        "positions": 7,
         "score": 0.14141845703125,
         "segment": "ambiguous"
     },
@@ -3560,6 +3856,7 @@
         "logit_caption": 21.014373779296875,
         "logit_foil": 20.01877212524414,
         "negation": "caption",
+        "positions": 9,
         "score": 0.9956016540527344,
         "segment": "ambiguous"
     },
@@ -3572,6 +3869,7 @@
         "logit_caption": 15.981781005859375,
         "logit_foil": 16.09807586669922,
         "negation": "caption",
+        "positions": 7,
         "score": -0.11629486083984375,
         "segment": "ambiguous"
     },
@@ -3584,6 +3882,7 @@
         "logit_caption": 23.66401481628418,
         "logit_foil": 24.712642669677734,
         "negation": "foil",
+        "positions": 11,
         "score": -1.0486278533935547,
         "segment": "incorrect"
     },
@@ -3596,6 +3895,7 @@
         "logit_caption": 24.23067283630371,
         "logit_foil": 20.40479278564453,
         "negation": "foil",
+        "positions": 8,
         "score": 3.8258800506591797,
         "segment": "correct"
     },
@@ -3608,6 +3908,7 @@
         "logit_caption": 20.919864654541016,
         "logit_foil": 19.070728302001953,
         "negation": "caption",
+        "positions": 10,
         "score": 1.8491363525390625,
         "segment": "correct"
     },
@@ -3620,6 +3921,7 @@
         "logit_caption": 27.37132453918457,
         "logit_foil": 25.82006072998047,
         "negation": "foil",
+        "positions": 7,
         "score": 1.5512638092041016,
         "segment": "correct"
     },
@@ -3632,6 +3934,7 @@
         "logit_caption": 18.854801177978516,
         "logit_foil": 17.766101837158203,
         "negation": "caption",
+        "positions": 10,
         "score": 1.0886993408203125,
         "segment": "correct"
     },
@@ -3644,6 +3947,7 @@
         "logit_caption": 27.47174072265625,
         "logit_foil": 27.541166305541992,
         "negation": "foil",
+        "positions": 11,
         "score": -0.06942558288574219,
         "segment": "ambiguous"
     },
@@ -3656,6 +3960,7 @@
         "logit_caption": 21.50967788696289,
         "logit_foil": 21.361858367919922,
         "negation": "foil",
+        "positions": 7,
         "score": 0.14781951904296875,
         "segment": "ambiguous"
     },
@@ -3668,6 +3973,7 @@
         "logit_caption": 19.892362594604492,
         "logit_foil": 19.396894454956055,
         "negation": "foil",
+        "positions": 10,
         "score": 0.4954681396484375,
         "segment": "ambiguous"
     },
@@ -3680,6 +3986,7 @@
         "logit_caption": 20.64517593383789,
         "logit_foil": 21.783071517944336,
         "negation": "caption",
+        "positions": 7,
         "score": -1.1378955841064453,
         "segment": "incorrect"
     },
@@ -3692,6 +3999,7 @@
         "logit_caption": 22.982398986816406,
         "logit_foil": 22.58061408996582,
         "negation": "foil",
+        "positions": 10,
         "score": 0.40178489685058594,
         "segment": "ambiguous"
     },
@@ -3704,6 +4012,7 @@
         "logit_caption": 18.38643455505371,
         "logit_foil": 16.686660766601562,
         "negation": "caption",
+        "positions": 7,
         "score": 1.6997737884521484,
         "segment": "correct"
     },
@@ -3716,6 +4025,7 @@
         "logit_caption": 20.212533950805664,
         "logit_foil": 20.07193946838379,
         "negation": "foil",
+        "positions": 7,
         "score": 0.140594482421875,
         "segment": "ambiguous"
     },
@@ -3728,6 +4038,7 @@
         "logit_caption": 20.553241729736328,
         "logit_foil": 22.50942611694336,
         "negation": "foil",
+        "positions": 11,
         "score": -1.9561843872070312,
         "segment": "incorrect"
     },
@@ -3740,6 +4051,7 @@
         "logit_caption": 19.377710342407227,
         "logit_foil": 18.48879623413086,
         "negation": "foil",
+        "positions": 10,
         "score": 0.8889141082763672,
         "segment": "ambiguous"
     },
@@ -3752,6 +4064,7 @@
         "logit_caption": 18.325162887573242,
         "logit_foil": 18.444204330444336,
         "negation": "caption",
+        "positions": 8,
         "score": -0.11904144287109375,
         "segment": "ambiguous"
     },
@@ -3764,6 +4077,7 @@
         "logit_caption": 25.224353790283203,
         "logit_foil": 24.18526840209961,
         "negation": "foil",
+        "positions": 11,
         "score": 1.0390853881835938,
         "segment": "correct"
     },
@@ -3776,6 +4090,7 @@
         "logit_caption": 20.64260482788086,
         "logit_foil": 20.733381271362305,
         "negation": "caption",
+        "positions": 7,
         "score": -0.09077644348144531,
         "segment": "ambiguous"
     },
@@ -3788,6 +4103,7 @@
         "logit_caption": 28.805696487426758,
         "logit_foil": 27.259519577026367,
         "negation": "foil",
+        "positions": 8,
         "score": 1.5461769104003906,
         "segment": "correct"
     },
@@ -3800,6 +4116,7 @@
         "logit_caption": 18.6796817779541,
         "logit_foil": 19.90627098083496,
         "negation": "foil",
+        "positions": 8,
         "score": -1.2265892028808594,
         "segment": "incorrect"
     },
@@ -3812,6 +4129,7 @@
         "logit_caption": 23.245759963989258,
         "logit_foil": 23.005794525146484,
         "negation": "foil",
+        "positions": 8,
         "score": 0.23996543884277344,
         "segment": "ambiguous"
     },
@@ -3824,6 +4142,7 @@
         "logit_caption": 17.863279342651367,
         "logit_foil": 18.18018913269043,
         "negation": "caption",
+        "positions": 8,
         "score": -0.3169097900390625,
         "segment": "ambiguous"
     },
@@ -3836,6 +4155,7 @@
         "logit_caption": 17.754735946655273,
         "logit_foil": 17.6815128326416,
         "negation": "caption",
+        "positions": 7,
         "score": 0.07322311401367188,
         "segment": "ambiguous"
     },
@@ -3848,6 +4168,7 @@
         "logit_caption": 16.902000427246094,
         "logit_foil": 16.117395401000977,
         "negation": "caption",
+        "positions": 10,
         "score": 0.7846050262451172,
         "segment": "ambiguous"
     },
@@ -3860,6 +4181,7 @@
         "logit_caption": 24.023603439331055,
         "logit_foil": 25.07251739501953,
         "negation": "foil",
+        "positions": 12,
         "score": -1.0489139556884766,
         "segment": "incorrect"
     },
@@ -3872,6 +4194,7 @@
         "logit_caption": 18.70160675048828,
         "logit_foil": 18.83772087097168,
         "negation": "caption",
+        "positions": 10,
         "score": -0.13611412048339844,
         "segment": "ambiguous"
     },
@@ -3884,6 +4207,7 @@
         "logit_caption": 19.668045043945312,
         "logit_foil": 19.513324737548828,
         "negation": "foil",
+        "positions": 10,
         "score": 0.15472030639648438,
         "segment": "ambiguous"
     },
@@ -3896,6 +4220,7 @@
         "logit_caption": 20.495838165283203,
         "logit_foil": 18.869464874267578,
         "negation": "caption",
+        "positions": 8,
         "score": 1.626373291015625,
         "segment": "correct"
     },
@@ -3908,6 +4233,7 @@
         "logit_caption": 20.983501434326172,
         "logit_foil": 20.37747573852539,
         "negation": "caption",
+        "positions": 8,
         "score": 0.6060256958007812,
         "segment": "ambiguous"
     },
@@ -3920,6 +4246,7 @@
         "logit_caption": 18.705350875854492,
         "logit_foil": 17.55919647216797,
         "negation": "caption",
+        "positions": 10,
         "score": 1.1461544036865234,
         "segment": "correct"
     },
@@ -3932,6 +4259,7 @@
         "logit_caption": 25.084381103515625,
         "logit_foil": 24.686872482299805,
         "negation": "caption",
+        "positions": 10,
         "score": 0.3975086212158203,
         "segment": "ambiguous"
     },
@@ -3944,6 +4272,7 @@
         "logit_caption": 18.91232681274414,
         "logit_foil": 18.146757125854492,
         "negation": "caption",
+        "positions": 10,
         "score": 0.7655696868896484,
         "segment": "ambiguous"
     },
@@ -3956,6 +4285,7 @@
         "logit_caption": 19.85984230041504,
         "logit_foil": 19.277164459228516,
         "negation": "caption",
+        "positions": 7,
         "score": 0.5826778411865234,
         "segment": "ambiguous"
     },
@@ -3968,6 +4298,7 @@
         "logit_caption": 25.98548698425293,
         "logit_foil": 26.53180503845215,
         "negation": "caption",
+        "positions": 10,
         "score": -0.5463180541992188,
         "segment": "ambiguous"
     },
@@ -3980,6 +4311,7 @@
         "logit_caption": 25.096946716308594,
         "logit_foil": 24.55181121826172,
         "negation": "foil",
+        "positions": 10,
         "score": 0.545135498046875,
         "segment": "ambiguous"
     },
@@ -3992,6 +4324,7 @@
         "logit_caption": 19.49772071838379,
         "logit_foil": 20.81025505065918,
         "negation": "foil",
+        "positions": 11,
         "score": -1.3125343322753906,
         "segment": "incorrect"
     },
@@ -4004,6 +4337,7 @@
         "logit_caption": 25.90841293334961,
         "logit_foil": 25.19097137451172,
         "negation": "caption",
+        "positions": 10,
         "score": 0.7174415588378906,
         "segment": "ambiguous"
     },
@@ -4016,6 +4350,7 @@
         "logit_caption": 25.183887481689453,
         "logit_foil": 24.131135940551758,
         "negation": "foil",
+        "positions": 11,
         "score": 1.0527515411376953,
         "segment": "correct"
     },
@@ -4028,6 +4363,7 @@
         "logit_caption": 28.135143280029297,
         "logit_foil": 26.68478012084961,
         "negation": "foil",
+        "positions": 7,
         "score": 1.4503631591796875,
         "segment": "correct"
     },
@@ -4040,6 +4376,7 @@
         "logit_caption": 23.535158157348633,
         "logit_foil": 22.85080909729004,
         "negation": "caption",
+        "positions": 10,
         "score": 0.6843490600585938,
         "segment": "ambiguous"
     },
@@ -4052,6 +4389,7 @@
         "logit_caption": 20.98827362060547,
         "logit_foil": 22.314565658569336,
         "negation": "foil",
+        "positions": 7,
         "score": -1.3262920379638672,
         "segment": "incorrect"
     },
@@ -4064,6 +4402,7 @@
         "logit_caption": 19.18697166442871,
         "logit_foil": 17.316125869750977,
         "negation": "caption",
+        "positions": 9,
         "score": 1.8708457946777344,
         "segment": "correct"
     },
@@ -4076,6 +4415,7 @@
         "logit_caption": 21.826231002807617,
         "logit_foil": 20.571882247924805,
         "negation": "foil",
+        "positions": 7,
         "score": 1.2543487548828125,
         "segment": "correct"
     },
@@ -4088,6 +4428,7 @@
         "logit_caption": 25.58557891845703,
         "logit_foil": 24.237991333007812,
         "negation": "foil",
+        "positions": 8,
         "score": 1.3475875854492188,
         "segment": "correct"
     },
@@ -4100,6 +4441,7 @@
         "logit_caption": 20.05833625793457,
         "logit_foil": 18.669111251831055,
         "negation": "foil",
+        "positions": 8,
         "score": 1.3892250061035156,
         "segment": "correct"
     },
@@ -4112,6 +4454,7 @@
         "logit_caption": 18.35446548461914,
         "logit_foil": 18.014406204223633,
         "negation": "caption",
+        "positions": 10,
         "score": 0.3400592803955078,
         "segment": "ambiguous"
     },
@@ -4124,6 +4467,7 @@
         "logit_caption": 25.06232452392578,
         "logit_foil": 24.336484909057617,
         "negation": "foil",
+        "positions": 10,
         "score": 0.7258396148681641,
         "segment": "ambiguous"
     },
@@ -4136,6 +4480,7 @@
         "logit_caption": 22.334001541137695,
         "logit_foil": 22.117643356323242,
         "negation": "foil",
+        "positions": 8,
         "score": 0.21635818481445312,
         "segment": "ambiguous"
     },
@@ -4148,6 +4493,7 @@
         "logit_caption": 24.927913665771484,
         "logit_foil": 21.25278663635254,
         "negation": "foil",
+        "positions": 7,
         "score": 3.6751270294189453,
         "segment": "correct"
     },
@@ -4160,6 +4506,7 @@
         "logit_caption": 24.72235870361328,
         "logit_foil": 24.725448608398438,
         "negation": "foil",
+        "positions": 12,
         "score": -0.00308990478515625,
         "segment": "ambiguous"
     },
@@ -4172,6 +4519,7 @@
         "logit_caption": 20.193368911743164,
         "logit_foil": 20.708419799804688,
         "negation": "caption",
+        "positions": 10,
         "score": -0.5150508880615234,
         "segment": "ambiguous"
     },
@@ -4184,6 +4532,7 @@
         "logit_caption": 23.747770309448242,
         "logit_foil": 21.325227737426758,
         "negation": "foil",
+        "positions": 7,
         "score": 2.4225425720214844,
         "segment": "correct"
     },
@@ -4196,6 +4545,7 @@
         "logit_caption": 17.517822265625,
         "logit_foil": 16.9867000579834,
         "negation": "caption",
+        "positions": 8,
         "score": 0.5311222076416016,
         "segment": "ambiguous"
     },
@@ -4208,6 +4558,7 @@
         "logit_caption": 22.108633041381836,
         "logit_foil": 21.64972686767578,
         "negation": "foil",
+        "positions": 10,
         "score": 0.4589061737060547,
         "segment": "ambiguous"
     },
@@ -4220,6 +4571,7 @@
         "logit_caption": 27.843334197998047,
         "logit_foil": 28.325485229492188,
         "negation": "foil",
+        "positions": 10,
         "score": -0.4821510314941406,
         "segment": "ambiguous"
     },
@@ -4232,6 +4584,7 @@
         "logit_caption": 22.362836837768555,
         "logit_foil": 21.8768253326416,
         "negation": "caption",
+        "positions": 8,
         "score": 0.4860115051269531,
         "segment": "ambiguous"
     },
@@ -4244,6 +4597,7 @@
         "logit_caption": 25.436716079711914,
         "logit_foil": 25.594173431396484,
         "negation": "foil",
+        "positions": 11,
         "score": -0.1574573516845703,
         "segment": "ambiguous"
     },
@@ -4256,6 +4610,7 @@
         "logit_caption": 25.813232421875,
         "logit_foil": 24.05728530883789,
         "negation": "caption",
+        "positions": 10,
         "score": 1.7559471130371094,
         "segment": "correct"
     },
@@ -4268,6 +4623,7 @@
         "logit_caption": 19.803010940551758,
         "logit_foil": 19.37796401977539,
         "negation": "caption",
+        "positions": 7,
         "score": 0.4250469207763672,
         "segment": "ambiguous"
     },
@@ -4280,6 +4636,7 @@
         "logit_caption": 19.573755264282227,
         "logit_foil": 19.170082092285156,
         "negation": "caption",
+        "positions": 10,
         "score": 0.4036731719970703,
         "segment": "ambiguous"
     },
@@ -4292,6 +4649,7 @@
         "logit_caption": 19.562362670898438,
         "logit_foil": 21.687463760375977,
         "negation": "caption",
+        "positions": 8,
         "score": -2.125101089477539,
         "segment": "incorrect"
     },
@@ -4304,6 +4662,7 @@
         "logit_caption": 19.625268936157227,
         "logit_foil": 18.44418716430664,
         "negation": "caption",
+        "positions": 7,
         "score": 1.181081771850586,
         "segment": "correct"
     },
@@ -4316,6 +4675,7 @@
         "logit_caption": 21.320602416992188,
         "logit_foil": 20.1319522857666,
         "negation": "foil",
+        "positions": 10,
         "score": 1.188650131225586,
         "segment": "correct"
     },
@@ -4328,6 +4688,7 @@
         "logit_caption": 31.11737632751465,
         "logit_foil": 30.109363555908203,
         "negation": "foil",
+        "positions": 8,
         "score": 1.0080127716064453,
         "segment": "correct"
     },
@@ -4340,6 +4701,7 @@
         "logit_caption": 26.002483367919922,
         "logit_foil": 22.47687339782715,
         "negation": "caption",
+        "positions": 8,
         "score": 3.5256099700927734,
         "segment": "correct"
     },
@@ -4352,6 +4714,7 @@
         "logit_caption": 20.651752471923828,
         "logit_foil": 19.28317642211914,
         "negation": "caption",
+        "positions": 10,
         "score": 1.3685760498046875,
         "segment": "correct"
     },
@@ -4364,6 +4727,7 @@
         "logit_caption": 27.810367584228516,
         "logit_foil": 26.339405059814453,
         "negation": "caption",
+        "positions": 11,
         "score": 1.4709625244140625,
         "segment": "correct"
     },
@@ -4376,6 +4740,7 @@
         "logit_caption": 21.506582260131836,
         "logit_foil": 20.51380157470703,
         "negation": "caption",
+        "positions": 10,
         "score": 0.9927806854248047,
         "segment": "ambiguous"
     },
@@ -4388,6 +4753,7 @@
         "logit_caption": 27.365934371948242,
         "logit_foil": 23.485462188720703,
         "negation": "foil",
+        "positions": 11,
         "score": 3.880472183227539,
         "segment": "correct"
     },
@@ -4400,6 +4766,7 @@
         "logit_caption": 16.681270599365234,
         "logit_foil": 17.314682006835938,
         "negation": "caption",
+        "positions": 9,
         "score": -0.6334114074707031,
         "segment": "ambiguous"
     },
@@ -4412,6 +4779,7 @@
         "logit_caption": 17.82085609436035,
         "logit_foil": 17.462038040161133,
         "negation": "caption",
+        "positions": 10,
         "score": 0.35881805419921875,
         "segment": "ambiguous"
     },
@@ -4424,6 +4792,7 @@
         "logit_caption": 22.994102478027344,
         "logit_foil": 20.673812866210938,
         "negation": "caption",
+        "positions": 10,
         "score": 2.3202896118164062,
         "segment": "correct"
     },
@@ -4436,6 +4805,7 @@
         "logit_caption": 16.963716506958008,
         "logit_foil": 17.83846664428711,
         "negation": "caption",
+        "positions": 7,
         "score": -0.8747501373291016,
         "segment": "ambiguous"
     },
@@ -4448,6 +4818,7 @@
         "logit_caption": 22.38974380493164,
         "logit_foil": 23.415935516357422,
         "negation": "foil",
+        "positions": 7,
         "score": -1.0261917114257812,
         "segment": "incorrect"
     },
@@ -4460,6 +4831,7 @@
         "logit_caption": 22.10394859313965,
         "logit_foil": 21.813322067260742,
         "negation": "caption",
+        "positions": 10,
         "score": 0.29062652587890625,
         "segment": "ambiguous"
     },
@@ -4472,6 +4844,7 @@
         "logit_caption": 15.938695907592773,
         "logit_foil": 16.568174362182617,
         "negation": "caption",
+        "positions": 7,
         "score": -0.6294784545898438,
         "segment": "ambiguous"
     },
@@ -4484,6 +4857,7 @@
         "logit_caption": 23.316957473754883,
         "logit_foil": 25.163562774658203,
         "negation": "foil",
+        "positions": 10,
         "score": -1.8466053009033203,
         "segment": "incorrect"
     },
@@ -4496,6 +4870,7 @@
         "logit_caption": 27.69510269165039,
         "logit_foil": 27.294795989990234,
         "negation": "caption",
+        "positions": 11,
         "score": 0.40030670166015625,
         "segment": "ambiguous"
     },
@@ -4508,6 +4883,7 @@
         "logit_caption": 19.343902587890625,
         "logit_foil": 17.439838409423828,
         "negation": "caption",
+        "positions": 7,
         "score": 1.9040641784667969,
         "segment": "correct"
     },
@@ -4520,6 +4896,7 @@
         "logit_caption": 20.003116607666016,
         "logit_foil": 19.163747787475586,
         "negation": "caption",
+        "positions": 10,
         "score": 0.8393688201904297,
         "segment": "ambiguous"
     },
@@ -4532,6 +4909,7 @@
         "logit_caption": 19.3768310546875,
         "logit_foil": 18.381643295288086,
         "negation": "caption",
+        "positions": 7,
         "score": 0.9951877593994141,
         "segment": "ambiguous"
     },
@@ -4544,6 +4922,7 @@
         "logit_caption": 31.28425407409668,
         "logit_foil": 31.765892028808594,
         "negation": "foil",
+        "positions": 11,
         "score": -0.48163795471191406,
         "segment": "ambiguous"
     },
@@ -4556,6 +4935,7 @@
         "logit_caption": 18.195335388183594,
         "logit_foil": 18.18816566467285,
         "negation": "caption",
+        "positions": 9,
         "score": 0.0071697235107421875,
         "segment": "ambiguous"
     },
@@ -4568,6 +4948,7 @@
         "logit_caption": 25.27379035949707,
         "logit_foil": 24.04490852355957,
         "negation": "foil",
+        "positions": 7,
         "score": 1.2288818359375,
         "segment": "correct"
     },
@@ -4580,6 +4961,7 @@
         "logit_caption": 19.792203903198242,
         "logit_foil": 18.26689338684082,
         "negation": "caption",
+        "positions": 7,
         "score": 1.5253105163574219,
         "segment": "correct"
     },
@@ -4592,6 +4974,7 @@
         "logit_caption": 21.32826805114746,
         "logit_foil": 19.871374130249023,
         "negation": "caption",
+        "positions": 10,
         "score": 1.4568939208984375,
         "segment": "correct"
     },
@@ -4604,6 +4987,7 @@
         "logit_caption": 23.21245002746582,
         "logit_foil": 23.278411865234375,
         "negation": "caption",
+        "positions": 10,
         "score": -0.06596183776855469,
         "segment": "ambiguous"
     },
@@ -4616,6 +5000,7 @@
         "logit_caption": 22.37381935119629,
         "logit_foil": 20.816070556640625,
         "negation": "foil",
+        "positions": 7,
         "score": 1.557748794555664,
         "segment": "correct"
     },
@@ -4628,6 +5013,7 @@
         "logit_caption": 22.14920425415039,
         "logit_foil": 22.08098602294922,
         "negation": "foil",
+        "positions": 10,
         "score": 0.06821823120117188,
         "segment": "ambiguous"
     },
@@ -4640,6 +5026,7 @@
         "logit_caption": 19.862592697143555,
         "logit_foil": 19.580551147460938,
         "negation": "foil",
+        "positions": 8,
         "score": 0.2820415496826172,
         "segment": "ambiguous"
     },
@@ -4652,6 +5039,7 @@
         "logit_caption": 20.49224090576172,
         "logit_foil": 20.35171890258789,
         "negation": "caption",
+        "positions": 10,
         "score": 0.14052200317382812,
         "segment": "ambiguous"
     },
@@ -4664,6 +5052,7 @@
         "logit_caption": 19.041780471801758,
         "logit_foil": 17.92979621887207,
         "negation": "caption",
+        "positions": 8,
         "score": 1.1119842529296875,
         "segment": "correct"
     },
@@ -4676,6 +5065,7 @@
         "logit_caption": 22.389760971069336,
         "logit_foil": 21.15464210510254,
         "negation": "foil",
+        "positions": 7,
         "score": 1.2351188659667969,
         "segment": "correct"
     },
@@ -4688,6 +5078,7 @@
         "logit_caption": 22.763431549072266,
         "logit_foil": 20.381607055664062,
         "negation": "foil",
+        "positions": 9,
         "score": 2.381824493408203,
         "segment": "correct"
     },
@@ -4700,6 +5091,7 @@
         "logit_caption": 23.59305763244629,
         "logit_foil": 23.70660972595215,
         "negation": "foil",
+        "positions": 12,
         "score": -0.11355209350585938,
         "segment": "ambiguous"
     },
@@ -4712,6 +5104,7 @@
         "logit_caption": 20.230815887451172,
         "logit_foil": 18.62786293029785,
         "negation": "caption",
+        "positions": 8,
         "score": 1.6029529571533203,
         "segment": "correct"
     },
@@ -4724,6 +5117,7 @@
         "logit_caption": 18.607959747314453,
         "logit_foil": 18.528287887573242,
         "negation": "caption",
+        "positions": 7,
         "score": 0.07967185974121094,
         "segment": "ambiguous"
     },
@@ -4736,6 +5130,7 @@
         "logit_caption": 16.875341415405273,
         "logit_foil": 18.245952606201172,
         "negation": "foil",
+        "positions": 10,
         "score": -1.3706111907958984,
         "segment": "incorrect"
     },
@@ -4748,6 +5143,7 @@
         "logit_caption": 21.255319595336914,
         "logit_foil": 20.823083877563477,
         "negation": "caption",
+        "positions": 10,
         "score": 0.4322357177734375,
         "segment": "ambiguous"
     },
@@ -4760,6 +5156,7 @@
         "logit_caption": 28.690889358520508,
         "logit_foil": 27.358644485473633,
         "negation": "caption",
+        "positions": 10,
         "score": 1.332244873046875,
         "segment": "correct"
     },
@@ -4772,6 +5169,7 @@
         "logit_caption": 20.080665588378906,
         "logit_foil": 18.731809616088867,
         "negation": "caption",
+        "positions": 7,
         "score": 1.348855972290039,
         "segment": "correct"
     },
@@ -4784,6 +5182,7 @@
         "logit_caption": 16.22759437561035,
         "logit_foil": 18.477293014526367,
         "negation": "caption",
+        "positions": 8,
         "score": -2.2496986389160156,
         "segment": "incorrect"
     },
@@ -4796,6 +5195,7 @@
         "logit_caption": 21.42655372619629,
         "logit_foil": 20.90526580810547,
         "negation": "caption",
+        "positions": 10,
         "score": 0.5212879180908203,
         "segment": "ambiguous"
     },
@@ -4808,6 +5208,7 @@
         "logit_caption": 22.531469345092773,
         "logit_foil": 23.13017463684082,
         "negation": "foil",
+        "positions": 10,
         "score": -0.5987052917480469,
         "segment": "ambiguous"
     },
@@ -4820,6 +5221,7 @@
         "logit_caption": 28.57293128967285,
         "logit_foil": 27.64761734008789,
         "negation": "caption",
+        "positions": 10,
         "score": 0.9253139495849609,
         "segment": "ambiguous"
     },
@@ -4832,6 +5234,7 @@
         "logit_caption": 23.38878631591797,
         "logit_foil": 23.640771865844727,
         "negation": "caption",
+        "positions": 10,
         "score": -0.2519855499267578,
         "segment": "ambiguous"
     },
@@ -4844,6 +5247,7 @@
         "logit_caption": 20.71698760986328,
         "logit_foil": 21.316593170166016,
         "negation": "caption",
+        "positions": 8,
         "score": -0.5996055603027344,
         "segment": "ambiguous"
     },
@@ -4856,6 +5260,7 @@
         "logit_caption": 17.784332275390625,
         "logit_foil": 20.65847396850586,
         "negation": "caption",
+        "positions": 8,
         "score": -2.8741416931152344,
         "segment": "incorrect"
     },
@@ -4868,6 +5273,7 @@
         "logit_caption": 22.29063606262207,
         "logit_foil": 20.89638900756836,
         "negation": "caption",
+        "positions": 8,
         "score": 1.394247055053711,
         "segment": "correct"
     },
@@ -4880,6 +5286,7 @@
         "logit_caption": 18.451553344726562,
         "logit_foil": 18.36943817138672,
         "negation": "caption",
+        "positions": 7,
         "score": 0.08211517333984375,
         "segment": "ambiguous"
     },
@@ -4892,6 +5299,7 @@
         "logit_caption": 18.906694412231445,
         "logit_foil": 19.652359008789062,
         "negation": "caption",
+        "positions": 7,
         "score": -0.7456645965576172,
         "segment": "ambiguous"
     },
@@ -4904,6 +5312,7 @@
         "logit_caption": 22.298681259155273,
         "logit_foil": 20.456192016601562,
         "negation": "caption",
+        "positions": 8,
         "score": 1.842489242553711,
         "segment": "correct"
     },
@@ -4916,6 +5325,7 @@
         "logit_caption": 25.542795181274414,
         "logit_foil": 23.261585235595703,
         "negation": "foil",
+        "positions": 9,
         "score": 2.281209945678711,
         "segment": "correct"
     },
@@ -4928,6 +5338,7 @@
         "logit_caption": 28.39229965209961,
         "logit_foil": 26.551815032958984,
         "negation": "foil",
+        "positions": 8,
         "score": 1.840484619140625,
         "segment": "correct"
     },
@@ -4940,6 +5351,7 @@
         "logit_caption": 18.714540481567383,
         "logit_foil": 17.493263244628906,
         "negation": "caption",
+        "positions": 8,
         "score": 1.2212772369384766,
         "segment": "correct"
     },
@@ -4952,6 +5364,7 @@
         "logit_caption": 23.470766067504883,
         "logit_foil": 22.970888137817383,
         "negation": "foil",
+        "positions": 7,
         "score": 0.4998779296875,
         "segment": "ambiguous"
     },
@@ -4964,6 +5377,7 @@
         "logit_caption": 23.43303680419922,
         "logit_foil": 22.682188034057617,
         "negation": "foil",
+        "positions": 10,
         "score": 0.7508487701416016,
         "segment": "ambiguous"
     },
@@ -4976,6 +5390,7 @@
         "logit_caption": 22.428678512573242,
         "logit_foil": 22.543882369995117,
         "negation": "foil",
+        "positions": 7,
         "score": -0.115203857421875,
         "segment": "ambiguous"
     },
@@ -4988,6 +5403,7 @@
         "logit_caption": 23.15369415283203,
         "logit_foil": 22.93659210205078,
         "negation": "foil",
+        "positions": 10,
         "score": 0.21710205078125,
         "segment": "ambiguous"
     },
@@ -5000,6 +5416,7 @@
         "logit_caption": 16.055011749267578,
         "logit_foil": 16.713191986083984,
         "negation": "caption",
+        "positions": 7,
         "score": -0.6581802368164062,
         "segment": "ambiguous"
     },
@@ -5012,6 +5429,7 @@
         "logit_caption": 18.636154174804688,
         "logit_foil": 19.336936950683594,
         "negation": "caption",
+        "positions": 7,
         "score": -0.7007827758789062,
         "segment": "ambiguous"
     },
@@ -5024,6 +5442,7 @@
         "logit_caption": 19.44508171081543,
         "logit_foil": 20.359050750732422,
         "negation": "caption",
+        "positions": 7,
         "score": -0.9139690399169922,
         "segment": "ambiguous"
     },
@@ -5036,6 +5455,7 @@
         "logit_caption": 19.27622413635254,
         "logit_foil": 19.588733673095703,
         "negation": "foil",
+        "positions": 10,
         "score": -0.31250953674316406,
         "segment": "ambiguous"
     },
@@ -5048,6 +5468,7 @@
         "logit_caption": 17.65456771850586,
         "logit_foil": 16.932239532470703,
         "negation": "caption",
+        "positions": 7,
         "score": 0.7223281860351562,
         "segment": "ambiguous"
     },
@@ -5060,6 +5481,7 @@
         "logit_caption": 18.41055679321289,
         "logit_foil": 18.438274383544922,
         "negation": "caption",
+        "positions": 10,
         "score": -0.02771759033203125,
         "segment": "ambiguous"
     },
@@ -5072,6 +5494,7 @@
         "logit_caption": 20.487468719482422,
         "logit_foil": 20.543272018432617,
         "negation": "caption",
+        "positions": 10,
         "score": -0.05580329895019531,
         "segment": "ambiguous"
     },
@@ -5084,6 +5507,7 @@
         "logit_caption": 24.406280517578125,
         "logit_foil": 19.05136489868164,
         "negation": "caption",
+        "positions": 8,
         "score": 5.354915618896484,
         "segment": "correct"
     },
@@ -5096,6 +5520,7 @@
         "logit_caption": 18.555410385131836,
         "logit_foil": 17.041439056396484,
         "negation": "caption",
+        "positions": 9,
         "score": 1.5139713287353516,
         "segment": "correct"
     },
@@ -5108,6 +5533,7 @@
         "logit_caption": 23.671550750732422,
         "logit_foil": 23.6214599609375,
         "negation": "foil",
+        "positions": 13,
         "score": 0.050090789794921875,
         "segment": "ambiguous"
     },
@@ -5120,6 +5546,7 @@
         "logit_caption": 30.22771644592285,
         "logit_foil": 27.5864200592041,
         "negation": "foil",
+        "positions": 9,
         "score": 2.64129638671875,
         "segment": "correct"
     },
@@ -5132,6 +5559,7 @@
         "logit_caption": 25.9289608001709,
         "logit_foil": 25.96882438659668,
         "negation": "caption",
+        "positions": 16,
         "score": -0.03986358642578125,
         "segment": "ambiguous"
     },
@@ -5144,6 +5572,7 @@
         "logit_caption": 18.539785385131836,
         "logit_foil": 18.28374481201172,
         "negation": "caption",
+        "positions": 10,
         "score": 0.2560405731201172,
         "segment": "ambiguous"
     },
@@ -5156,6 +5585,7 @@
         "logit_caption": 20.820768356323242,
         "logit_foil": 20.029706954956055,
         "negation": "caption",
+        "positions": 8,
         "score": 0.7910614013671875,
         "segment": "ambiguous"
     },
@@ -5168,6 +5598,7 @@
         "logit_caption": 22.810497283935547,
         "logit_foil": 22.685482025146484,
         "negation": "foil",
+        "positions": 11,
         "score": 0.1250152587890625,
         "segment": "ambiguous"
     },
@@ -5180,6 +5611,7 @@
         "logit_caption": 23.05622673034668,
         "logit_foil": 23.081579208374023,
         "negation": "foil",
+        "positions": 8,
         "score": -0.02535247802734375,
         "segment": "ambiguous"
     },
@@ -5192,6 +5624,7 @@
         "logit_caption": 18.573034286499023,
         "logit_foil": 18.73554039001465,
         "negation": "caption",
+        "positions": 10,
         "score": -0.162506103515625,
         "segment": "ambiguous"
     },
@@ -5204,6 +5637,7 @@
         "logit_caption": 23.69649314880371,
         "logit_foil": 23.071561813354492,
         "negation": "foil",
+        "positions": 8,
         "score": 0.6249313354492188,
         "segment": "ambiguous"
     },
@@ -5216,6 +5650,7 @@
         "logit_caption": 19.28322982788086,
         "logit_foil": 17.39950942993164,
         "negation": "caption",
+        "positions": 10,
         "score": 1.8837203979492188,
         "segment": "correct"
     },
@@ -5228,6 +5663,7 @@
         "logit_caption": 17.066072463989258,
         "logit_foil": 17.322542190551758,
         "negation": "caption",
+        "positions": 9,
         "score": -0.2564697265625,
         "segment": "ambiguous"
     },
@@ -5240,6 +5676,7 @@
         "logit_caption": 20.487836837768555,
         "logit_foil": 18.923805236816406,
         "negation": "caption",
+        "positions": 9,
         "score": 1.5640316009521484,
         "segment": "correct"
     },
@@ -5252,6 +5689,7 @@
         "logit_caption": 18.866092681884766,
         "logit_foil": 19.609882354736328,
         "negation": "caption",
+        "positions": 8,
         "score": -0.7437896728515625,
         "segment": "ambiguous"
     },
@@ -5264,6 +5702,7 @@
         "logit_caption": 18.25794792175293,
         "logit_foil": 18.51866912841797,
         "negation": "caption",
+        "positions": 10,
         "score": -0.26072120666503906,
         "segment": "ambiguous"
     },
@@ -5276,6 +5715,7 @@
         "logit_caption": 27.492618560791016,
         "logit_foil": 27.268198013305664,
         "negation": "foil",
+        "positions": 10,
         "score": 0.22442054748535156,
         "segment": "ambiguous"
     },
@@ -5288,6 +5728,7 @@
         "logit_caption": 19.263916015625,
         "logit_foil": 18.733606338500977,
         "negation": "caption",
+        "positions": 8,
         "score": 0.5303096771240234,
         "segment": "ambiguous"
     },
@@ -5300,6 +5741,7 @@
         "logit_caption": 20.7939395904541,
         "logit_foil": 19.552064895629883,
         "negation": "caption",
+        "positions": 7,
         "score": 1.2418746948242188,
         "segment": "correct"
     },
@@ -5312,6 +5754,7 @@
         "logit_caption": 20.01715087890625,
         "logit_foil": 18.21232795715332,
         "negation": "caption",
+        "positions": 7,
         "score": 1.8048229217529297,
         "segment": "correct"
     },
@@ -5324,6 +5767,7 @@
         "logit_caption": 22.294893264770508,
         "logit_foil": 21.42645263671875,
         "negation": "foil",
+        "positions": 10,
         "score": 0.8684406280517578,
         "segment": "ambiguous"
     },
@@ -5336,6 +5780,7 @@
         "logit_caption": 15.289155960083008,
         "logit_foil": 15.808160781860352,
         "negation": "caption",
+        "positions": 8,
         "score": -0.5190048217773438,
         "segment": "ambiguous"
     },
@@ -5348,6 +5793,7 @@
         "logit_caption": 20.976648330688477,
         "logit_foil": 21.520172119140625,
         "negation": "caption",
+        "positions": 7,
         "score": -0.5435237884521484,
         "segment": "ambiguous"
     },
@@ -5360,6 +5806,7 @@
         "logit_caption": 18.914541244506836,
         "logit_foil": 19.31601333618164,
         "negation": "caption",
+        "positions": 10,
         "score": -0.4014720916748047,
         "segment": "ambiguous"
     },
@@ -5372,6 +5819,7 @@
         "logit_caption": 23.801198959350586,
         "logit_foil": 23.448575973510742,
         "negation": "foil",
+        "positions": 10,
         "score": 0.35262298583984375,
         "segment": "ambiguous"
     },
@@ -5384,6 +5832,7 @@
         "logit_caption": 22.10727882385254,
         "logit_foil": 21.00604248046875,
         "negation": "foil",
+        "positions": 7,
         "score": 1.101236343383789,
         "segment": "correct"
     },
@@ -5396,6 +5845,7 @@
         "logit_caption": 15.88370132446289,
         "logit_foil": 16.653005599975586,
         "negation": "caption",
+        "positions": 10,
         "score": -0.7693042755126953,
         "segment": "ambiguous"
     },
@@ -5408,6 +5858,7 @@
         "logit_caption": 20.97871208190918,
         "logit_foil": 21.584331512451172,
         "negation": "foil",
+        "positions": 7,
         "score": -0.6056194305419922,
         "segment": "ambiguous"
     },
@@ -5420,6 +5871,7 @@
         "logit_caption": 20.348426818847656,
         "logit_foil": 19.52131462097168,
         "negation": "caption",
+        "positions": 7,
         "score": 0.8271121978759766,
         "segment": "ambiguous"
     },
@@ -5432,6 +5884,7 @@
         "logit_caption": 19.434467315673828,
         "logit_foil": 19.478275299072266,
         "negation": "caption",
+        "positions": 7,
         "score": -0.0438079833984375,
         "segment": "ambiguous"
     },
@@ -5444,6 +5897,7 @@
         "logit_caption": 16.659927368164062,
         "logit_foil": 16.67388153076172,
         "negation": "caption",
+        "positions": 10,
         "score": -0.01395416259765625,
         "segment": "ambiguous"
     },
@@ -5456,6 +5910,7 @@
         "logit_caption": 23.48535919189453,
         "logit_foil": 21.576265335083008,
         "negation": "foil",
+        "positions": 8,
         "score": 1.9090938568115234,
         "segment": "correct"
     },
@@ -5468,6 +5923,7 @@
         "logit_caption": 24.3613224029541,
         "logit_foil": 25.511350631713867,
         "negation": "foil",
+        "positions": 10,
         "score": -1.1500282287597656,
         "segment": "incorrect"
     },
@@ -5480,6 +5936,7 @@
         "logit_caption": 28.710060119628906,
         "logit_foil": 28.73534393310547,
         "negation": "foil",
+        "positions": 11,
         "score": -0.0252838134765625,
         "segment": "ambiguous"
     },
@@ -5492,6 +5949,7 @@
         "logit_caption": 18.116844177246094,
         "logit_foil": 18.221420288085938,
         "negation": "foil",
+        "positions": 7,
         "score": -0.10457611083984375,
         "segment": "ambiguous"
     },
@@ -5504,6 +5962,7 @@
         "logit_caption": 23.419504165649414,
         "logit_foil": 20.32366371154785,
         "negation": "caption",
+        "positions": 10,
         "score": 3.0958404541015625,
         "segment": "correct"
     },
@@ -5516,6 +5975,7 @@
         "logit_caption": 20.507078170776367,
         "logit_foil": 20.572744369506836,
         "negation": "foil",
+        "positions": 13,
         "score": -0.06566619873046875,
         "segment": "ambiguous"
     },
@@ -5528,6 +5988,7 @@
         "logit_caption": 22.804479598999023,
         "logit_foil": 22.767314910888672,
         "negation": "foil",
+        "positions": 9,
         "score": 0.03716468811035156,
         "segment": "ambiguous"
     },
@@ -5540,6 +6001,7 @@
         "logit_caption": 20.18505859375,
         "logit_foil": 19.00814437866211,
         "negation": "foil",
+        "positions": 10,
         "score": 1.1769142150878906,
         "segment": "correct"
     },
@@ -5552,6 +6014,7 @@
         "logit_caption": 31.293678283691406,
         "logit_foil": 28.138118743896484,
         "negation": "foil",
+        "positions": 8,
         "score": 3.155559539794922,
         "segment": "correct"
     },
@@ -5564,6 +6027,7 @@
         "logit_caption": 19.042865753173828,
         "logit_foil": 19.113468170166016,
         "negation": "caption",
+        "positions": 10,
         "score": -0.0706024169921875,
         "segment": "ambiguous"
     },
@@ -5576,6 +6040,7 @@
         "logit_caption": 32.122615814208984,
         "logit_foil": 32.065547943115234,
         "negation": "foil",
+        "positions": 11,
         "score": 0.05706787109375,
         "segment": "ambiguous"
     },
@@ -5588,6 +6053,7 @@
         "logit_caption": 19.605886459350586,
         "logit_foil": 19.61745262145996,
         "negation": "caption",
+        "positions": 10,
         "score": -0.011566162109375,
         "segment": "ambiguous"
     },
@@ -5600,6 +6066,7 @@
         "logit_caption": 20.02017593383789,
         "logit_foil": 19.061582565307617,
         "negation": "caption",
+        "positions": 8,
         "score": 0.9585933685302734,
         "segment": "ambiguous"
     },
@@ -5612,6 +6079,7 @@
         "logit_caption": 30.11859893798828,
         "logit_foil": 29.487159729003906,
         "negation": "foil",
+        "positions": 11,
         "score": 0.631439208984375,
         "segment": "ambiguous"
     },
@@ -5624,6 +6092,7 @@
         "logit_caption": 24.386507034301758,
         "logit_foil": 24.274456024169922,
         "negation": "caption",
+        "positions": 10,
         "score": 0.11205101013183594,
         "segment": "ambiguous"
     },
@@ -5636,6 +6105,7 @@
         "logit_caption": 23.1937313079834,
         "logit_foil": 23.37714958190918,
         "negation": "caption",
+        "positions": 10,
         "score": -0.18341827392578125,
         "segment": "ambiguous"
     },
@@ -5648,6 +6118,7 @@
         "logit_caption": 23.29456901550293,
         "logit_foil": 21.211488723754883,
         "negation": "foil",
+        "positions": 11,
         "score": 2.083080291748047,
         "segment": "correct"
     },
@@ -5660,6 +6131,7 @@
         "logit_caption": 24.034067153930664,
         "logit_foil": 21.320680618286133,
         "negation": "caption",
+        "positions": 10,
         "score": 2.7133865356445312,
         "segment": "correct"
     },
@@ -5672,6 +6144,7 @@
         "logit_caption": 20.52391242980957,
         "logit_foil": 20.634218215942383,
         "negation": "caption",
+        "positions": 10,
         "score": -0.1103057861328125,
         "segment": "ambiguous"
     },
@@ -5684,6 +6157,7 @@
         "logit_caption": 24.38144874572754,
         "logit_foil": 23.861766815185547,
         "negation": "caption",
+        "positions": 12,
         "score": 0.5196819305419922,
         "segment": "ambiguous"
     },
@@ -5696,6 +6170,7 @@
         "logit_caption": 18.9794979095459,
         "logit_foil": 17.910987854003906,
         "negation": "caption",
+        "positions": 7,
         "score": 1.0685100555419922,
         "segment": "correct"
     },
@@ -5708,6 +6183,7 @@
         "logit_caption": 22.12851905822754,
         "logit_foil": 21.20622444152832,
         "negation": "caption",
+        "positions": 10,
         "score": 0.9222946166992188,
         "segment": "ambiguous"
     },
@@ -5720,6 +6196,7 @@
         "logit_caption": 26.61484146118164,
         "logit_foil": 25.580795288085938,
         "negation": "foil",
+        "positions": 8,
         "score": 1.0340461730957031,
         "segment": "correct"
     },
@@ -5732,6 +6209,7 @@
         "logit_caption": 25.941200256347656,
         "logit_foil": 25.41117286682129,
         "negation": "foil",
+        "positions": 10,
         "score": 0.5300273895263672,
         "segment": "ambiguous"
     },
@@ -5744,6 +6222,7 @@
         "logit_caption": 27.689542770385742,
         "logit_foil": 26.627748489379883,
         "negation": "foil",
+        "positions": 10,
         "score": 1.0617942810058594,
         "segment": "correct"
     },
@@ -5756,6 +6235,7 @@
         "logit_caption": 19.483497619628906,
         "logit_foil": 18.685152053833008,
         "negation": "caption",
+        "positions": 8,
         "score": 0.7983455657958984,
         "segment": "ambiguous"
     },
@@ -5768,6 +6248,7 @@
         "logit_caption": 17.895761489868164,
         "logit_foil": 18.070308685302734,
         "negation": "caption",
+        "positions": 7,
         "score": -0.1745471954345703,
         "segment": "ambiguous"
     },
@@ -5780,6 +6261,7 @@
         "logit_caption": 19.959932327270508,
         "logit_foil": 18.119213104248047,
         "negation": "caption",
+        "positions": 7,
         "score": 1.840719223022461,
         "segment": "correct"
     },
@@ -5792,6 +6274,7 @@
         "logit_caption": 18.597177505493164,
         "logit_foil": 17.5716552734375,
         "negation": "foil",
+        "positions": 9,
         "score": 1.025522232055664,
         "segment": "correct"
     },
@@ -5804,6 +6287,7 @@
         "logit_caption": 21.682340621948242,
         "logit_foil": 22.65489387512207,
         "negation": "caption",
+        "positions": 8,
         "score": -0.9725532531738281,
         "segment": "ambiguous"
     },
@@ -5816,6 +6300,7 @@
         "logit_caption": 23.7677059173584,
         "logit_foil": 22.177045822143555,
         "negation": "foil",
+        "positions": 8,
         "score": 1.5906600952148438,
         "segment": "correct"
     },
@@ -5828,6 +6313,7 @@
         "logit_caption": 19.383630752563477,
         "logit_foil": 19.08992576599121,
         "negation": "caption",
+        "positions": 10,
         "score": 0.2937049865722656,
         "segment": "ambiguous"
     },
@@ -5840,6 +6326,7 @@
         "logit_caption": 20.663755416870117,
         "logit_foil": 20.794971466064453,
         "negation": "foil",
+        "positions": 10,
         "score": -0.13121604919433594,
         "segment": "ambiguous"
     },
@@ -5852,6 +6339,7 @@
         "logit_caption": 26.83045196533203,
         "logit_foil": 25.295068740844727,
         "negation": "foil",
+        "positions": 10,
         "score": 1.5353832244873047,
         "segment": "correct"
     },
@@ -5864,6 +6352,7 @@
         "logit_caption": 22.9829044342041,
         "logit_foil": 22.240324020385742,
         "negation": "caption",
+        "positions": 11,
         "score": 0.7425804138183594,
         "segment": "ambiguous"
     },
@@ -5876,6 +6365,7 @@
         "logit_caption": 21.402538299560547,
         "logit_foil": 19.945768356323242,
         "negation": "caption",
+        "positions": 7,
         "score": 1.4567699432373047,
         "segment": "correct"
     },
@@ -5888,6 +6378,7 @@
         "logit_caption": 26.21430015563965,
         "logit_foil": 26.198129653930664,
         "negation": "caption",
+        "positions": 10,
         "score": 0.016170501708984375,
         "segment": "ambiguous"
     },
@@ -5900,6 +6391,7 @@
         "logit_caption": 20.730012893676758,
         "logit_foil": 22.04569435119629,
         "negation": "foil",
+        "positions": 7,
         "score": -1.3156814575195312,
         "segment": "incorrect"
     },
@@ -5912,6 +6404,7 @@
         "logit_caption": 19.483970642089844,
         "logit_foil": 18.220359802246094,
         "negation": "caption",
+        "positions": 7,
         "score": 1.26361083984375,
         "segment": "correct"
     },
@@ -5924,6 +6417,7 @@
         "logit_caption": 21.568828582763672,
         "logit_foil": 21.412572860717773,
         "negation": "caption",
+        "positions": 10,
         "score": 0.15625572204589844,
         "segment": "ambiguous"
     },
@@ -5936,6 +6430,7 @@
         "logit_caption": 19.870813369750977,
         "logit_foil": 18.467891693115234,
         "negation": "foil",
+        "positions": 7,
         "score": 1.4029216766357422,
         "segment": "correct"
     },
@@ -5948,6 +6443,7 @@
         "logit_caption": 22.118831634521484,
         "logit_foil": 22.46156120300293,
         "negation": "foil",
+        "positions": 7,
         "score": -0.3427295684814453,
         "segment": "ambiguous"
     },
@@ -5960,6 +6456,7 @@
         "logit_caption": 23.41204071044922,
         "logit_foil": 23.339115142822266,
         "negation": "foil",
+        "positions": 10,
         "score": 0.07292556762695312,
         "segment": "ambiguous"
     },
@@ -5972,6 +6469,7 @@
         "logit_caption": 20.505138397216797,
         "logit_foil": 20.0252628326416,
         "negation": "foil",
+        "positions": 7,
         "score": 0.4798755645751953,
         "segment": "ambiguous"
     },
@@ -5984,6 +6482,7 @@
         "logit_caption": 27.924217224121094,
         "logit_foil": 26.37930679321289,
         "negation": "foil",
+        "positions": 9,
         "score": 1.5449104309082031,
         "segment": "correct"
     },
@@ -5996,6 +6495,7 @@
         "logit_caption": 19.492990493774414,
         "logit_foil": 18.955984115600586,
         "negation": "caption",
+        "positions": 10,
         "score": 0.5370063781738281,
         "segment": "ambiguous"
     },
@@ -6008,6 +6508,7 @@
         "logit_caption": 17.962276458740234,
         "logit_foil": 17.958520889282227,
         "negation": "caption",
+        "positions": 7,
         "score": 0.0037555694580078125,
         "segment": "ambiguous"
     },
@@ -6020,6 +6521,7 @@
         "logit_caption": 27.625568389892578,
         "logit_foil": 24.814434051513672,
         "negation": "foil",
+        "positions": 7,
         "score": 2.8111343383789062,
         "segment": "correct"
     },
@@ -6032,6 +6534,7 @@
         "logit_caption": 21.09585952758789,
         "logit_foil": 21.112112045288086,
         "negation": "foil",
+        "positions": 9,
         "score": -0.016252517700195312,
         "segment": "ambiguous"
     },
@@ -6044,6 +6547,7 @@
         "logit_caption": 22.60202980041504,
         "logit_foil": 22.343414306640625,
         "negation": "caption",
+        "positions": 10,
         "score": 0.25861549377441406,
         "segment": "ambiguous"
     },
@@ -6056,6 +6560,7 @@
         "logit_caption": 16.6097354888916,
         "logit_foil": 16.27671241760254,
         "negation": "caption",
+        "positions": 7,
         "score": 0.3330230712890625,
         "segment": "ambiguous"
     }
